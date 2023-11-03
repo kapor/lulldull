@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-02T22:28:06-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">hello you</title><link href="http://localhost:4000/hello/2023/11/02/welcome-to-jekyll.html" rel="alternate" type="text/html" title="hello you" /><published>2023-11-02T22:08:18-07:00</published><updated>2023-11-02T22:08:18-07:00</updated><id>http://localhost:4000/hello/2023/11/02/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/hello/2023/11/02/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-03T00:38:58-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">LULLDULL</title><subtitle>an online sandbox</subtitle><entry><title type="html">hello you</title><link href="http://localhost:4000/blog/hello/2023/welcome-to-jekyll/" rel="alternate" type="text/html" title="hello you" /><published>2023-11-02T22:08:18-07:00</published><updated>2023-11-02T22:08:18-07:00</updated><id>http://localhost:4000/blog/hello/2023/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/hello/2023/welcome-to-jekyll/"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>Jekyll requires blog post files to be named according to the following format:</p>
 
@@ -14,4 +14,725 @@
 <span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
 <span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="hello" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="hello" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/2023/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-09-29T00:00:00-07:00</published><updated>2023-09-29T00:00:00-07:00</updated><id>http://localhost:4000/blog/2023/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/2023/welcome-to-jekyll/"><![CDATA[<p>Welcome to the companion site for the <a href="http://www.lynda.com" title="lynda.com">lynda.com</a> course <em>Jekyll for Web Designers</em>. This course is designed to present Jekyll to web designers in a clear, concise way. In this post we’ll take a quick look at how Jekyll works, and whether it’s right for you.</p>
+
+<p><a href="http://jekyllrb.com/" title="jekyll">Jekyll</a> bills itself as “a simple, blog-aware, static site generator.” It takes source files like templates, stylesheets, includes, and posts and uses them to generate a website that can then be hosted on your server of choice. This means that the entire website is generated at once, and visitors are simply served static files. This can be much faster than blogging platforms like WordPress, which use a CMS to generate pages as they’re requested. <a href="/index.html" title="articles">This blog</a>, for example, was generated from a series of templates, posts, html snippets, and CSS using Jekyll.</p>
+
+<blockquote>
+  <p>When you remove layers, simplicity and speed happen.
+<cite>— Ginni Rometty</cite></p>
+</blockquote>
+
+<p>Although Jekyll is built to be “blog aware,” it’s important to point out that it is not blogging software in the traditional sense. It’s simply a parsing engine that builds what you put into it. This means that while you have total control over every aspect of your site, you also have to build everything as well. That may sound daunting at first, but once you get the hang of how it works you can quickly and easily start building Jekyll-driven sites.</p>
+
+<h3>How Jekyll works</h3>
+
+<p>Jekyll is a Ruby-based parsing engine that uses <a href="http://yaml.org/" title="YAML">YAML</a>, the <a href="http://liquidmarkup.org/" title="liquid">Liquid Templating language</a>, and <a href="http://daringfireball.net/projects/markdown/" title="markdown">Markdown</a> to assemble content into HTML. That might sound confusing at first, but it’s really pretty simple. YAML is used to store data, site variables, and what is known as “front matter,” which drives things like the layout used for a post or page. Liquid is used to build the templates that pages are built from, and Markdown can be used to format content for individual posts or pages. You can also use regular HTML to format content as well, but Markdown makes writing content much more natural. This post, for example, was written in Markdown.</p>
+
+<p>A simple Jekyll directory looks like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>├── _config.yml 
+├── _includes 
+|   ├── footer.html 
+|   └── header.html 
+├── _layouts 
+|   ├── default.html 
+|   └── post.html 
+├── _posts 
+|   ├── 2015-07-29-my-second-post.md 
+|   └── 2015-06-15-my-first-post.md
+├──css 
+|   ├── main.css  
+├── _site  
+└── index.html
+</code></pre></div></div>
+
+<p>The <strong>_config.yml</strong> file is a YAML file that contains the overall site configuration such as site title, author information, pagination, and permalinks. The <strong>_includes</strong> directory holds HTML snippets that can be injected on any desired page with a simple Liquid tag. The <strong>_layouts</strong> folder contains the HTML templates that are used to generate pages for the site, and the <strong>_posts</strong> directory contains the individual blog posts, written in either Markdown or HTML. Note the naming convention for the posts. This is used to date stamp the posts and can be used for site organization and permalinks. The <strong>css</strong> directory contains the CSS for the site, and in this case is not preceded by an underscore. Any directory without an underscore is not parsed, and is copied as-is when the site is generated. Jekyll also supports SASS, any <strong>.scss</strong> files with YAML front matter would be parsed and processed. The <strong>_site</strong> directory is where the generated site will be created. From there it can be uploaded to your server of choice. Finally the <strong>index.htm</strong> file contains the content and blogging logic for the home page of the blog, and typically uses one of the templates for overall page structure.</p>
+
+<p>In addition to the Liquid tags, Jekyll uses YAML front matter to guide the creation of pages. A post, for example, might have this YAML front matter at the top of the page:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+
+layout: post
+
+title: "My First Post"
+
+category: jekyll
+
+---
+</code></pre></div></div>
+
+<p>This tells Jekyll to use the “post” template to assemble the page, and assigns the ‘title’ and ‘category’ variables that can be used on that page or throughout the site. Jekyll will process any file that contains YAML front matter. The front matter must be the first thing in the file and must take the form of valid YAML set between triple-dashed lines. It can contain any of the predefined global variables such as <strong>layout</strong>, <strong>permalink</strong>, or <strong>category</strong> or any custom variable you wish to create. If you wished to display the authors name, for example, you could add <strong>author: ‘author’s name’</strong> to the front matter and then reference that in your templates using <code class="language-plaintext highlighter-rouge">{{page.author}}</code>.</p>
+
+<h3>Is Jekyll right for you?</h3>
+
+<p>Jekyll isn’t right for every designer, or every project. It’s perfect for smaller sites, blogs, portfolios, and project wikis, but might not be right for corporate sites or sites that require advanced functionality and heavy database usage.</p>
+
+<p>Here are a few things to consider when considering Jekyll:</p>
+
+<p><strong>Comfort level with the command line.</strong> Jekyll is built in Ruby and uses a command line interface. You don’t need to be a hard-core developer to use it, but you will need to make sure you can properly install Jekyll and it’s dependencies. From there most of the tasks you’ll perform with Jekyll are controlled from the command line. For the most part the commands are pretty simple, so don’t let this scare you off; just keep it in mind as you consider Jekyll.</p>
+
+<p><strong>Complexity level.</strong> Jekyll is simplicity itself. You’re responsible for all the HTML, CSS, and JavaScript in your site. Unlike a CMS platform like WordPress there are no themes or existing site architecture to get in the way. Personally I love this level of control, but some designers like a bit more out of the box.</p>
+
+<p><strong>Hosting requirements.</strong> This is where Jekyll really shines. Being a static site generator means that all site generation occurs locally in the development environment. The resulting site can then be uploaded and hosted almost anywhere, as there are no requirements for database administration or server side code support. Jekyll is also the engine behind Github Pages, and integration with Git and Github is tight. You can even host your Jekyll blog for free on Github Pages. Once it’s set up publishing is as simple as writing a new post and making a commit.</p>
+
+<p><strong>Speed and security.</strong> Since you’re serving static HTML, CSS, and JavaScript assets, Jekyll is typically faster than CMS-driven sites. Security is easier as well, as there’s no server-side administrator, database, or server-side code to hack into.</p>
+
+<p><strong>Data requirements.</strong> Working with data in Jekyll is fairly basic. Data is typically stored in a YAML file in a fashion similar to JSON and referenced using Liquid tags. Advanced data requirements can be tricky and require a fair amount of extra work. If you need database functionality, or make heavy use of user data Jekyll might not be the best choice for you.</p>
+
+<p><strong>Extensibility.</strong> Jekyll’s community is only a fraction of the size of WordPress or other CMS communities. As such, there aren’t as many plugins or add-ons for Jekyll as there are for other platforms. In many cases if you want to add functionality not included in the default jekyll build you’ll need to do it yourself. For security reasons Github Pages doesn’t allow plugins, so if you want to add plugins to a Github hosted site you’ll need to do some pretty painful workarounds.</p>
+
+<p>I highly recommend checking out Jekyll and giving it a try, it might just be the tool you’re looking for. For a high-level view of Jekyll check out Tom Preston-Werner’s <a href="http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html" title="blog like a hacker">post announcing the creation of Jekyll</a>. It will give you a better understanding of the philosophy behind Jekyll and how it works. To dig deeper into Jekyll check out the <a href="http://jekyllrb.com/" title="jekyll">Jekyll project page</a> and <a href="http://jekyllrb.com/docs/home/" title="jekyll documentation">documentation</a>.</p>]]></content><author><name></name></author><category term="design" /><category term="ramblings" /><category term="stuff" /><summary type="html"><![CDATA[Welcome to the companion site for the lynda.com course Jekyll for Web Designers. This course is designed to present Jekyll to web designers in a clear, concise way. In this post we’ll take a quick look at how Jekyll works, and whether it’s right for you.]]></summary></entry><entry><title type="html">Markdown Basics</title><link href="http://localhost:4000/blog/2023/markdown-basics/" rel="alternate" type="text/html" title="Markdown Basics" /><published>2023-09-29T00:00:00-07:00</published><updated>2023-09-29T00:00:00-07:00</updated><id>http://localhost:4000/blog/2023/markdown-basics</id><content type="html" xml:base="http://localhost:4000/blog/2023/markdown-basics/"><![CDATA[<p>In Jekyll, content for pages and posts can be written in either HTML or Markdown. Although there will be times that HTML is the more appropriate choice, Markdown provides a more natural writing environment that makes blogging easier and less of a chore. In this post we’ll examine how Jekyll uses Markdown and cover some basic Markdown syntax.</p>
+
+<p>If you’ve never used it before, Markdown is a text-to-HTML converter that let’s you write text naturally in plain text format and then convert it to valid HTML. To learn more about it, read John Gruber’s post introducing Markdown on <a href="http://daringfireball.net/projects/markdown/" title="Introducing Markdown">Daring Fireball</a>.</p>
+
+<p>Jekyll supports multiple Markdown rendering engines and allows you to specify which engine to use in the site’s configuration. Currently Jekyll supports <a href="http://kramdown.gettalong.org/index.html" title="Kramdown">Kramdown</a>, <a href="https://github.com/vmg/redcarpet" title="Redcarpet">Redcarpet</a>, and <a href="http://dafoster.net/projects/rdiscount/" title="Rdiscount">RDiscount</a>, although you’re free to use any rendering engine you have installed or even write your own!</p>
+
+<p>To specify a rendering engine, simply add this line to your <strong>_config,yml</strong> file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>markdown: kramdown
+</code></pre></div></div>
+
+<p>For the most part, the rendering engines are the same, although they do have subtle differences in syntax and element support. Currently Kramdown is the default Markdown renderer for Jekyll. Let’s take a look at some basic Kramdown syntax.</p>
+
+<p>The following passage:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#My main heading
+{: .intro }
+
+This is my initial paragraph. In it I’d like to provide a link to the [Jekyll homepage](http://jekyllrb.com/ "Jekyll"). I want to add **bold** and *italic* formatting to text as well using the `strong` and `emphasis` tags.
+
+This is another paragraph. I’d like to follow it with an unordered list.
+
+* item 1
+* item 2
+* item 3
+
+</code></pre></div></div>
+
+<p>Would be rendered in HTML as:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"intro"</span><span class="nt">&gt;</span>My main heading<span class="nt">&lt;/h1&gt;</span>
+    <span class="nt">&lt;p&gt;</span>This is my initial paragraph. In it I’d like to provide a link to the <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"http://jekyllrb.com/"</span> <span class="na">title=</span><span class="s">"Jekyll"</span><span class="nt">&gt;</span>Jekyll homepage<span class="nt">&lt;/a&gt;</span>. I want to add <span class="nt">&lt;strong&gt;</span>bold<span class="nt">&lt;/strong&gt;</span> and <span class="nt">&lt;em&gt;</span>italic<span class="nt">&lt;/em&gt;</span> formatting to text as well using the <span class="nt">&lt;code&gt;</span>strong<span class="nt">&lt;/code&gt;</span> and <span class="nt">&lt;code&gt;</span>emphasis<span class="nt">&lt;/code&gt;</span> tags.<span class="nt">&lt;/p&gt;</span>
+	<span class="nt">&lt;p&gt;</span>This is another paragraph. I’d like to follow it with an unordered list.<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;ul&gt;</span>
+        <span class="nt">&lt;li&gt;</span>item 1<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>item 2<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span>item 3<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span></code></pre></figure>
+
+<p>As you can see, Markdown frees you from many of the structural restraints that would make it difficult to author something like a blog post using HTML. To write two paragraphs, for example, you simply write two paragraphs, no &lt;p&gt; tags or special formatting required. Let’s take a quick look at how to format some of the basic HTML elements in Kramdown.</p>
+
+<h3>Paragraphs</h3>
+
+<p>Consecutive lines of text are formatted as a single paragraph. As a block level element, you must to add a blank line after it to separate it from other block-level elements.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This is a paragraph.
+
+This is as well.
+</code></pre></div></div>
+
+<p>Renders as:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;</span>This is a paragraph.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;p&gt;</span>This is as well.<span class="nt">&lt;/p&gt;</span></code></pre></figure>
+
+<p>###Headings</p>
+
+<p>There are multiple ways to format headings in Kramdown. The easiest is to preceed the heading with hash characters (<strong>#</strong>) equal to the heading level. An <code class="language-plaintext highlighter-rouge">h1</code> for example, would be written as <code class="language-plaintext highlighter-rouge">#heading 1</code>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># This is a heading 1
+
+## This is a heading 2
+
+### This is a heading 3
+</code></pre></div></div>
+
+<p>Renders as:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;h1&gt;</span>This is a heading 1<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;h2&gt;</span>This is a heading 2<span class="nt">&lt;/h2&gt;</span>
+<span class="nt">&lt;h3&gt;</span>This is a heading 3<span class="nt">&lt;/h3&gt;</span></code></pre></figure>
+
+<p>###Blockquotes</p>
+
+<p>Blockquotes are formatted using the “greater than” character (<strong>&gt;</strong>) at the start of the blockquote. Text inside a blockquote is wrapped with a paragraph.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; This is a blockquote.
+</code></pre></div></div>
+
+<p>Renders as:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;blockquote&gt;</span>
+  <span class="nt">&lt;p&gt;</span>This is a blockquote.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/blockquote&gt;</span></code></pre></figure>
+
+<p>###Ordered Lists</p>
+
+<p>To create an ordered list, simply type a list started by a number followed by a period. Each list item should be on a separate line. Nested lists are created by indenting a list underneath an existing list item.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. This is the first item
+2. This is the second item
+3. This is the third item
+    1. This is a nested list
+    2. More nested list
+4. This is the fourth item.
+</code></pre></div></div>
+
+<p>Renders as:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;ol&gt;</span>
+    <span class="nt">&lt;li&gt;</span>This is the first item<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>This is the second item<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>This is the third item
+        <span class="nt">&lt;ol&gt;</span>
+            <span class="nt">&lt;li&gt;</span>This is a nested list<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>More nested list<span class="nt">&lt;/li&gt;</span>
+          <span class="nt">&lt;/ol&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li&gt;</span>This is the fourth item.<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ol&gt;</span></code></pre></figure>
+
+<p>###Block-level attributes</p>
+
+<p>Often you may wish to assign attributes to block-level elements. To do this, follow the element with a <em>block inline attribute list</em> (block IAL). A block IAL consists of a left curly brace, followed by a colon, the attribute definitions and a right curly brace.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Apply the class “main” to this heading
+{: .main}
+</code></pre></div></div>
+
+<p>Renders as:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"main"</span><span class="nt">&gt;</span>Apply the class “main” to this heading<span class="nt">&lt;/h1&gt;</span></code></pre></figure>
+
+<p>Classes are applied with the syntax <code class="language-plaintext highlighter-rouge">.className</code> and IDs with <code class="language-plaintext highlighter-rouge">#ID-name</code>. For any other attribute you simply write the desired syntax:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Another heading with the ‘role’ attribute applied
+{: role="banner"}
+</code></pre></div></div>
+
+<p>Renders as:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;h1</span> <span class="na">role=</span><span class="s">"banner"</span><span class="nt">&gt;</span>Another heading with the ‘role’ attribute applied
+<span class="nt">&lt;/h1&gt;</span></code></pre></figure>
+
+<p>For multiple attributes, create a space-separated list inside the blockIAL.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># This heading has two classes and one ID applied
+{: .class1 .class2 #ID-1}
+</code></pre></div></div>
+
+<p>Renders as:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;h1</span> <span class="na">class=</span><span class="s">"class1 class2"</span> <span class="na">id=</span><span class="s">"ID-1"</span><span class="nt">&gt;</span>This heading has two classes and one ID applied<span class="nt">&lt;/h1&gt;</span></code></pre></figure>
+
+<p>###Inline formatting</p>
+
+<p>Emphasis can be added to text by surrounding the text with either asterisks or underscores. This will result in wrapping the content in either the <code class="language-plaintext highlighter-rouge">strong</code> or <code class="language-plaintext highlighter-rouge">emphasis</code> tag depending upon how many are used:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I want to wrap **this text** in a strong tag and *this text* in an emphasis tag.
+</code></pre></div></div>
+
+<p>Renders as:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;</span>I want to wrap <span class="nt">&lt;strong&gt;</span>this text<span class="nt">&lt;/strong&gt;</span> in a strong tag and <span class="nt">&lt;em&gt;</span>this text<span class="nt">&lt;/em&gt;</span> in an emphasis tag.<span class="nt">&lt;/p&gt;</span></code></pre></figure>
+
+<p>###Links</p>
+
+<p>You can create a link by surrounding the text with square brackets and then directly following it with the link URL in parentheses. To add a title attribute, add the desired title in straight quotes (“ “) after the link URL.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>I usually search using [Google](https://www.google.com "Google").
+</code></pre></div></div>
+
+<p>Renders as:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;p&gt;</span>I usually search using <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://www.google.com"</span> <span class="na">title=</span><span class="s">"Google"</span><span class="nt">&gt;</span>Google<span class="nt">&lt;/a&gt;</span>.<span class="nt">&lt;/p&gt;</span></code></pre></figure>
+
+<p>###Images</p>
+
+<p>Images are similar to links, but use an exclamation mark before the square brackets. The link text will become the alternative text of the image and the link URL specifies the image source.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![My dog](/images/Baxter.jpg)
+</code></pre></div></div>
+
+<p>Renders as:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/images/Baxter.jpg"</span> <span class="na">alt=</span><span class="s">"My dog"</span><span class="nt">&gt;</span></code></pre></figure>
+
+<p>As you can see, Markdown is simple to write, and once you’ve learned the basic formatting options, generating semantic HTML is fairly simple. One of the most powerful Markdown features is the ability to nest HTML directly inside a Markdown document. That way if you’re unable to use Markdown to get exactly the HTML you need, you can simply inject HTML into the document and then continue using Markdown.</p>
+
+<p>For more information on Kramdown and for a more complete reference, visit Kramdown’s <a href="http://kramdown.gettalong.org/index.html" title="Kramdown">project page</a>.</p>]]></content><author><name></name></author><category term="code" /><category term="jekyll" /><category term="blah" /><summary type="html"><![CDATA[In Jekyll, content for pages and posts can be written in either HTML or Markdown. Although there will be times that HTML is the more appropriate choice, Markdown provides a more natural writing environment that makes blogging easier and less of a chore. In this post we’ll examine how Jekyll uses Markdown and cover some basic Markdown syntax.]]></summary></entry><entry><title type="html">Liquid Syntax Basics</title><link href="http://localhost:4000/blog/2023/liquid-syntax/" rel="alternate" type="text/html" title="Liquid Syntax Basics" /><published>2023-09-29T00:00:00-07:00</published><updated>2023-09-29T00:00:00-07:00</updated><id>http://localhost:4000/blog/2023/liquid-syntax</id><content type="html" xml:base="http://localhost:4000/blog/2023/liquid-syntax/"><![CDATA[<p>Jekyll uses the <a href="http://liquidmarkup.org/" title="liquid">Liquid</a> template language to control the logic of templates and assemble pages dynamically. To get the most out of Jekyll, and to build effective templates you need to understand the basics of how Liquid works. In this post we’ll cover the basics of Liquid syntax so that as you begin to author templates, you’ll have a greater understanding of Jekyll’s capabilities and how Liquid can help you build more powerful sites.</p>
+
+<p>Liquid was created in 2006 as a Ruby template language for the ecommerce site <a href="https://docs.shopify.com/themes/liquid-documentation/basics" title="Shopify themes">Shopify</a>. It remains an integral part of Shopify, but has been spun off for general use as well.</p>
+
+<p>Liquid uses a combination of <strong>tags</strong>, <strong>objects</strong>, and <strong>filters</strong> to load and format content. Within tags, logic can be applied to loop through objects, create variables, and apply conditional statements to control the building of content.</p>
+
+<p>There are two basic types of markup in Liquid, <strong>output</strong> and <strong>tags</strong>. Output writes content to the page while tags perform some type of function, like looping through an array. Let’s explore output markup first.</p>
+
+<h3>Output</h3>
+
+<p>Output writes content to the page. Output tags start with two curly braces, contain the content to be written to the page, and then end with two curly braces. Here’s an example:</p>
+
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">Written by <span class="cp">{{</span><span class="nv">author</span><span class="cp">}}</span>
+Written by <span class="cp">{{</span><span class="nv">page</span><span class="p">.</span><span class="nv">author</span><span class="cp">}}</span>
+Written by <span class="cp">{{</span><span class="s1">'james'</span><span class="cp">}}</span></code></pre></figure>
+
+<p>In this instance the value of <code class="language-plaintext highlighter-rouge">author</code> would be evaluated and written to the page, the <code class="language-plaintext highlighter-rouge">page</code> object would be parsed to find the value of the <code class="language-plaintext highlighter-rouge">author</code> property and that would be written to the page, and then the literal string “james” would be written to the page.</p>
+
+<p>Output markup can be further modified through the use of filters. Filters are methods that can be used to transform the results of the output tags. Filters appear to the right of the output parameter, and are separated using the ‘pipe’ character <code class="language-plaintext highlighter-rouge">( | )</code>.</p>
+
+<p>Here’s a filter in action:</p>
+
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid"><span class="cp">{{</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">time</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">date_to_string</span><span class="cp">}}</span>
+&lt;!-- would output ‘22 Aug 2015’ --&gt;</code></pre></figure>
+
+<p>It’s also possible to use more than one filter at a time. Here are a few of the standard filters available in Liquid:</p>
+
+<ul>
+  <li>date - reformat a date</li>
+  <li>capitalize - capitalize words</li>
+  <li>downcase - convert a string to lowercase</li>
+  <li>upcase - convert a string to uppercase</li>
+  <li>first - get the first element of an array</li>
+  <li>last - get the last element of an array</li>
+  <li>join - join elements of an array with specific character between them</li>
+  <li>sort - sort elements of an array</li>
+  <li>size - return the size of an array or string</li>
+  <li>strip_html - strip html from string</li>
+  <li>strip_newlines - strip all newlines from string</li>
+  <li>replace - replace each occurrence</li>
+  <li>replace_first - replace the first occurrence</li>
+  <li>remove - remove each occurrence</li>
+  <li>remove_first</li>
+  <li>truncate - truncate a string down to x characters.</li>
+  <li>truncatewords - truncate a string down to x words</li>
+  <li>prepend - prepend a string</li>
+  <li>append - append a string</li>
+  <li>slice - slice a string. Takes an offset and length.</li>
+</ul>
+
+<p>Filters are an incredibly powerful way to transform content within your templates. It’s important to understand how they work, and what their capabilities are, so that you can format content correctly as well as generate the desired output. For a full list of available filters and how they work, check out the <a href="https://docs.shopify.com/themes/liquid-documentation/filters" title="filters">filter documentation</a> on the Shopify site.</p>
+
+<h3>Tags</h3>
+
+<p>Liquid tags are functional, when applied they perform some type of action. They provide the basic programming logic for templates and allow you to build intelligent templates that can respond to a number of different factors. Tags are written with a curly brace followed by a percentage sign (<em>%</em>), contain the desired instructions, and end with a percentage sign and a curly brace. Tags usually come in twos, with an opening tag and a closing tag that wraps the targeted content. Here’s an example:</p>
+
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid"><span class="cp">{%</span><span class="w"> </span><span class="nt">if</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">title</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s1">'About'</span><span class="w"> </span><span class="cp">%}</span>
+    About this blog
+<span class="cp">{%</span><span class="w"> </span><span class="nt">endif</span><span class="w"> </span><span class="cp">%}</span></code></pre></figure>
+
+<p>In this example Jekyll would check the current page title. If the value is “About” then the text “About this blog” will be written to the page.</p>
+
+<p>Tags are organized in four distinct categories; Control Flow, Iteration, Theme, and Variables. Control Flow tags are used to apply conditional logic, such as <strong>if/else</strong> statements. Iteration tags allow you to loop through code and run code repeatedly. They contain tags like <strong>for loops</strong> and <strong>cycles</strong>. Theme tags are typically template-specific tags and allow you to output specific markup, add comments, control arrays, and handle pagination.</p>
+
+<p>Here’s a sample of some of the more commonly used tags in templates:</p>
+
+<h3>for loops</h3>
+
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">    <span class="cp">{%</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span><span class="nv">post</span><span class="w"> </span><span class="nt">in</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">posts</span><span class="w"> </span><span class="cp">%}</span>
+      &lt;li&gt;
+	  &lt;a href="<span class="cp">{{</span><span class="w"> </span><span class="nv">post</span><span class="p">.</span><span class="nv">url</span><span class="w"> </span><span class="cp">}}</span>"&gt;<span class="cp">{{</span><span class="w"> </span><span class="nv">post</span><span class="p">.</span><span class="nv">title</span><span class="w"> </span><span class="cp">}}</span>&lt;/a&gt;
+      &lt;/li&gt;
+<span class="cp">{%</span><span class="w"> </span><span class="nt">endfor</span><span class="w"> </span><span class="cp">%}</span></code></pre></figure>
+
+<p>Loops over collections, executing code for as long as the conditions within the loop lasts. In this example Jekyll would loop through all posts in the site and for each one create a list item that contains a link to that specific post via its URL and title. Note the use of output tags within the <strong>for</strong> loop.</p>
+
+<h3>if/else statements</h3>
+
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">  <span class="cp">{%</span><span class="w"> </span><span class="nt">if</span><span class="w"> </span><span class="nv">paginator</span><span class="p">.</span><span class="nv">previous_page</span><span class="w"> </span><span class="cp">%}</span>
+     &lt;a href="<span class="cp">{{</span><span class="w"> </span><span class="nv">paginator</span><span class="p">.</span><span class="nv">previous_page_path</span><span class="w"> </span><span class="cp">}}</span>"&gt;Previous&lt;/a&gt;
+  <span class="cp">{%</span><span class="w"> </span><span class="nt">else</span><span class="w"> </span><span class="cp">%}</span>
+    &lt;span&gt;No previous posts&lt;/span&gt;
+  <span class="cp">{%</span><span class="w"> </span><span class="nt">endif</span><span class="w"> </span><span class="cp">%}</span></code></pre></figure>
+
+<p>Allows the application of conditional logic within templates. In this example Jekyll would check to see if there are any posts older than the current one using the <strong>paginator</strong> object. If so, a link would be created to the previous posts. If not a message is created stating that there are no previous posts. There are many variations on the if/else statements syntax including <code class="language-plaintext highlighter-rouge">elseif</code>, <code class="language-plaintext highlighter-rouge">unless</code>, and <code class="language-plaintext highlighter-rouge">case</code> statements.</p>
+
+<h3>includes</h3>
+
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">  <span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>footer.html<span class="w"> </span><span class="cp">%}</span>
+ </code></pre></figure>
+
+<p>Inserts the included content at the desired location. In this example the contents of the file “footer.html” would be inserted at the location of the tag. Allows for the dynamic insertion of content.</p>
+
+<h3>variables</h3>
+
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">  <span class="cp">{%</span><span class="w"> </span><span class="nt">assign</span><span class="w"> </span><span class="nv">author</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s1">'james'</span><span class="w"> </span><span class="cp">%}</span>
+  <span class="cp">{{</span><span class="w"> </span><span class="nv">author</span><span class="w"> </span><span class="cp">}}</span>
+ </code></pre></figure>
+
+<p>There are two main ways to assign variables using Liquid. The <strong>assign</strong> method shown above assigns a literal string which is then stored for later use.</p>
+
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid">  <span class="cp">{%</span><span class="w"> </span><span class="nt">capture</span><span class="w"> </span><span class="nv">site_tags</span><span class="w"> </span><span class="cp">%}</span>
+      <span class="cp">{%</span><span class="w"> </span><span class="nt">for</span><span class="w"> </span><span class="nv">tag</span><span class="w"> </span><span class="nt">in</span><span class="w"> </span><span class="nv">site</span><span class="p">.</span><span class="nv">tags</span><span class="w"> </span><span class="cp">%}{{</span><span class="w"> </span><span class="nv">tag</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="nf">first</span><span class="w"> </span><span class="cp">}}</span>
+           <span class="cp">{%</span><span class="w"> </span><span class="nt">unless</span><span class="w"> </span><span class="nb">forloop.last</span><span class="w"> </span><span class="cp">%}</span>,<span class="cp">{%</span><span class="w"> </span><span class="nt">endunless</span><span class="w"> </span><span class="cp">%}</span>
+      <span class="cp">{%</span><span class="w"> </span><span class="nt">endfor</span><span class="w"> </span><span class="cp">%}</span>
+  <span class="cp">{%</span><span class="w"> </span><span class="nt">endcapture</span><span class="w"> </span><span class="cp">%}</span> </code></pre></figure>
+
+<p>The <strong>capture</strong> method, shown above, captures the values inside of the opening and closing tags and stores it in a string. In the example shown Jekyll would loop through all tags in the site, pull each one out, and separate them with a comma. The resulting variable “site_tags” would contain a comma-separated list of all tags within the site.</p>
+
+<p>Tags give you the ability to create templates that generate dynamic templates using intelligent logic. For more information on them, and for a complete list of available tags, check out the <a href="https://docs.shopify.com/themes/liquid-documentation/tags" title="tags documentation">Liquid documentation</a> on tags.</p>]]></content><author><name></name></author><category term="birds" /><category term="parrots" /><summary type="html"><![CDATA[Jekyll uses the Liquid template language to control the logic of templates and assemble pages dynamically. To get the most out of Jekyll, and to build effective templates you need to understand the basics of how Liquid works. In this post we’ll cover the basics of Liquid syntax so that as you begin to author templates, you’ll have a greater understanding of Jekyll’s capabilities and how Liquid can help you build more powerful sites.]]></summary></entry><entry><title type="html">Installing Jekyll</title><link href="http://localhost:4000/blog/2023/installing-jekyll/" rel="alternate" type="text/html" title="Installing Jekyll" /><published>2023-09-29T00:00:00-07:00</published><updated>2023-09-29T00:00:00-07:00</updated><id>http://localhost:4000/blog/2023/installing-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/2023/installing-jekyll/"><![CDATA[<p>Getting started with Jekyll is relatively simple, although perhaps not <em>quite</em> as simple as their documentation would have you believe. There are a number of dependencies and requirements you have to satisfy before installing and using Jekyll. Let’s explore those dependencies and talk about the process of getting started with Jekyll.</p>
+
+<p>First, let’s cover what you’ll need to have installed before you can run Jekyll. As Jekyll is a Ruby app it helps if you’re on a Unix, Linux, or OS X system. According to Jekyll you <em>can</em> get Jekyll to run on Windows, it just requires some work. I’ve never tried it, but <a href="http://jekyll-windows.juthilo.com/" title="jekyll for windows">you can read more about the process here</a> if you’re interested.</p>
+
+<p>You’ll also need the latest versions of <a href="https://www.ruby-lang.org" title="ruby">Ruby</a> and <a href="https://rubygems.org/" title="ruby gems">Ruby Gems</a>. One of the easiest ways to ensure you’re using the right version of Ruby is to use <a href="https://rvm.io" title="Ruby version manager">RVM</a>, a Ruby version manager. It can be a bit of a pain to setup, but once installed making sure you have the latest version is as easy as typing the following into Terminal (where ‘2.2.3’ is the latest version number):</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>rvm <span class="nb">install </span>2.2.3</code></pre></figure>
+
+<p>If you’re on a Mac you’ll also need <a href="https://developer.apple.com/xcode/" title="xcode">Xcode Command Line Tools</a>. This can be a little tricky depending upon which version of OSX you’re using. If you’re using any version after Mavericks just type the following in Terminal:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>gcc</code></pre></figure>
+
+<p>GCC is a compiler command, and requires Command Line Tools to work, so if they’re not installed OSX will prompt you to install it. For Mavericks or earlier you’ll need to manually download Xcode from Apple and select the “Install Command Line Tools” option when installing it.</p>
+
+<p>By now you’ve probably noticed that you’ll be spending a good bit of time in Terminal or in the command line when installing and using Jekyll. If you’re already comfortable with Terminal that shouldn’t really be a problem for you. Some of you, however, are probably pretty nervous at the thought of having to spend that much time in the command line. I totally understand if you fit into that category, I’m not that comfortable myself. The first time I tried to install Jekyll I had a terrible time getting my dependencies set up. In the end it had more to do with the version of OSX I was using, but it was a longer process than I was prepared for. Here’s my Twitter stream during that time:</p>
+
+<p><img src="/images/jekyll_install.jpg" alt="My Twitter stream" /></p>
+
+<p>Just be prepared to spend some time getting everything set up, and don’t get discouraged if what you’re doing doesn’t work right away. Spend some time researching any error messages that shows up and you’ll be fine.</p>
+
+<p>Once all your dependencies are installed you’re ready to install Jekyll. For the most part it’s very straightforward, all you’ll need to do is type the following at the command line prompt:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>gem <span class="nb">install </span>jekyll </code></pre></figure>
+
+<p>If you run into permission issues, add ‘sudo’ before <strong>gem</strong> and that should do the trick. If you’re planning on using Github Pages to deploy and host your site, you might want to ensure you’re using the same version of Jekyll and Liquid as Github Pages. You can check those version numbers on the <a href="https://github.com/github/pages-gem/blob/master/lib/github-pages.rb" title="Github Pages">Github Pages Gem repository</a>. To do version specific installs you’d do the following:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>gem update <span class="nt">--system</span>
+<span class="nv">$ </span>gem <span class="nb">install </span>liquid <span class="nt">-v</span> 2.6.2
+<span class="nv">$ </span>gem <span class="nb">install </span>jekyll <span class="nt">-v</span> 2.4.0</code></pre></figure>
+
+<p>Those version numbers are correct as of August of 2015, but be sure to check prior to doing your own install. Once you’ve got Jekyll installed you’re ready to start using it! We’ll take a look at basic Jekyll functionality in our next post!</p>]]></content><author><name></name></author><category term="birds" /><category term="parrots" /><summary type="html"><![CDATA[Getting started with Jekyll is relatively simple, although perhaps not quite as simple as their documentation would have you believe. There are a number of dependencies and requirements you have to satisfy before installing and using Jekyll. Let’s explore those dependencies and talk about the process of getting started with Jekyll.]]></summary></entry><entry><title type="html">YAML front matter</title><link href="http://localhost:4000/blog/2023/front-matter/" rel="alternate" type="text/html" title="YAML front matter" /><published>2023-09-29T00:00:00-07:00</published><updated>2023-09-29T00:00:00-07:00</updated><id>http://localhost:4000/blog/2023/front-matter</id><content type="html" xml:base="http://localhost:4000/blog/2023/front-matter/"><![CDATA[<p>YAML front matter is perhaps the most important aspect of creating sites through Jekyll. It allows you to control how Jekyll processes and builds pages, create page-specific variables, and triggers file processing. Let’s take a closer look at front matter and how it can help you create more efficient Jekyll sites.</p>
+
+<p>The front matter must be the first item in a file and must take the form of valid YAML set between triple-dashed lines. Here is a basic example:</p>
+
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">default</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Welcome to Jekyll</span>
+<span class="na">date</span><span class="pi">:</span> <span class="s">2015-08-15 12:34</span>
+<span class="na">author</span><span class="pi">:</span> <span class="s">James Williamson</span>
+<span class="nn">---</span></code></pre></figure>
+
+<p>In this example Jekyll is instructed to use the <strong>default.html</strong> template for the content, and page variables for both the <strong>title</strong> of the page and the <strong>author</strong> are created. These can be written to the page using the <code class="language-plaintext highlighter-rouge">page.title</code> and <code class="language-plaintext highlighter-rouge">page.author</code> objects. A <strong>date</strong> for the page is given as well, and when used for a Post this will override the date used in the name of the post.</p>
+
+<p>There are many predefined Global variables that you can set in the front matter of a page or post. These are:</p>
+
+<dl>
+  <dt>layout</dt>
+  <dd>Specifies which template to use for the content. As such it must point to a file in the <strong>_layouts</strong> directory. Do not add the file extension to the template name. To reference the <strong>post.html</strong> template you would add <code class="language-plaintext highlighter-rouge">layout: post</code>.</dd>
+  <dt>permalink</dt>
+  <dd>Sets the permalink for the targeted file and is used to overwrite the default permalink style for a post. For example, the setting <code class="language-plaintext highlighter-rouge">permalink: /blog/:title</code> would overwrite the site permalink settings and locate the post at <strong>/blog/post-title/index.html</strong>.</dd>
+  <dt>published</dt>
+  <dd>A boolean value that you can set to <strong>false</strong> if you don’t want the post published as the site is generated.</dd>
+  <dt>category</dt>
+  <dt>categories</dt>
+  <dd>Assigns a single category or space-separated list of categories to a post. Categories can be used in permalinks and are hierarchical in nature. Allows you to structure posts like <strong>web-design/html/post-title/index.html</strong>. Posts can also be organized and sorted by categories.</dd>
+  <dt>tags</dt>
+  <dd>Similar to categories, you can apply a single tag or multiples tags in a YAML list or a space-separated string. Although posts can be organized and sorted by tags, they can’t be used for permalinks like categories.</dd>
+</dl>
+
+<p>###Custom variables</p>
+
+<p>In addition to the predefined Global Variables, you can create any custom variable you want. That variable can then be accessed by any page or post that uses that content.</p>
+
+<p>The most common form of custom variable is to store information like page titles, author names, and descriptions that can be added to the page or in <strong>meta</strong> tags to enhance page metadata. You can take this even further and control things like page layout as well. Let’s say that most pages in your site uses a simple sidebar, but occasionally you need to use a longer sidebar. In your template you could have the following markup:</p>
+
+<figure class="highlight"><pre><code class="language-liquid" data-lang="liquid"><span class="cp">{%</span><span class="w"> </span><span class="nt">if</span><span class="w"> </span><span class="nv">page</span><span class="p">.</span><span class="nv">sidebar-long</span><span class="w"> </span><span class="cp">%}</span>
+    <span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>sidebar-long.html<span class="w"> </span><span class="cp">%}</span>
+    <span class="cp">{%</span><span class="w"> </span><span class="nt">else</span><span class="w"> </span><span class="cp">%}</span>
+    <span class="cp">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span>sidebar.html<span class="w"> </span><span class="cp">%}</span>
+<span class="cp">{%</span><span class="w"> </span><span class="nt">endif</span><span class="w"> </span><span class="cp">%}</span></code></pre></figure>
+
+<p>Now in any page or post that uses this template all you would need to add is the following variable to the front matter:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sidebar-long: true
+</code></pre></div></div>
+
+<p>Combining includes, templates, and front matter variables gives you an incredible amount of control over how pages are built, and limits the amount of variations you need in the form of templates.</p>
+
+<p>You can even get to the point where you are generating entire pages with nothing but front matter. Let’s say you want to generate a single page for every tag that lists all posts tagged with that specific tag. You could create a template that generates everything dynamically based on the tag name. To create a new tag page, you simply name the file <strong>tag-name.md</strong> and add the following to the front matter:</p>
+
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="nn">---</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">tag-page</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Tagged with Jekyll</span>
+<span class="na">tag</span><span class="pi">:</span> <span class="s">Jekyll</span>
+<span class="na">permalink</span><span class="pi">:</span> <span class="s">/tags/:title</span>
+<span class="nn">---</span></code></pre></figure>
+
+<p>The rest of the file could be empty and Jekyll would dynamically generate the page based on the tag name.</p>
+
+<p>###SASS and CoffeeScript</p>
+
+<p>Jekyll provides built-in support for Sass and CoffeeScript, but won’t process those files automatically. To enable those files for processing, add an empty front matter region to the top of the page:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+---
+</code></pre></div></div>
+
+<p>The files will then be processed, and the resulting file will be located in the same directory in the generated site. The file <strong>css/layout.scss</strong> would generate <strong>css/layout.css</strong> in the finished site.</p>]]></content><author><name></name></author><category term="birds" /><category term="parrots" /><summary type="html"><![CDATA[YAML front matter is perhaps the most important aspect of creating sites through Jekyll. It allows you to control how Jekyll processes and builds pages, create page-specific variables, and triggers file processing. Let’s take a closer look at front matter and how it can help you create more efficient Jekyll sites.]]></summary></entry><entry><title type="html">Exploring Jekyll</title><link href="http://localhost:4000/blog/2023/exploring-jekyll/" rel="alternate" type="text/html" title="Exploring Jekyll" /><published>2023-09-29T00:00:00-07:00</published><updated>2023-09-29T00:00:00-07:00</updated><id>http://localhost:4000/blog/2023/exploring-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/2023/exploring-jekyll/"><![CDATA[<p>Once Jekyll is installed you can begin to explore its functionality. In this post we’ll take a closer look at Jekyll’s default boilerplate site and discuss how you can use it to learn more about Jekyll.</p>
+
+<p>The first step to exploring Jekyll is to create a new Jekyll site, serve it, and then preview it locally in your browser. Then you can begin to tweak the site to get a better understanding of how it all works together.</p>
+
+<h3>Building a new site</h3>
+
+<p>To build a new site, create a directory named <code class="language-plaintext highlighter-rouge">practice</code> and navigate there in Terminal or whichever command line interface you’re using. Once there run the following commands:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>jekyll new explore
+<span class="c">### Creates the directory explore and builds a new boilerplate site inside it</span>
+
+<span class="nv">$ </span><span class="nb">cd </span>explore
+<span class="c">### Navigates to explore, making it the current directory</span>
+
+<span class="nv">$ </span><span class="nb">ls</span>
+<span class="c">### Lists the files and directories of the current site</span></code></pre></figure>
+
+<p>You should see a list of files and directories that were created inside your new <strong>explore</strong> directory. A closer examination would reveal a structure similar to this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>|---_config.yml
+|---_includes
+	|---footer.html
+	|---head.html
+	|---header.html
+|---_layouts
+	|---default.html
+	|---page.html
+	|---post.html
+|---_posts
+	|---2015-08-23-welcome-to-jekyll.markdown
+|---_sass
+	|---_base.scss
+	|---_layout.scss
+	|---_syntax-highlighting.scss
+|---about.md
+|---css
+	|---main.scss
+|---feed.xml
+|---index.html
+</code></pre></div></div>
+
+<p>Some highlights: The <strong>_config.yml</strong> file contains the configuration settings for the blog, the <strong>_includes</strong> folder holds HTML snippets that are used to generate page regions, the <strong>_layouts</strong> directory contains the templates used to assemble individual pages, and the <strong>_posts</strong> folder holds the markdown files for individual posts. The <strong>about.md</strong> and <strong>index.html</strong> are individual pages, found on the root of the site. Note that pages can be created either using HTML or markdown.</p>
+
+<p>Feel free to open any of the files in a text editor and explore them; just don’t make any changes yet!</p>
+
+<h3>Serving your new site</h3>
+
+<p>Now run the following command:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>jekyll serve
+<span class="c">### Builds the site in the _site directory and serves it at http://localhost:4000</span></code></pre></figure>
+
+<p>If you examine your directory structure you’ll now find a <strong>_site</strong> directory that contains the generated site. Open up a browser and navigate to http://localhost:4000. Click through the site, explore the default post and note the default information. Using a text editor, open the markdown post in the <strong>_posts</strong> directory. At the top of the file you’ll see the YAML front matter contained between the dashed lines. Change the title to “Exploring Jekyll.” Save the file and note in the Terminal window that the Jekyll server detects the change and regenerates the file. Refreshing the file in your browser should reflect the change you made to the default post.</p>
+
+<p>Not all changes are automatically regenerated. Open the <strong>_config.yml</strong> file in your text editor. Change the title of the site to “Working with Jekyll” and replace the placeholder contact information with your contact info and then save the file. Notice that the Jekyll server doesn’t automatically detect the change. Stop the server by typing <code class="language-plaintext highlighter-rouge">CTRL+C</code> in the Terminal window. Run the <code class="language-plaintext highlighter-rouge">jekyll serve</code> command again and refresh the page in your browser. You should now see your updated information.</p>
+
+<p>From here begin to experiment with making changes to templates, adding posts, and modifying the overall site configuration. This is a practice site, so it’s totally okay to break it! By exploring and experimenting with the Jekyll boilerplate site you can get a better sense of how Jekyll works and how your own site should be structured.</p>]]></content><author><name></name></author><category term="birds" /><category term="parrots" /><summary type="html"><![CDATA[Once Jekyll is installed you can begin to explore its functionality. In this post we’ll take a closer look at Jekyll’s default boilerplate site and discuss how you can use it to learn more about Jekyll.]]></summary></entry><entry><title type="html">Jekyll and CSS</title><link href="http://localhost:4000/blog/2023/css/" rel="alternate" type="text/html" title="Jekyll and CSS" /><published>2023-09-29T00:00:00-07:00</published><updated>2023-09-29T00:00:00-07:00</updated><id>http://localhost:4000/blog/2023/css</id><content type="html" xml:base="http://localhost:4000/blog/2023/css/"><![CDATA[<p>One of my favorite things about Jekyll is how it gets out of the way and lets you, the designer, actually design. Jekyll imposes no type of structure or framework, no default classes, layout, or coding conventions. You’re free to structure and style your content as you see fit. As such how you plan and author your styles is entirely up to you. There are, however, a few things you want to keep in mind when writing CSS for a Jekyll site.</p>
+
+<h3>Location</h3>
+
+<p>Normally I like to keep styles in a directory titled <strong>_css</strong>. This naming convention doesn’t work for Jekyll, as an underscore at the beginning of a directory signals Jekyll to process the contents of the directory and not to include it in the final directory structure. As such to ensure your CSS is copied to the finished site be sure to name it <strong>css</strong> or a similar name that doesn’t start with an underscore.</p>
+
+<h3>Linking</h3>
+
+<p>There are essentially two ways to link to external resources like CSS within Jekyll pages and templates. One would be to use the site baseURL to prefix your CSS files:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"{{ site.baseurl }}/css/main.css"</span><span class="nt">&gt;</span></code></pre></figure>
+
+<p>If your site will always be served from the root folder, you can eliminate the <code class="language-plaintext highlighter-rouge">site.url</code> object and just use a <strong>site-root relative</strong> link:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"/css/main.css"</span><span class="nt">&gt;</span></code></pre></figure>
+
+<p>It’s important to note here that relative links for assets like CSS can be difficult when hosting sites on <a href="https://pages.github.com/" title="Github Pages">Github Pages</a>. Essentially there are two ways to host pages on Github Pages, as either user/organization pages or project pages.</p>
+
+<p>User and organization pages live in a GitHub repository dedicated to only the GitHub Pages files and are stored in the <strong>master branch</strong>. This repository must be named after the account name, which will be <strong>username.github.io</strong>.</p>
+
+<p>Project Pages are stored in the same repository as the project they are for, except that the website content is stored in a specially named <strong>gh-pages</strong> branch. The <strong>master</strong> branch can hold the project itself, or even be empty.</p>
+
+<p>This matters because if the site is served through a project page, its baseURL changes as the site is served through a subpath of your user domain at <strong>username.github.io/project</strong>. This means that in these cases, you’ll need to set your baseURL to <code class="language-plaintext highlighter-rouge">/project-name</code>. Note the leading slash and no trailing slash. This can also lead to problems when testing the files locally, so be sure to read Jekyll’s documentation on <a href="http://jekyllrb.com/docs/github-pages/" title="Github Pages documentation">hosting with Github Pages</a> for a full account.</p>
+
+<h3>Jekyll and SASS</h3>
+
+<p>Jekyll comes with built-in support for SASS, so there’s no need to install or modify your configuration in order to make it work. There are, however, one or two things you need to keep in mind as you work with SASS in Jekyll.</p>
+
+<p>First, in order to ensure Jekyll processes SASS files, you need to put an empty front matter string at the top of the page. You can include a comment if you’d like, but it doesn’t really matter. So include this at the top of each SASS file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+# Front matter added to ensure Jekyll processes file.
+---
+
+// write styles after front matter
+
+</code></pre></div></div>
+
+<p>If you look at Jekyll’s default directory structure, you no doubt saw the <strong>_sass</strong> directory, which can lead to some confusion about where to place SASS files. Jekyll copies over any processed SASS file in the exact same location it was processed. So, if you have the file <strong>css/styles.scss</strong> it will be processed and placed at <strong>css/styles.css</strong> in the generated site. The <strong>_sass</strong> directory is for SASS import files. If you place the partial <code class="language-plaintext highlighter-rouge">.scss</code> files that you are importing and use <code class="language-plaintext highlighter-rouge">@import</code> to assemble them into your main stylesheet, Jekyll will process and assemble them at runtime.</p>
+
+<p>So if you do something like this in your main <code class="language-plaintext highlighter-rouge">.scss</code> file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+# Front matter added to ensure Jekyll processes file.
+---
+
+// Imports
+@import "type";
+@import "layout";
+@import "components";
+
+//styles
+</code></pre></div></div>
+
+<p>Place the files <code class="language-plaintext highlighter-rouge">type.scss</code>, <code class="language-plaintext highlighter-rouge">layout.scss</code>, and <code class="language-plaintext highlighter-rouge">components.scss</code> in the <strong>_sass</strong> directory and Jekyll will do the rest!</p>]]></content><author><name></name></author><category term="birds" /><category term="parrots" /><summary type="html"><![CDATA[One of my favorite things about Jekyll is how it gets out of the way and lets you, the designer, actually design. Jekyll imposes no type of structure or framework, no default classes, layout, or coding conventions. You’re free to structure and style your content as you see fit. As such how you plan and author your styles is entirely up to you. There are, however, a few things you want to keep in mind when writing CSS for a Jekyll site.]]></summary></entry><entry><title type="html">Configuration Options</title><link href="http://localhost:4000/blog/2023/configuration/" rel="alternate" type="text/html" title="Configuration Options" /><published>2023-09-29T00:00:00-07:00</published><updated>2023-09-29T00:00:00-07:00</updated><id>http://localhost:4000/blog/2023/configuration</id><content type="html" xml:base="http://localhost:4000/blog/2023/configuration/"><![CDATA[<p>One of the main reasons to use a static site generator like Jekyll is the automation it provides for repetitive tasks and page generation. In Jekyll many of those automations are driven by the configuration file <strong>_config.yml</strong>. In order to harness the true power of Jekyll it’s important to understand how this file works and what your options are when using it.</p>
+
+<p>The <strong>_config.yml</strong> sits in the root of your source directory and, as the name suggests, controls the configuration options for your site. Let’s break down the options in the sample <strong>_config.yml</strong> that’s created when you generate a new Jekyll site before moving on to covering the Global config options.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Site settings
+
+title: Your awesome site
+email: your-email@domain.com
+description: &gt; # this means to ignore newlines until "baseurl:"
+    Write an awesome description for your new site here.
+    You can edit this line in _config.yml. It will appear
+    in your document head meta (for Google search results)
+    and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname &amp; protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+
+markdown: kramdown
+</code></pre></div></div>
+
+<p>The important thing to note here is that they’ve split the configuration options into two sections, site settings and build settings. All of the site settings other than <strong>baseurl</strong> and <strong>url</strong> are basically site variables that can be reused throughout the site. As such, they are all optional. Storing the <strong>title</strong> of the site in a variable, for instance, makes it easy to set the title element for pages, or to use it in a heading element on a page. By setting these variables in the <strong>_config.yml</strong> file they are available to any page throughout the site. You could access the title, for example, by using the Liquid tag <code class="language-plaintext highlighter-rouge">{{site.title}}</code>.</p>
+
+<p>There is a difference between the <code class="language-plaintext highlighter-rouge">site.url</code> and <code class="language-plaintext highlighter-rouge">site.baseurl</code> objects and when you need them. By default, the <code class="language-plaintext highlighter-rouge">site.url</code> variable is used in the page head for things like canonical links and links to the RSS feed that are accessed by external systems, although it can be used to create absolute links within your site.</p>
+
+<p>The <code class="language-plaintext highlighter-rouge">site.baseurl</code> variable indicates the root folder of your site. By default it is set to “ “ (empty string), which indicates your site is hosted at the root of http://yourdomain.com. However, if your site is located in http://yourdomain.com/blog, you have to set <code class="language-plaintext highlighter-rouge">site.baseurl</code> to <strong>/blog</strong> (note the slash). This will allow you to create relative links to assets that load correctly.</p>
+
+<p>When creating your own site, you should give careful consideration to what type of information to store in your <strong>_config.yml</strong> file. Being able to access this data at any time throughout your site is a powerful option.</p>
+
+<p>Below the site settings the default config file contains a section for “build settings.” Even though they only include a single option here, this section hints at the fact that you can use the  <strong>_config.yml</strong> file to control much of the site’s serve and build options. The lone option here instructs Jekyll to use Kramdown as its Markdown converter. Here are a few other options you can use when controlling the serve and build processes:</p>
+
+<h3>local port</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>port: PORT
+</code></pre></div></div>
+
+<p>Listen to the given port. 4000 is the default.</p>
+
+<h3>base URL</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>baseurl: URL
+</code></pre></div></div>
+
+<p>Serves the website from the given base URL, for example <strong>/blog</strong> would serve the home page from the blog subdirectory. Can be used to construct URLs throughout the site as well.</p>
+
+<h3>source</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>source: &lt;directory&gt;
+</code></pre></div></div>
+
+<p>Sets the directory Jekyll uses as the root directory for building files. By default it’s the current directory that the <code class="language-plaintext highlighter-rouge">build</code> command is run in.</p>
+
+<h3>destination</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>destination: &lt;directory&gt;
+</code></pre></div></div>
+
+<p>Sets the directory where Jekyll writes the built site. By default Jekyll creates a <code class="language-plaintext highlighter-rouge">_site</code> directory in the <code class="language-plaintext highlighter-rouge">source</code> directory.</p>
+
+<h3>exclude</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>exclude: [DIR, FILE, ...]
+</code></pre></div></div>
+
+<p>Lists files and directories to exclude from the build process. Useful for source asset files like .psd files and other files that are not part of the build process or final site.</p>
+
+<h3>include</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>include: [DIR, FILE, ...]
+</code></pre></div></div>
+
+<p>Lists files and directories that are copied over to the finished site regardless of their filetype or extension. Dotfiles, for example, are excluded from the build, so you could force the inclusion of a .gitignore or .htaccess file. The default value for <code class="language-plaintext highlighter-rouge">include</code> contains .htacess.</p>
+
+<h3>keep</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>keep_files: [DIR, FILE, ...]
+</code></pre></div></div>
+
+<p>During the build process the destination folder is wiped clean before the site is regenerated. If you have files or directories in the destination folder that are not part of the build process this setting can preserve those files. Useful for favicon files or other site assets that are unlikely to change and not controlled by Jekyll.</p>
+
+<h3>encoding</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>encoding: ENCODING
+</code></pre></div></div>
+
+<p>Sets the encoding used for files. The default is utf-8.</p>
+
+<h3>permalink</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>permalink: [options]
+</code></pre></div></div>
+
+<p>Specifies the permalink style used for posts and controls the directory structure for generated posts. The default, <code class="language-plaintext highlighter-rouge">date</code>, results in the permalink /YEAR/MO/DATE/name.html. Therefore a post titled <strong>2015-01-29-first-post.md</strong> would have the permalink of /2015/01/29/first-post.html, and would be generated using that directory structure. For a full list of permalink options, see the <a href="http://jekyllrb.com/docs/permalinks/" title="permalinks">Jekyll documentation on permalinks</a>.</p>
+
+<h3>pagination</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>paginate: [num]
+</code></pre></div></div>
+
+<p>Allows you to set the number of blog posts to display on the <strong>index.html</strong> page. This allows you to break your posts up and display them over a number of pages. For an overview of how pagination works, and how to also set the <code class="language-plaintext highlighter-rouge">paginate_path</code> option, see the <a href="http://jekyllrb.com/docs/pagination/" title="pagination">Jekyll documentation on pagination</a>.</p>
+
+<p>###More information</p>
+
+<p>This is a brief look at some of the configuration options available for your <strong>_confing.yml</strong> file. For more information on configuration, and how to set global default options for pages, check the full <a href="http://jekyllrb.com/docs/configuration/" title="configuration">Jekyll documentation on site configuration</a>.</p>]]></content><author><name></name></author><category term="birds" /><category term="parrots" /><summary type="html"><![CDATA[One of the main reasons to use a static site generator like Jekyll is the automation it provides for repetitive tasks and page generation. In Jekyll many of those automations are driven by the configuration file _config.yml. In order to harness the true power of Jekyll it’s important to understand how this file works and what your options are when using it.]]></summary></entry><entry><title type="html">Basic Commands</title><link href="http://localhost:4000/blog/2023/basic-commands/" rel="alternate" type="text/html" title="Basic Commands" /><published>2023-09-29T00:00:00-07:00</published><updated>2023-09-29T00:00:00-07:00</updated><id>http://localhost:4000/blog/2023/basic-commands</id><content type="html" xml:base="http://localhost:4000/blog/2023/basic-commands/"><![CDATA[<p>To control Jekyll you’ll run a series of commands within your command-line interface. The Jekyll gem gives you the <code class="language-plaintext highlighter-rouge">jekyll</code> executable, which has several commands and options you can use to build and serve your site. Let’s explore these commands and their options:</p>
+
+<h3>build</h3>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>jekyll build
+<span class="c">#  The current directory will be generated into ./_site</span>
+
+<span class="nv">$ </span>jekyll build <span class="nt">--destination</span> &lt;destination&gt;
+<span class="c">#  The current folder will be generated into &lt;destination&gt;</span>
+
+<span class="nv">$ </span>jekyll build <span class="nt">--source</span> &lt;<span class="nb">source</span><span class="o">&gt;</span> <span class="nt">--destination</span> &lt;destination&gt;
+<span class="c"># The &lt;source&gt; folder will be generated into &lt;destination&gt;</span></code></pre></figure>
+
+<p>Build does just that; it takes the contents of the current directory and generates it into the destination directory. If that directory is not specified, it defaults to the <code class="language-plaintext highlighter-rouge">_site</code> directory inside the current directory. Both the source and destination directories can be passed as options, just provide the path to the directory after the option.</p>
+
+<h3>doctor</h3>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>jekyll doctor
+<span class="c">#  Checks for URL conflicts</span></code></pre></figure>
+
+<p>The <code class="language-plaintext highlighter-rouge">doctor</code> command checks your site for URL conflicts, errors with your permalinks, and deprecation warnings. This can be especially useful if you’ve moved pages around or reorganized your site.</p>
+
+<h3>help</h3>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>jekyll <span class="nb">help</span>
+<span class="c"># Generates help documentation</span></code></pre></figure>
+
+<p>The <code class="language-plaintext highlighter-rouge">help</code> command generates a small help document that lists the current version of Jekyll, and reviews available commands and their options.</p>
+
+<h3>new</h3>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>jekyll new &lt;path&gt;
+<span class="c">#  Generates new site scaffold in targeted directory</span>
+
+<span class="nv">$ </span>jekyll new <span class="nb">.</span>
+<span class="c">#  Generates new site scaffold in current directory</span>
+
+<span class="nv">$ </span>jekyll new <span class="nt">--blank</span> &lt;path&gt;
+<span class="c">#  Generates basic site scaffold with empty directories and files</span></code></pre></figure>
+
+<p>The <code class="language-plaintext highlighter-rouge">new</code> command generates a default Jekyll site in the specified directory. This is an extremely useful way to understand how Jekyll works, as you can explore and modify the default site. It’s also a great way to jump-start development, since many of the files and directories you need to create a Jekyll site will be created for you. The <code class="language-plaintext highlighter-rouge">blank</code> option creates a minimal directory structure with no files and an empty index file.</p>
+
+<h3>serve</h3>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>jekyll serve
+<span class="c"># Builds site and serves it at http://localhost:4000/</span>
+
+<span class="nv">$ </span>jekyll serve <span class="nt">--detach</span>
+<span class="c"># Same as `jekyll serve` but will detach from the current terminal.</span>
+
+<span class="nv">$ </span>jekyll serve <span class="nt">--no-watch</span>
+<span class="c"># Same as `jekyll serve` but will not watch for changes or autoregenerate site.</span></code></pre></figure>
+
+<p>The <code class="language-plaintext highlighter-rouge">serve</code> command generates the site and launches a built-in development server that allows you to preview your site. In its default option the server watches the source directory. Any changes made to source files will result in the server automatically regenerating those files and updating the site locally. To preview your site browse to http://localhost:4000/ unless you’ve specified a different base URL, in which case you’ll add that to the end of localhost:4000.</p>]]></content><author><name></name></author><category term="birds" /><category term="parrots" /><summary type="html"><![CDATA[To control Jekyll you’ll run a series of commands within your command-line interface. The Jekyll gem gives you the jekyll executable, which has several commands and options you can use to build and serve your site. Let’s explore these commands and their options:]]></summary></entry></feed>

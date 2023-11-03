@@ -1,0 +1,116 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width">
+<title>Basic Commands</title> 
+<meta name="description" content="an online sandbox">
+<link rel="canonical" href="/blog/2023/basic-commands/"
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="https://use.typekit.net/krd0wfa.css">
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body>
+<header role="banner" class="page-header" id="top">
+	<h1>LULLDULL</h1>
+	<p>an online sandbox</p>
+<nav role="navigation">
+<input type="checkbox" id="menu-toggle">
+<label for="menu-toggle" class="toggle-label"><span>menu</span></label>
+<ul class="menu">
+	<li><a href="/index.html" title="Articles">Home</a></li>
+	<li><a href="/about.html" title="learn more">About</a></li>
+	<li><a href="/resources.html" title="resources">Resources</a></li>
+	<li><a href="/tags/" title="Archive">Archive</a></li>
+	</ul>
+</header>
+<main role="main" class="cf">
+<article class="posts">
+ <article role="article">
+        <header>
+            <h2>Basic Commands</h2>
+            <time itemprop="dateCreated" datetime="2023-09-29 00:00:00 -0700">
+                September 29, 2023</time>
+        </header>
+        <p>To control Jekyll you’ll run a series of commands within your command-line interface. The Jekyll gem gives you the <code class="language-plaintext highlighter-rouge">jekyll</code> executable, which has several commands and options you can use to build and serve your site. Let’s explore these commands and their options:</p>
+
+<h3>build</h3>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>jekyll build
+<span class="c">#  The current directory will be generated into ./_site</span>
+
+<span class="nv">$ </span>jekyll build <span class="nt">--destination</span> &lt;destination&gt;
+<span class="c">#  The current folder will be generated into &lt;destination&gt;</span>
+
+<span class="nv">$ </span>jekyll build <span class="nt">--source</span> &lt;<span class="nb">source</span><span class="o">&gt;</span> <span class="nt">--destination</span> &lt;destination&gt;
+<span class="c"># The &lt;source&gt; folder will be generated into &lt;destination&gt;</span></code></pre></figure>
+
+<p>Build does just that; it takes the contents of the current directory and generates it into the destination directory. If that directory is not specified, it defaults to the <code class="language-plaintext highlighter-rouge">_site</code> directory inside the current directory. Both the source and destination directories can be passed as options, just provide the path to the directory after the option.</p>
+
+<h3>doctor</h3>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>jekyll doctor
+<span class="c">#  Checks for URL conflicts</span></code></pre></figure>
+
+<p>The <code class="language-plaintext highlighter-rouge">doctor</code> command checks your site for URL conflicts, errors with your permalinks, and deprecation warnings. This can be especially useful if you’ve moved pages around or reorganized your site.</p>
+
+<h3>help</h3>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>jekyll <span class="nb">help</span>
+<span class="c"># Generates help documentation</span></code></pre></figure>
+
+<p>The <code class="language-plaintext highlighter-rouge">help</code> command generates a small help document that lists the current version of Jekyll, and reviews available commands and their options.</p>
+
+<h3>new</h3>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>jekyll new &lt;path&gt;
+<span class="c">#  Generates new site scaffold in targeted directory</span>
+
+<span class="nv">$ </span>jekyll new <span class="nb">.</span>
+<span class="c">#  Generates new site scaffold in current directory</span>
+
+<span class="nv">$ </span>jekyll new <span class="nt">--blank</span> &lt;path&gt;
+<span class="c">#  Generates basic site scaffold with empty directories and files</span></code></pre></figure>
+
+<p>The <code class="language-plaintext highlighter-rouge">new</code> command generates a default Jekyll site in the specified directory. This is an extremely useful way to understand how Jekyll works, as you can explore and modify the default site. It’s also a great way to jump-start development, since many of the files and directories you need to create a Jekyll site will be created for you. The <code class="language-plaintext highlighter-rouge">blank</code> option creates a minimal directory structure with no files and an empty index file.</p>
+
+<h3>serve</h3>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>jekyll serve
+<span class="c"># Builds site and serves it at http://localhost:4000/</span>
+
+<span class="nv">$ </span>jekyll serve <span class="nt">--detach</span>
+<span class="c"># Same as `jekyll serve` but will detach from the current terminal.</span>
+
+<span class="nv">$ </span>jekyll serve <span class="nt">--no-watch</span>
+<span class="c"># Same as `jekyll serve` but will not watch for changes or autoregenerate site.</span></code></pre></figure>
+
+<p>The <code class="language-plaintext highlighter-rouge">serve</code> command generates the site and launches a built-in development server that allows you to preview your site. In its default option the server watches the source directory. Any changes made to source files will result in the server automatically regenerating those files and updating the site locally. To preview your site browse to http://localhost:4000/ unless you’ve specified a different base URL, in which case you’ll add that to the end of localhost:4000.</p>
+
+        <footer>
+        <p>Posted in <a href="/tags/index.html#birds" title="Pages tagged birds" rel="tag">birds</a>, <a href="/tags/index.html#parrots" title="Pages tagged parrots" rel="tag">parrots</a></p>
+        </footer>
+    </article>
+    <section class="post-links">
+    <p>Read more:</p>
+  
+    <p class="prevLink"><a class="previous" href="/blog/2023/twelth-post/">Wowwowowow</a></p>
+  
+  
+    <p class="nextLink"><a class="next" href="/blog/2023/configuration/">Configuration Options</a></p>
+  
+    </section>
+    </article>
+</main>
+
+	
+		<footer role="contentinfo" class="page-footer">
+<p class="top-link"><a href="#top">top</a></p>
+<p class="legal">&copy; 2023 CATZO</p>
+</footer>
+	
+</body>
+</html>

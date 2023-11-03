@@ -1,0 +1,1122 @@
+/* add syntax highlight styles */
+@import url("syntax-highlighting.css");
+
+
+
+html {
+	-ms-text-size-adjust: 100%; /* 2 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+	background: #FFFFFF;
+	font-family: trade-gothic-next, sans-serif;
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+body, html {
+	margin: 0;
+	padding: 0;
+	font-family: trade-gothic-next, sans-serif;
+	font-weight: 900;
+	font-style: normal;
+
+}
+
+h1 {
+	margin: 30px 0;
+	font-size: 4em;
+	line-height: 1;
+	font-family: trade-gothic-next, sans-serif;
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+
+/* HTML5 display definitions
+========================================================================== */
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+	display: block;
+}
+
+/**
+* 1. Correct `inline-block` display not defined in IE 8/9.
+* 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+*/
+
+audio, canvas, progress, video {
+	display: inline-block; /* 1 */
+	vertical-align: baseline; /* 2 */
+}
+
+
+/* Links
+========================================================================== */
+/**
+* Remove the gray background color from active links in IE 10.
+*/
+
+a {
+	background-color: transparent;
+}
+
+/* Text-level semantics
+========================================================================== */
+
+/**
+* Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+*/
+
+b, strong {
+	font-weight: bold;
+}
+
+/**
+* Address styling not present in Safari and Chrome.
+*/
+
+dfn {
+	font-style: italic;
+}
+
+/**
+* Address styling not present in IE 8/9.
+*/
+
+mark {
+	background: #ff0;
+	color: #000;
+}
+
+/**
+* Address inconsistent and variable font size in all browsers.
+*/
+
+small {
+	font-size: 80%;
+}
+
+/**
+* Prevent `sub` and `sup` affecting `line-height` in all browsers.
+*/
+
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+
+img {
+	border: 0;
+}
+
+
+/* Grouping content
+========================================================================== */
+/**
+* Address differences between Firefox and other browsers.
+*/
+
+hr {
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 0;
+}
+
+/**
+* Contain overflow in all browsers.
+*/
+
+pre {
+	overflow: auto;
+}
+/**
+
+/* Forms
+========================================================================== */
+/**
+* Known limitation: by default, Chrome and Safari on OS X allow very limited
+* styling of `select`, unless a `border` property is set.
+*/
+/**
+* 1. Correct color not being inherited.
+*    Known issue: affects color of disabled elements.
+* 2. Correct font properties not being inherited.
+* 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+*/
+
+button,input,optgroup,select,textarea {
+	color: inherit; /* 1 */
+	font: inherit; /* 2 */
+	margin: 0; /* 3 */
+}
+
+/**
+* Address `overflow` set to `hidden` in IE 8/9/10/11.
+*/
+
+button {
+	overflow: visible;
+}
+
+/**
+* Address inconsistent `text-transform` inheritance for `button` and `select`.
+* All other form control elements do not inherit `text-transform` values.
+* Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+* Correct `select` style inheritance in Firefox.
+*/
+
+button,select {
+	text-transform: none;
+}
+
+/**
+* 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+*    and `video` controls.
+* 2. Correct inability to style clickable `input` types in iOS.
+* 3. Improve usability and consistency of cursor style between image-type
+*    `input` and others.
+*/
+
+button, html input[type="button"], /* 1 */ input[type="reset"], input[type="submit"] {
+	-webkit-appearance: button; /* 2 */
+	cursor: pointer; /* 3 */
+}
+
+/**
+* Re-set default cursor for disabled elements.
+*/
+
+button[disabled], html input[disabled] {
+	cursor: default;
+}
+
+/**
+* Remove inner padding and border in Firefox 4+.
+*/
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+/**
+* Address Firefox 4+ setting `line-height` on `input` using `!important` in
+* the UA stylesheet.
+*/
+
+in put {
+	line-height: normal;
+}
+
+/**
+* It's recommended that you don't attempt to style these elements.
+* Firefox's implementation doesn't respect box-sizing, padding, or width.
+*
+* 1. Address box sizing set to `content-box` in IE 8/9/10.
+* 2. Remove excess padding in IE 8/9/10.
+*/
+
+input[type="checkbox"], input[type="radio"] {
+	box-sizing: border-box; /* 1 */
+	padding: 0; /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+	-webkit-appearance: textfield; /* 1 */
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box; /* 2 */
+	box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+/**
+* Define consistent border, margin, and padding.
+*/
+
+fieldset {
+	border: 1px solid #c0c0c0;
+	margin: 0 2px;
+	padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+* 1. Correct `color` not being inherited in IE 8/9/10/11.
+* 2. Remove padding so people aren't caught out if they zero out fieldsets.
+*/
+legend {
+border: 0; /* 1 */
+padding: 0; /* 2 */
+}
+/**
+* Remove default vertical scrollbar in IE 8/9/10/11.
+*/
+
+textarea {
+	overflow: auto;
+}
+
+/**
+* Don't inherit the `font-weight` (applied by a rule above).
+* NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+*/
+
+optgroup {
+	font-weight: bold;
+}
+
+/* Tables
+========================================================================== */
+/**
+* Remove most spacing between table cells.
+*/
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td, th {
+	padding: 0;
+}
+
+/* end normalize styles
+*/
+/* -------------------------------------------------- 
+Global settings
+-----------------------------------------------------*/
+
+body {
+	font-family: trade-gothic-next, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	background: white;
+	direction: ltr;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: trade-gothic-next, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+p {
+	font-family: space-mono, mono;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+	line-height: 18px;
+	color: #444;
+	margin: 0 0 1em 0;
+	letter-spacing: -0.5px;
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+figure {
+    display: block;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+a {
+	color: #222222;
+	line-height: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #213149;
+}
+
+img, object, embed {
+	max-width: 100%;
+	display: block;
+	height: auto;
+	padding- right: 10px;
+	margin: 20px auto 40px auto;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+/*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack/*/
+/* For modern browsers */
+
+.cf:before, .cf:after {
+	content: "";
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+
+.cf {
+	zoom: 1;
+}
+
+.cr {
+	clear: right;
+}
+
+.cl {
+	clear: left;
+}
+
+.cb {
+	clear: both;
+}
+
+/* -------------------------------------------------- 
+header styles
+-----------------------------------------------------*/
+
+.page-header {
+	padding: 40px 0px 10px 0px;
+	width: 70%;
+	margin: auto;
+}
+
+header {
+	margin-bottom: 2em;
+}
+
+header h1 {
+	font-size: 40px;
+	letter-spacing: 0px;
+	margin: 0;
+	padding-bottom: 0px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+header p {
+	font-family: trade-gothic-next, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #666;
+	text-transform: uppercase;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	text-align: center;
+}
+
+/* -------------------------------------------------- 
+top navigation styles
+-----------------------------------------------------*/
+
+nav ul, nav li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	min-height: 0;
+}
+
+nav li a {
+	font-family: trade-gothic-next, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: white;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+}
+
+nav li a, .toggle-label {
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid #222222;
+    color: white;
+    background: #222222;
+    margin-right: 0.5em;
+    padding: 6px 10px;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+
+
+
+.posts, .archive {
+	padding: 0;
+	margin: auto;
+}
+
+article header {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed #aaa;
+}
+
+article footer {
+	background: none;
+	border-top: 1px dashed #aaa;
+	font-size: 16px;
+	padding: 0px 0 10px 0;
+	margin-top: 0px;
+}
+
+article h2 {
+	font-size: 2em;
+	font-weight: 400;
+	line-height:1.2;
+	color: #222222;
+	margin-bottom:0.2em;
+}
+
+article h3 {
+	font-weight: 400;
+	font-size: 24px;
+	color: #222222;
+	margin-bottom: 20px;
+	color: #222;
+}
+
+article h2 a {
+	text-decoration:none;
+}
+
+article time {
+	display: block;
+	font-size: 0.8em;
+	color: #666;
+	margin-bottom: 0;
+}
+
+a.more {
+	display: block;
+	text-align: right;
+}
+
+a.more:before {
+	content: '[';
+}
+
+a.more:after {
+	content: ']';
+}
+
+p code {
+	font-family: space-mono, mono;
+	font-style: normal;
+	line-height: 16px;
+	margin: 0 0 1em 0;
+	letter-spacing: -0.5px;
+	font-weight: 600;
+	color: #7B7261;
+	padding: auto 3px auto 3px;
+	background-color: #FFFFF;
+}
+
+pre {
+	font-size: 14px;
+	line-height: 22px;
+	color: #7B7261;
+	padding: 20px 20px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	border-left: 4px solid #7B7261;
+	background: #FFFFFF;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	width: 100%;
+}
+
+pre.wrong {
+	border-left-color: red;
+}
+
+pre.correct {
+	border-left-color: green;
+}
+
+figcaption {
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+blockquote {
+	font-family: trade-gothic-next, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #6d6d6d;
+	padding-left: 1em;
+	margin: 20px;
+	border-left: 4px solid #6d6d6d;
+}
+
+
+
+cite {
+	display: block;
+	font-size: 0.8em;
+	margin-top: 0.5em;
+}
+
+
+dl {
+	padding-left: 0;
+}
+
+dt {
+	font-family: space-mono, mono;
+	font-weight: 600;
+	font-style: normal;
+	color: #222;
+	margin-bottom: 0;
+	padding-left: 0;
+	text-transform: uppercase;
+}
+
+dd {
+	font-family: space-mono, mono;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 22px;
+	margin: 20px auto 20px auto;
+	padding: 10px;
+	color: #222;
+	background-color: #fff;
+	border: 1px solid #E4D7BC;
+	width: 100%;
+	margin-inline-start: 0px;
+}
+
+ol {
+	font-family: space-mono, mono;
+	font-weight: 200;
+	color: #000;
+	letter-spacing: -1px;
+	font-size: 14px;
+	line-height: 22px;
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 10px;
+    margin-block-end: 20px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.taglist time {
+	display: inline;
+	font-size: 1em;
+}
+
+.pagination {
+	font-family: space-mono, mono;
+	font-weight: 800;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.prevLink {
+	float: left;
+	width: 50%;
+}
+
+.nextLink {
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+/*
+.previous:before {
+	content: '\00ab\00a0';
+}
+
+.next:after {
+	content: '\00a0\00bb';
+}
+*/
+/* -------------------------------------------------- 
+archive styles
+-----------------------------------------------------*/
+
+.archive ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.archive h3 {
+	font-size: 22px;
+}
+
+.archive h3:target {
+	font-size: 22px;
+}
+
+.archive li {
+	margin-bottom: 0.5em;
+}
+
+.tag-cloud {
+	max-width: 600px;
+	margin-top: 20px;
+}
+
+.tag-cloud li {
+	display: inline-block;
+	margin-right: 4px;
+	margin-bottom: 10px;
+}
+
+.tag-cloud a {
+	font-family: trade-gothic-next, sans-serif;
+	letter-spacing: 1px;
+	font-weight: 100;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 12px;
+	background: #222222;
+	color: white;
+	padding: 4px 6px 4px 6px;
+	border-radius: 0px;
+	margin: 0px;
+}
+
+.return {
+	display: none;
+}
+
+h3:target + .taglist .return {
+	display: block;
+}
+
+.return a {
+	font-size: 0.8em;
+	text-decoration: none;
+	color: #222222;
+}
+
+.return a:before {
+	content: '\25b2\00a0';
+}
+
+/* -------------------------------------------------- 
+sidebar styles
+-----------------------------------------------------*/
+
+aside {
+	padding: 0 1em 0;
+	text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    float: left;
+    padding: 60px 0px 15px 0px;
+    overflow-y: auto;
+}
+
+aside h3 {
+	color: #4d4d4d;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+aside p {
+	font-family: trade-gothic-next, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 14px;
+	padding: 0;
+	margin:0;
+	text-decoration: none;
+}
+
+aside ul {
+	font-family: trade-gothic-next, sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 14px;
+	margin-left: 0px;
+	list-style: none;
+	padding: 0;
+	margin:0;
+	text-decoration: none;
+}
+
+aside li {
+	margin-bottom: 0.5em;
+	text-decoration: none;
+}
+
+
+
+
+
+/* -------------------------------------------------- 
+main footer styles
+-----------------------------------------------------*/
+
+.page-footer {
+	background: #FFFFFF;
+	padding: 2em 1em;
+	margin-top: 1em;
+	color: #222222;
+}
+
+.legal {
+	font-size: .7em;
+	margin: 0;
+}
+
+.page-footer a {
+	color: #222222;
+}
+
+.top-link {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.top-link:before {
+	content: '\25b2\00a0';
+}
+
+/* -------------------------------------------------- 
+Smaller screen styles
+-----------------------------------------------------*/
+@media only screen and (max-width: 950px) {
+
+
+
+	.right, .left {
+		float: none;
+	}
+
+	article header {
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+		border-bottom: 1px dashed #aaa;
+	}
+
+	article footer {
+		background: none;
+		border-top: 1px dashed #aaa;
+		font-size: 16px;
+		padding: 0px 0 10px 0;
+		margin-top: 0px;
+	}
+
+	article footer p {
+		padding: 10px 0px 0px 0px;
+		margin-top: 0px;
+	}
+
+	article .more {
+		padding-top: 10px;
+		text-align: right;
+	}
+
+
+	p {
+		font-family: space-mono, mono;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 14px;
+		line-height: 20px;
+		color: #444;
+		margin: 0 0 1em 0;
+		letter-spacing: -0.5px;
+	}
+
+	.page-header {
+		padding: 40px 20px 10px 20px;
+	}
+
+	nav {
+		background: none;
+		margin-bottom: 1em;
+	}
+
+	nav ul {
+		display: none;
+	}
+
+	nav li {
+		background: #222222;
+		margin-bottom: .2em;
+	}
+
+	nav li:hover {
+		background: #333;
+	}
+
+	nav li a {
+		font-family: space-mono, mono;
+		font-size: 1.2em;
+		font-weight: 400;
+		text-transform: uppercase;
+		margin: 0;
+		margin-bottom: 0.2em;
+		padding: .5em 0;
+		display: block;
+		max-width: 5em;
+		text-align: center;
+		max-width: 100%;
+		width:100%;
+	}
+
+	nav li a:hover {
+		color: white;
+	}
+
+/*toggle check styles*/
+
+	.toggle-label {
+		display: block;
+		background: #222222;
+		font-family: space-mono, mono;
+		font-size: 1.2em;
+		font-weight: 400;
+		font-style: normal;
+		text-align: center;
+		color: white;
+		padding: .5em 0;
+		text-decoration: none;
+		width: 5em;
+		cursor: pointer;
+	}
+
+	#menu-toggle {
+		display: none;
+	}
+
+	#menu-toggle:checked + .toggle-label {
+		background: #4d4d4d;
+	}
+
+	#menu-toggle:checked + .toggle-label span {
+		display: none;
+	}
+
+	#menu-toggle:checked + .toggle-label:before {
+		content: 'close';
+	}
+
+	#menu-toggle:checked ~ ul {
+		display: block;
+	}
+
+	pre {
+		font-size: 1.2em;
+		width: 100%;
+	}
+
+	dl {
+		padding-left: 0;
+	}
+
+	dt {
+		font-family: space-mono, mono;
+		font-weight: 600;
+		font-style: normal;
+		color: #222;
+		margin-bottom: 0;
+		padding-left: 0;
+		text-transform: uppercase;
+	}
+
+	dd {
+		font-family: space-mono, mono;
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 20px;
+		margin: 20px auto 20px auto;
+		padding: 10px;
+		background-color: #FFFFFF;
+		margin-inline-start: 0px;
+	}
+
+
+}
+
+
+
+@media only screen and (min-width: 951px) {
+
+
+
+	body {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.posts, .archive {
+		width: 70%;
+		margin: auto;
+		
+	}
+
+	aside {
+		float: left;
+		width: 30%;
+		padding: 10px 0px 10px 40px;
+	}
+
+
+	header h1 {
+		font-size: 48px;
+		letter-spacing: 0px;
+	}
+
+	header h2 {
+		letter-spacing: 0px;
+		padding: 0px 0px 0px 0px;
+
+	}
+
+	header p {
+		font-family: trade-gothic-next, sans-serif;
+		font-weight: 300;
+		padding-bottom: 50px;
+		font-style: normal;
+		color: #666;
+		text-transform: uppercase;
+	}
+
+	nav {
+		background: none;
+		margin-bottom: 2em;
+	}
+
+	#menu-toggle, .toggle-label {
+		display: none;
+	}
+
+	nav ul {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		min-height: 0;
+	}
+
+	nav li {
+		display: inline-block;
+		width: 24%;
+		text-align: left;
+	}
+
+	nav li a {
+		font-family: space-mono, mono;
+		font-weight: 200;
+		font-style: normal;
+		font-size: 14px;
+		width: 100%;
+		text-transform: uppercase;
+		border: 1px solid #222222;
+		color: white;
+		background: #222222;
+		margin-right: 0.5em;
+		padding: 6px 10px;
+		display: inline-block;
+		text-decoration: none;
+		letter-spacing: 0.1em;
+	}
+
+	nav li a:hover {
+		color: #222222;
+		background: #FFF;
+		border: 1px solid #222222;
+		border-collapse: collapse;
+	}
+
+
+	article p {
+		font-family: baskerville-urw, serif;
+		font-weight: 400;
+		font-style: normal;
+		font-size: 16px;
+		line-height: 24px;
+
+	}
+
+	a.more {
+		margin: 0.5em 0;
+	}
+
+	.legal {
+		text-align: center;
+	}
+}
+
+.container {
+	margin: 10px auto;
+	max-width: 600px;
+	text-align: center;
+}
