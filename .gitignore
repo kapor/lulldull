@@ -26,3 +26,5 @@ gh-pages/
 pkg/
 test/dest
 tmp/*
+lulldull.sublime-workspace
+lulldull.sublime-project
