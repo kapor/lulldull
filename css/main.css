@@ -336,6 +336,11 @@ h1, h2, h3, h4, h5, h6 {
 	font-style: normal;
 }
 
+header h1 {
+	font-family: space-mono, mono;
+
+}
+
 *, *:before, *:after {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -343,7 +348,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-	font-family: space-mono, mono;
+	font-family: "pt-mono", monospace;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 13px;
@@ -539,6 +544,7 @@ article h2 a {
 }
 
 article time {
+	font-family: space-mono, mono;
 	display: block;
 	font-size: 0.8em;
 	color: #666;
@@ -546,8 +552,23 @@ article time {
 }
 
 a.more {
+	font-family: space-mono, mono;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1.25px;
 	display: block;
 	text-align: right;
+}
+
+article footer p {
+	font-family: space-mono, mono;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1.25px;
+	display: block;
+	text-align: left;
 }
 
 a.more:before {
@@ -559,7 +580,7 @@ a.more:after {
 }
 
 p code {
-	font-family: space-mono, mono;
+	font-family: "pt-mono", monospace;
 	font-style: normal;
 	line-height: 16px;
 	margin: 0 0 1em 0;
@@ -624,7 +645,7 @@ dl {
 }
 
 dt {
-	font-family: space-mono, mono;
+	font-family: "pt-mono", monospace;
 	font-weight: 600;
 	font-style: normal;
 	color: #222;
@@ -634,7 +655,7 @@ dt {
 }
 
 dd {
-	font-family: space-mono, mono;
+	font-family: "pt-mono", monospace;
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 22px;
@@ -648,7 +669,7 @@ dd {
 }
 
 ol {
-	font-family: space-mono, mono;
+	font-family: "pt-mono", monospace;
 	font-weight: 200;
 	color: #000;
 	letter-spacing: -1px;
@@ -669,14 +690,14 @@ ol {
 }
 
 .pagination {
-	font-family: space-mono, mono;
-	font-weight: 800;
+	font-family: "pt-mono", monospace;
+	font-weight: 400;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	font-size: 16px;
 	text-transform: uppercase;
-	padding-top: 40px;
+	padding-top: 120px;
 	padding-bottom: 40px;
 }
 
@@ -885,7 +906,7 @@ Smaller screen styles
 
 
 	p {
-		font-family: space-mono, mono;
+		font-family: "pt-mono", monospace;
 		font-weight: 400;
 		font-style: normal;
 		font-size: 14px;
@@ -918,7 +939,7 @@ Smaller screen styles
 	}
 
 	nav li a {
-		font-family: space-mono, mono;
+		font-family: "pt-mono", monospace;
 		font-size: 1.2em;
 		font-weight: 400;
 		text-transform: uppercase;
@@ -941,7 +962,7 @@ Smaller screen styles
 	.toggle-label {
 		display: block;
 		background: #222222;
-		font-family: space-mono, mono;
+		font-family: "pt-mono", monospace;
 		font-size: 1.2em;
 		font-weight: 400;
 		font-style: normal;
@@ -983,7 +1004,7 @@ Smaller screen styles
 	}
 
 	dt {
-		font-family: space-mono, mono;
+		font-family: "pt-mono", monospace;
 		font-weight: 600;
 		font-style: normal;
 		color: #222;
@@ -993,7 +1014,7 @@ Smaller screen styles
 	}
 
 	dd {
-		font-family: space-mono, mono;
+		font-family: "pt-mono", monospace;
 		font-weight: 300;
 		font-size: 14px;
 		line-height: 20px;
@@ -1042,7 +1063,7 @@ Smaller screen styles
 	}
 
 	header p {
-		font-family: trade-gothic-next, sans-serif;
+		font-family: space-mono, mono;;
 		font-weight: 300;
 		padding-bottom: 50px;
 		font-style: normal;
@@ -1073,7 +1094,7 @@ Smaller screen styles
 	}
 
 	nav li a {
-		font-family: space-mono, mono;
+		font-family: "pt-mono", monospace;
 		font-weight: 200;
 		font-style: normal;
 		font-size: 14px;
@@ -1101,8 +1122,8 @@ Smaller screen styles
 		font-family: baskerville-urw, serif;
 		font-weight: 400;
 		font-style: normal;
-		font-size: 16px;
-		line-height: 24px;
+		font-size: 18px;
+		line-height: 26px;
 
 	}
 
