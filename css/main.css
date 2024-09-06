@@ -383,13 +383,15 @@ a:hover {
 	color: #213149;
 }
 
-img, object, embed {
+object, embed {
 	max-width: 100%;
 	display: block;
 	height: auto;
 	padding- right: 10px;
 	margin: 20px auto 40px auto;
 }
+
+
 
 .left {
 	float: left;
@@ -434,9 +436,10 @@ header styles
 -----------------------------------------------------*/
 
 .page-header {
-	padding: 40px 0px 10px 0px;
-	width: 70%;
+/*	padding: 40px 0px 10px 0px;*/
+	
 	margin: auto;
+	max-width: 1200px;
 }
 
 header {
@@ -500,6 +503,25 @@ nav li a, .toggle-label {
     text-decoration: none;
     letter-spacing: 2px;
 }
+
+
+
+
+.logo img {
+	width: 100%;
+	max-width: 1200px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1039,7 +1061,7 @@ Smaller screen styles
 	}
 
 	.posts, .archive {
-		width: 70%;
+		max-width: 1200px;
 		margin: auto;
 		
 	}

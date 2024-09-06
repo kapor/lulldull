@@ -3,6 +3,8 @@ layout: default
 title: LULLDULL
 ---
 <main role="main" class="cf">
+
+
   <article class="posts"> {% for post in paginator.posts limit:10 %}
 		 <article role="article">
 	        <header>
@@ -19,19 +21,21 @@ title: LULLDULL
 			</footer>
 	    </article>
 	{% endfor %}
+
+	
 		<!-- Pagination links -->
-		<div class="pagination">
-		{% if paginator.previous_page %}
-		<a href="{{ paginator.previous_page_path }}" class="previous">back</a>
-		{% else %}
-		<span class="previous"></span>
-		{% endif %}
-		<span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-		{% if paginator.next_page %}
-		<a href="{{ paginator.next_page_path }}" class="next">next</a>
-		{% else %}
-		<span class="next "></span>
-		{% endif %}
-		</div>
+				<div class="pagination">
+				{% if paginator.previous_page %}
+				<a href="{{ paginator.previous_page_path }}" class="previous">back</a>
+				{% else %}
+				<span class="previous"></span>
+				{% endif %}
+				<span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+				{% if paginator.next_page %}
+				<a href="{{ paginator.next_page_path }}" class="next">next</a>
+				{% else %}
+				<span class="next "></span>
+				{% endif %}
+				</div>
     </article>
 </main>
