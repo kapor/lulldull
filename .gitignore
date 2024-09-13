@@ -14,3 +14,5 @@ _assets/
 
 lulldull.sublime-project
 lulldull.sublime-workspace
+
+_site/feed.xml
