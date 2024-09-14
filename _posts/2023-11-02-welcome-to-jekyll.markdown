@@ -2,7 +2,10 @@
 layout: post
 title:  "hello you"
 date:   2023-11-02 22:08:18 -0700
-categories: hello
+tags: [design, tools, product, process, production, ai]
+image: thumbs/000.png
+hidden: false
+permalink: /turn_upside
 ---
 
 
