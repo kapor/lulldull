@@ -1,8 +1,11 @@
 ---
 layout: post
-title:  "Vivamus sed malesuada purus"
+title:  "2023-08-13"
 date: 2023-08-13
 tags: [birds, parrots]
+image: thumbs/000.png
+hidden: false
+permalink: /:year/:title/
 ---
 
 My blog's fifth post. Sed non condimentum velit. Aliquam consequat euismod enim, eget sollicitudin lorem scelerisque eu. Nulla non turpis id metus viverra imperdiet. Cras maximus non leo at blandit. In mattis ligula eget vehicula dignissim. Morbi vestibulum mi nec diam posuere condimentum ac sed dolor. Sed pharetra sodales sem, at lobortis quam posuere a. Duis sed porttitor arcu, at facilisis mauris.

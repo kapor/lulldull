@@ -40,10 +40,63 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
 	display: block;
 }
 
-/**
-* 1. Correct `inline-block` display not defined in IE 8/9.
-* 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
-*/
+
+
+
+
+.posts {
+	display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 4%;
+}
+
+.home_entry {
+	width: 48%;
+}
+
+@media screen and (max-width: 950px) {
+
+		.posts {
+			display: flex;
+		    flex-direction: column; 
+		    flex-wrap: nowrap;
+		}
+
+		.home_entry {
+			width: 100%;
+		}
+}
+
+
+
+.excerpt {
+	height: 20px;
+	overflow: hidden;
+}
+
+
+
+.thumb_post {
+    width: 100%;
+    border-radius: 4px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-position-y: center;
+}
+
+.thumb_post img {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+
 
 audio, canvas, progress, video {
 	display: inline-block; /* 1 */
@@ -327,8 +380,16 @@ body {
 	font-weight: 300;
 	font-style: normal;
 	background: white;
-	direction: ltr;
 }
+
+
+@media screen and (max-width: 1250px) {
+
+	body {
+		padding: 20px;
+	}
+}
+
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: trade-gothic-next, sans-serif;
@@ -533,13 +594,13 @@ nav li a, .toggle-label {
 
 article header {
 	padding-bottom: 20px;
-	margin-bottom: 20px;
-	border-bottom: 1px dashed #aaa;
+	margin-bottom: 0px;
+/*	border-bottom: 1px dashed #aaa;*/
 }
 
 article footer {
 	background: none;
-	border-top: 1px dashed #aaa;
+/*	border-top: 1px dashed #aaa;*/
 	font-size: 16px;
 	padding: 0px 0 10px 0;
 	margin-top: 0px;
@@ -939,7 +1000,7 @@ Smaller screen styles
 	}
 
 	.page-header {
-		padding: 40px 20px 10px 20px;
+/*		padding: 40px 20px 10px 20px;*/
 	}
 
 	nav {
@@ -1050,21 +1111,19 @@ Smaller screen styles
 }
 
 
+.posts, .archive {
+	max-width: 1200px;
+	margin: auto;
+	padding-top: 40px;
+	
+}
+
 
 @media only screen and (min-width: 951px) {
 
 
 
-	body {
-		width: 80%;
-		margin: 0 auto;
-	}
 
-	.posts, .archive {
-		max-width: 1200px;
-		margin: auto;
-		
-	}
 
 	aside {
 		float: left;

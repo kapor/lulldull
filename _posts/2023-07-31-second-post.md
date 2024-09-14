@@ -1,8 +1,11 @@
 ---
 layout: post
-title:  "Cupcake Ipsum"
+title:  "2023-07-31"
 date: 2023-07-31
-tags: [copy, ramblings, placeholder, food, fun]
+tags: [design]
+image: thumbs/000.png
+hidden: false
+permalink: /:year/:title/
 ---
 
 Cupcake ipsum dolor sit amet marzipan chocolate cake icing donut. Sugar plum wafer jelly-o oat cake tootsie roll. Powder cake croissant soufflé icing chocolate shortbread I love. Caramels marshmallow candy canes dessert powder croissant chocolate. Gummi bears cotton candy sweet roll croissant sweet roll croissant I love. Brownie danish jujubes I love sugar plum powder liquorice. Tiramisu tart biscuit pastry topping pudding. Candy pastry pastry I love I love cotton candy liquorice bonbon bear claw. I love cheesecake powder chupa chups danish I love gummi bears tootsie roll marshmallow. Halvah sweet roll ice cream gingerbread croissant candy canes I love marzipan sweet. Cheesecake macaroon cheesecake gummi bears cake. I love sesame snaps chocolate bar tiramisu candy canes chupa chups gummies pastry liquorice. Candy I love bonbon fruitcake brownie icing biscuit.

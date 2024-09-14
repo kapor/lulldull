@@ -1,8 +1,8 @@
 title: LULLDULL
-description: "an online sandbox"
+description: "sandbox"
 baseurl: ""
 url: ""
-tagline: "an online sandbox"
+tagline: "sandbox"
 
 # Build settings
 plugins:
@@ -11,7 +11,11 @@ plugins:
 markdown: kramdown
 kramdown:
     auto_ids: false
-paginator: enable
-paginate: 10
-paginate_path: '/blog/page:num/'
-permalink: /blog/:categories/:year/:title/
+paginator: disable
+paginate: 200
+paginate_path: '/page:num/'
+permalink: /:categories/:year/:title/
+
+
+
+

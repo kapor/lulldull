@@ -1,8 +1,12 @@
 ---
 layout: post
-title:  "Dating App Lorem"
-date: 2023-08-19
-tags: [copy, ramblings, placeholder, fun]
+title: "2013-01-01"
+loc: New York
+date: 2013-01-01
+tags: [design]
+image: thumbs/000.png
+hidden: false
+permalink: /:year/:title/
 ---
 
 Long-term dating amazing women I’ve met I have a crush on long-term dating. Happy hour Game of Thrones mountain biking having a few beers the simple things in life, joking around I don’t take myself too seriously going back to school I’m a big fan of whatever topic is on NPR. Long-term dating long-term dating nothing too complicated optimistic Game of Thrones medical school.
