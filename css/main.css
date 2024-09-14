@@ -6,19 +6,13 @@
 html {
 	-ms-text-size-adjust: 100%; /* 2 */
 	-webkit-text-size-adjust: 100%; /* 2 */
-	background: #FFFFFF;
-	font-family: trade-gothic-next, sans-serif;
-	font-weight: 900;
-	font-style: normal;
+	background: #F8F4F1;
 }
 
 
 body, html {
 	margin: 0;
 	padding: 0;
-	font-family: trade-gothic-next, sans-serif;
-	font-weight: 900;
-	font-style: normal;
 
 }
 
@@ -26,9 +20,6 @@ h1 {
 	margin: 30px 0;
 	font-size: 4em;
 	line-height: 1;
-	font-family: trade-gothic-next, sans-serif;
-	font-weight: 900;
-	font-style: normal;
 }
 
 
@@ -323,7 +314,7 @@ Global settings
 -----------------------------------------------------*/
 
 body {
-	font-family: trade-gothic-next, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
 	font-weight: 300;
 	font-style: normal;
 	background: white;
@@ -331,14 +322,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: trade-gothic-next, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
 	font-weight: 300;
 	font-style: normal;
-}
-
-header h1 {
-	font-family: space-mono, mono;
-
 }
 
 *, *:before, *:after {
@@ -348,7 +334,7 @@ header h1 {
 }
 
 p {
-	font-family: "pt-mono", monospace;
+	font-family: letter-gothic-std, monospace;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 13px;
@@ -374,7 +360,7 @@ figure {
 
 
 a {
-	color: #222222;
+	color: #6219FF;
 	line-height: inherit;
 	text-decoration: none;
 }
@@ -383,15 +369,13 @@ a:hover {
 	color: #213149;
 }
 
-object, embed {
+img, object, embed {
 	max-width: 100%;
 	display: block;
 	height: auto;
 	padding- right: 10px;
 	margin: 20px auto 40px auto;
 }
-
-
 
 .left {
 	float: left;
@@ -436,10 +420,7 @@ header styles
 -----------------------------------------------------*/
 
 .page-header {
-/*	padding: 40px 0px 10px 0px;*/
-	
-	margin: auto;
-	max-width: 1200px;
+	padding: 40px 0px 10px 40px;
 }
 
 header {
@@ -452,11 +433,10 @@ header h1 {
 	margin: 0;
 	padding-bottom: 0px;
 	text-transform: uppercase;
-	text-align: center;
 }
 
 header p {
-	font-family: trade-gothic-next, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
 	font-weight: 300;
 	font-style: normal;
 	color: #666;
@@ -465,7 +445,6 @@ header p {
 	margin-block-end: 1em;
 	margin-inline-start: 0px;
 	margin-inline-end: 0px;
-	text-align: center;
 }
 
 /* -------------------------------------------------- 
@@ -480,7 +459,7 @@ nav ul, nav li {
 }
 
 nav li a {
-	font-family: trade-gothic-next, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
 	font-weight: 300;
 	font-style: normal;
 	color: white;
@@ -489,14 +468,14 @@ nav li a {
 }
 
 nav li a, .toggle-label {
-    font-family: trade-gothic-next, sans-serif;
+    font-family: franklin-gothic-urw, sans-serif;
     font-weight: 200;
     font-style: normal;
     font-size: 14px;
     text-transform: uppercase;
-    border: 1px solid #222222;
+    border: 1px solid #6219FF;
     color: white;
-    background: #222222;
+    background: #6219FF;
     margin-right: 0.5em;
     padding: 6px 10px;
     display: inline-block;
@@ -507,28 +486,8 @@ nav li a, .toggle-label {
 
 
 
-.logo img {
-	width: 100%;
-	max-width: 1200px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .posts, .archive {
-	padding: 0;
-	margin: auto;
+	padding: 0 20px;
 }
 
 article header {
@@ -549,14 +508,14 @@ article h2 {
 	font-size: 2em;
 	font-weight: 400;
 	line-height:1.2;
-	color: #222222;
+	color: #6219FF;
 	margin-bottom:0.2em;
 }
 
 article h3 {
 	font-weight: 400;
 	font-size: 24px;
-	color: #222222;
+	color: #6219FF;
 	margin-bottom: 20px;
 	color: #222;
 }
@@ -566,7 +525,6 @@ article h2 a {
 }
 
 article time {
-	font-family: space-mono, mono;
 	display: block;
 	font-size: 0.8em;
 	color: #666;
@@ -574,23 +532,8 @@ article time {
 }
 
 a.more {
-	font-family: space-mono, mono;
-	font-weight: 400;
-	text-transform: uppercase;
-	font-size: 12px;
-	letter-spacing: 1.25px;
 	display: block;
 	text-align: right;
-}
-
-article footer p {
-	font-family: space-mono, mono;
-	font-weight: 400;
-	text-transform: uppercase;
-	font-size: 12px;
-	letter-spacing: 1.25px;
-	display: block;
-	text-align: left;
 }
 
 a.more:before {
@@ -602,7 +545,7 @@ a.more:after {
 }
 
 p code {
-	font-family: "pt-mono", monospace;
+	font-family: letter-gothic-std, monospace;
 	font-style: normal;
 	line-height: 16px;
 	margin: 0 0 1em 0;
@@ -610,7 +553,7 @@ p code {
 	font-weight: 600;
 	color: #7B7261;
 	padding: auto 3px auto 3px;
-	background-color: #FFFFF;
+	background-color: #F8F4F1;
 }
 
 pre {
@@ -621,7 +564,7 @@ pre {
 	margin-bottom: 40px;
 	margin-top: 20px;
 	border-left: 4px solid #7B7261;
-	background: #FFFFFF;
+	background: #F8F4F1;
 	white-space: pre-wrap;
 	white-space: -moz-pre-wrap;
 	white-space: -pre-wrap;
@@ -644,7 +587,7 @@ figcaption {
 }
 
 blockquote {
-	font-family: trade-gothic-next, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
 	font-weight: 300;
 	font-style: normal;
 	color: #6d6d6d;
@@ -667,7 +610,7 @@ dl {
 }
 
 dt {
-	font-family: "pt-mono", monospace;
+	font-family: letter-gothic-std, monospace;
 	font-weight: 600;
 	font-style: normal;
 	color: #222;
@@ -677,7 +620,7 @@ dt {
 }
 
 dd {
-	font-family: "pt-mono", monospace;
+	font-family: letter-gothic-std, monospace;
 	font-weight: 300;
 	font-size: 14px;
 	line-height: 22px;
@@ -691,7 +634,7 @@ dd {
 }
 
 ol {
-	font-family: "pt-mono", monospace;
+	font-family: letter-gothic-std, monospace;
 	font-weight: 200;
 	color: #000;
 	letter-spacing: -1px;
@@ -712,14 +655,14 @@ ol {
 }
 
 .pagination {
-	font-family: "pt-mono", monospace;
-	font-weight: 400;
+	font-family: letter-gothic-std, monospace;
+	font-weight: 800;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	font-size: 16px;
 	text-transform: uppercase;
-	padding-top: 120px;
+	padding-top: 40px;
 	padding-bottom: 40px;
 }
 
@@ -776,13 +719,13 @@ archive styles
 }
 
 .tag-cloud a {
-	font-family: trade-gothic-next, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
 	letter-spacing: 1px;
 	font-weight: 100;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-size: 12px;
-	background: #222222;
+	background: #6219FF;
 	color: white;
 	padding: 4px 6px 4px 6px;
 	border-radius: 0px;
@@ -800,7 +743,7 @@ h3:target + .taglist .return {
 .return a {
 	font-size: 0.8em;
 	text-decoration: none;
-	color: #222222;
+	color: #6219FF;
 }
 
 .return a:before {
@@ -832,7 +775,7 @@ aside h3 {
 }
 
 aside p {
-	font-family: trade-gothic-next, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
 	font-weight: 300;
 	font-style: normal;
 	font-size: 14px;
@@ -842,7 +785,7 @@ aside p {
 }
 
 aside ul {
-	font-family: trade-gothic-next, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
 	font-weight: 300;
 	font-style: normal;
 	font-size: 14px;
@@ -867,7 +810,7 @@ main footer styles
 -----------------------------------------------------*/
 
 .page-footer {
-	background: #FFFFFF;
+	background: #F8F4F1;
 	padding: 2em 1em;
 	margin-top: 1em;
 	color: #222222;
@@ -928,7 +871,7 @@ Smaller screen styles
 
 
 	p {
-		font-family: "pt-mono", monospace;
+		font-family: letter-gothic-std, monospace;
 		font-weight: 400;
 		font-style: normal;
 		font-size: 14px;
@@ -952,7 +895,7 @@ Smaller screen styles
 	}
 
 	nav li {
-		background: #222222;
+		background: #6219FF;
 		margin-bottom: .2em;
 	}
 
@@ -961,7 +904,7 @@ Smaller screen styles
 	}
 
 	nav li a {
-		font-family: "pt-mono", monospace;
+		font-family: letter-gothic-std, monospace;
 		font-size: 1.2em;
 		font-weight: 400;
 		text-transform: uppercase;
@@ -983,8 +926,8 @@ Smaller screen styles
 
 	.toggle-label {
 		display: block;
-		background: #222222;
-		font-family: "pt-mono", monospace;
+		background: #6219FF;
+		font-family: letter-gothic-std, monospace;
 		font-size: 1.2em;
 		font-weight: 400;
 		font-style: normal;
@@ -1026,7 +969,7 @@ Smaller screen styles
 	}
 
 	dt {
-		font-family: "pt-mono", monospace;
+		font-family: letter-gothic-std, monospace;
 		font-weight: 600;
 		font-style: normal;
 		color: #222;
@@ -1036,13 +979,13 @@ Smaller screen styles
 	}
 
 	dd {
-		font-family: "pt-mono", monospace;
+		font-family: letter-gothic-std, monospace;
 		font-weight: 300;
 		font-size: 14px;
 		line-height: 20px;
 		margin: 20px auto 20px auto;
 		padding: 10px;
-		background-color: #FFFFFF;
+		background-color: #F8F4F1;
 		margin-inline-start: 0px;
 	}
 
@@ -1061,8 +1004,9 @@ Smaller screen styles
 	}
 
 	.posts, .archive {
-		max-width: 1200px;
-		margin: auto;
+		float: right;
+		width: 70%;
+		padding-right: 2.5%;
 		
 	}
 
@@ -1085,9 +1029,8 @@ Smaller screen styles
 	}
 
 	header p {
-		font-family: space-mono, mono;;
+		font-family: franklin-gothic-urw, sans-serif;
 		font-weight: 300;
-		padding-bottom: 50px;
 		font-style: normal;
 		color: #666;
 		text-transform: uppercase;
@@ -1116,15 +1059,15 @@ Smaller screen styles
 	}
 
 	nav li a {
-		font-family: "pt-mono", monospace;
+		font-family: letter-gothic-std, monospace;
 		font-weight: 200;
 		font-style: normal;
 		font-size: 14px;
 		width: 100%;
 		text-transform: uppercase;
-		border: 1px solid #222222;
+		border: 1px solid #6219FF;
 		color: white;
-		background: #222222;
+		background: #6219FF;
 		margin-right: 0.5em;
 		padding: 6px 10px;
 		display: inline-block;
@@ -1133,20 +1076,19 @@ Smaller screen styles
 	}
 
 	nav li a:hover {
-		color: #222222;
+		color: #6219FF;
 		background: #FFF;
-		border: 1px solid #222222;
+		border: 1px solid #6219FF;
 		border-collapse: collapse;
 	}
 
 
 	article p {
-		font-family: baskerville-urw, serif;
+		font-family: letter-gothic-std, monospace;
 		font-weight: 400;
 		font-style: normal;
-		font-size: 18px;
-		line-height: 26px;
-
+		font-size: 16px;
+		line-height: 24px;
 	}
 
 	a.more {

@@ -2,7 +2,7 @@
 ---
 
 .highlight {
-  .hll { background-color: #ffffffFG }
+  .hll { background-color: #ffffcc }
   .c { color: #222222} /* Comment */
   .err { color: #222222} /* Error */
   .g { color: #222222} /* Generic */
@@ -16,16 +16,16 @@
   .cp { color: #222222} /* Comment.Preproc */
   .c1 { color: #222222} /* Comment.Single */
   .cs { color: #222222} /* Comment.Special */
-  .gd { color: #FE5E39; font-weight: normal; background-color: #FFFFFF } /* Generic.Deleted */
+  .gd { color: #222222; font-weight: bold; background-color: #FFFFFF } /* Generic.Deleted */
   .ge { color: #222222; text-decoration: underline} /* Generic.Emph */
-  .gr { color: #FE5E39; font-weight: normal; background-color: #FFFFFF } /* Generic.Error */
+  .gr { color: #222222; font-weight: bold; background-color: #FFFFFF } /* Generic.Error */
   .gh { color: #222222} /* Generic.Heading */
   .gi { color: #222222; background-color: #FFFFFF } /* Generic.Inserted */
-  span.go { color: #FE5E39; font-weight: normal; background-color: #FFFFFF } /* Generic.Output, qualified with span to prevent applying this style to the Go language, see #1153. */
+  span.go { color: #222222; font-weight: bold; background-color: #FFFFFF } /* Generic.Output, qualified with span to prevent applying this style to the Go language, see #1153. */
   .gp { color: #222222} /* Generic.Prompt */
   .gs { color: #222222} /* Generic.Strong */
   .gu { color: #222222} /* Generic.Subheading */
-  .gt { color: #FE5E39; font-weight: normal; background-color: #FFFFFF } /* Generic.Traceback */
+  .gt { color: #222222; font-weight: bold; background-color: #FFFFFF } /* Generic.Traceback */
   .kc { color: #222222} /* Keyword.Constant */
   .kd { color: #222222} /* Keyword.Declaration */
   .kn { color: #222222} /* Keyword.Namespace */
@@ -79,5 +79,3 @@
             user-select: none;
   }
 }
-
-
