@@ -834,6 +834,23 @@ main footer styles
 	content: '\25b2\00a0';
 }
 
+
+aside {
+	float: left;
+	width: 20%;
+	padding: 10px 0px 10px 40px;
+}
+
+.posts, .archive {
+	float: right;
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	padding-right: 2.5%;
+	
+}
+
+
 /* -------------------------------------------------- 
 Smaller screen styles
 -----------------------------------------------------*/
@@ -1001,19 +1018,6 @@ Smaller screen styles
 	body {
 		width: 80%;
 		margin: 0 auto;
-	}
-
-	.posts, .archive {
-		float: right;
-		width: 70%;
-		padding-right: 2.5%;
-		
-	}
-
-	aside {
-		float: left;
-		width: 30%;
-		padding: 10px 0px 10px 40px;
 	}
 
 
