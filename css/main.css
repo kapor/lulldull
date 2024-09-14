@@ -491,14 +491,14 @@ nav li a, .toggle-label {
 }
 
 article header {
-	padding-bottom: 20px;
-	margin-bottom: 20px;
-	border-bottom: 1px dashed #aaa;
+	padding-bottom: 0px;
+    margin-bottom: 0px;
+	/*border-bottom: 1px dashed #aaa;*/
 }
 
 article footer {
 	background: none;
-	border-top: 1px dashed #aaa;
+	/*border-top: 1px dashed #aaa;*/
 	font-size: 16px;
 	padding: 0px 0 10px 0;
 	margin-top: 0px;
@@ -689,6 +689,59 @@ ol {
 archive styles
 -----------------------------------------------------*/
 
+
+.thumb_post {
+	height: 200px;
+}
+
+.post_block {
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+}
+
+.right_container {
+	width: 78%;
+	float: right;
+	display: flex;
+	flex-direction: row;
+	/*padding-right: 2.5%;*/
+}
+
+aside {
+	text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    float: left;
+	padding: 10px 0px 10px 40px;
+    overflow-y: auto;
+}
+
+
+.posts {
+	float: right;
+	display: flex;
+	gap: 2%;
+	flex-direction: row;
+	padding-right: 2.5%;
+	
+}
+
+.archive {
+	display: flex;
+	flex-direction: row;
+	padding-right: 2.5%;
+	
+}
+
+
+
+
+
+
+
+
 .archive ul {
 	list-style: none;
 	padding: 0;
@@ -754,16 +807,7 @@ h3:target + .taglist .return {
 sidebar styles
 -----------------------------------------------------*/
 
-aside {
-	padding: 0 1em 0;
-	text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    width: 33.33%;
-    float: left;
-    padding: 60px 0px 15px 0px;
-    overflow-y: auto;
-}
+
 
 aside h3 {
 	color: #4d4d4d;
@@ -835,21 +879,6 @@ main footer styles
 }
 
 
-aside {
-	float: left;
-	width: 20%;
-	padding: 10px 0px 10px 40px;
-}
-
-.posts, .archive {
-	float: right;
-	display: flex;
-	flex-direction: column;
-	width: 80%;
-	padding-right: 2.5%;
-	
-}
-
 
 /* -------------------------------------------------- 
 Smaller screen styles
@@ -865,12 +894,12 @@ Smaller screen styles
 	article header {
 		padding-bottom: 20px;
 		margin-bottom: 20px;
-		border-bottom: 1px dashed #aaa;
+		/*border-bottom: 1px dashed #aaa;*/
 	}
 
 	article footer {
 		background: none;
-		border-top: 1px dashed #aaa;
+		/*border-top: 1px dashed #aaa;*/
 		font-size: 16px;
 		padding: 0px 0 10px 0;
 		margin-top: 0px;
