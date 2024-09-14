@@ -380,15 +380,12 @@ body {
 	font-weight: 300;
 	font-style: normal;
 	background: white;
+	padding: 20px;
 }
 
 
-@media screen and (max-width: 1250px) {
 
-	body {
-		padding: 20px;
-	}
-}
+
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -579,7 +576,12 @@ nav li a, .toggle-label {
 
 
 
-
+main {
+	display: flex;
+    flex-direction: row-reverse;
+	max-width: 1600px;
+    margin: auto;
+}
 
 
 
@@ -873,13 +875,12 @@ sidebar styles
 -----------------------------------------------------*/
 
 aside {
-	padding: 0 1em 0;
-	text-decoration: none;
+    text-decoration: none;
     display: flex;
     flex-direction: column;
-    width: 33.33%;
+    width: 20%;
     float: left;
-    padding: 60px 0px 15px 0px;
+    /* padding: 60px 0px 15px 0px; */
     overflow-y: auto;
 }
 
@@ -1112,24 +1113,24 @@ Smaller screen styles
 
 
 .posts, .archive {
-	max-width: 1200px;
-	margin: auto;
-	padding-top: 40px;
-	
+    width: 78%;
+    float: right;
+    margin: auto;
 }
+
+
+aside {
+	float: left;
+	width: 30%;
+	padding: 10px 0px 10px 0px;
+}
+
 
 
 @media only screen and (min-width: 951px) {
 
 
 
-
-
-	aside {
-		float: left;
-		width: 30%;
-		padding: 10px 0px 10px 40px;
-	}
 
 
 	header h1 {
