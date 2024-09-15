@@ -61,9 +61,45 @@ header h2 {
 	padding-bottom: 16px;
 }
 
+
 .header a {
 	color: #222222;
 }
+
+
+
+.thumb_post {
+	height: 200px;
+	width: 100%;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-position-y: center;
+	filter: saturate(0);
+	transition: all 0.2s;
+}
+
+
+.thumb_post:hover {
+	filter: saturate(1);
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .tag_cloud li {
 	font-family: "trade-gothic-next", sans-serif;
@@ -240,17 +276,6 @@ article {
     border-left: solid 1px #cccccc;
 }
 
-
-.thumb_post {
-	height: 200px;
-	width: 100%;
-    border-radius: 4px;
-    position: relative;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-position-y: center;
-}
 
 
 
