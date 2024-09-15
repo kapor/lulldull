@@ -2,7 +2,7 @@
 layout: post
 title: Picture Dictionary Alphabet
 date: 2018-09-12
-author: ""
+artist: ""
 loc: 
 entity: 
 target: 

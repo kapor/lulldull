@@ -2,7 +2,7 @@
 layout: post
 title: Little Swiss Wood Carver
 date: 2017-06-20
-author: "Unknown"
+artist: "Unknown"
 loc: 
 entity: 
 target: 

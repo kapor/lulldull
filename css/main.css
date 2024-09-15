@@ -296,13 +296,6 @@ td, th {
 Global settings
 -----------------------------------------------------*/
 
-body {
-	font-family: "trade-gothic-next", sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	background: white;
-	direction: ltr;
-}
 
 
 *, *:before, *:after {
@@ -394,9 +387,6 @@ header styles
 	padding: 40px 0px 10px 40px;
 }
 
-header {
-	margin-bottom: 2em;
-}
 
 header h1 {
 	font-size: 40px;
@@ -649,64 +639,6 @@ archive styles
 
 
 
-
-
-
-
-
-
-.archive {
-	display: flex;
-	flex-direction: row;
-	padding-right: 2.5%;
-	
-}
-
-
-
-
-
-
-
-
-.archive ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-.archive h3 {
-	font-size: 22px;
-}
-
-.archive h3:target {
-	font-size: 22px;
-}
-
-.archive li {
-	margin-bottom: 0.5em;
-}
-
-
-
-.return {
-	display: none;
-}
-
-h3:target + .taglist .return {
-	display: block;
-}
-
-.return a {
-	font-size: 0.8em;
-	text-decoration: none;
-	color: #222222;
-}
-
-.return a:before {
-	content: '\25b2\00a0';
-}
-
 /* -------------------------------------------------- 
 sidebar styles
 -----------------------------------------------------*/
@@ -758,11 +690,6 @@ Smaller screen styles
 		float: none;
 	}
 
-	article header {
-		padding-bottom: 20px;
-		margin-bottom: 20px;
-		/*border-bottom: 1px dashed #aaa;*/
-	}
 
 	article footer {
 		background: none;

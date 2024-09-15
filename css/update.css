@@ -7,14 +7,25 @@ html {
 	-ms-text-size-adjust: 100%; /* 2 */
 	-webkit-text-size-adjust: 100%; /* 2 */
 	background: #F8F4F1;
-}
-
-
-body, html {
     margin: 0;
     padding: 0;
     min-width: 300px;
 }
+
+
+
+
+body {
+	font-family: "trade-gothic-next", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	background: white;
+	direction: ltr;
+    margin: 0;
+    padding: 0;
+    min-width: 300px;
+}
+
 
 
 @media only screen and (min-width: 1200px) {
@@ -34,11 +45,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 article h2 {
-	font-size: 2em;
-	font-weight: 400;
-	line-height:1.2;
-	color: #6219FF;
-	margin-bottom:0.2em;
+	font-family: "trade-gothic-next", sans-serif;
+	font-size: 32px;
+    color: #222222;
+}
+
+@media only screen and (max-width: 1200px) {
+
+	article h2 {
+		font-size: 20px;
+	    color: #222222;
+	}
 }
 
 article h2 a {
@@ -48,6 +65,7 @@ article h2 a {
 header h2 {
 	letter-spacing: 0px;
 	padding: 0px 0px 0px 0px;
+	margin: 0px;
 
 }
 
@@ -194,11 +212,12 @@ article {
 
 
 .right_container {
-	width: 78%;
-	float: right;
-	display: flex;
-	flex-direction: row;
-	/*padding-right: 2.5%;*/
+    width: 78%;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    /* padding-right: 2.5%; */
+    padding-top: 24px;
 }
 
 @media screen and (max-width: 800px) {
@@ -248,7 +267,7 @@ article {
 
 
 .tag-cloud {
-	max-width: 600px;
+    max-width: 100%;
 	margin-top: 20px;
 }
 
@@ -259,7 +278,7 @@ article {
 }
 
 .tag-cloud a {
-	font-family: "trade-gothic-next", sans-serif;
+    font-family: "trade-gothic-next", sans-serif;
     font-weight: 300;
     font-style: normal;
     letter-spacing: .75px;
@@ -269,9 +288,9 @@ article {
     font-size: 10px;
     background: #eeeeee;
     color: #444;
-    margin-right: 6px;
-    margin-top: 10px;
-    padding: 2px 4px 2px 4px;
+/*    margin-right: 6px;
+    margin-top: 10px;*/
+    padding: 4px 8px 6px 6px;
     border-radius: 2px;
     border-left: solid 1px #cccccc;
 }
@@ -492,12 +511,12 @@ aside {
 }
 
 aside h3 {
-	color: #4d4d4d;
-	font-size: 18px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	margin-top: 20px;
-	margin-bottom: 10px;
+    color: #4d4d4d;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 14px;
+    margin-bottom: 10px;
 }
 
 
@@ -523,4 +542,91 @@ aside li {
 		display: none;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+/*   ARCHIVE STYLES     */
+
+
+
+.archive {
+	display: flex;
+	flex-direction: row;
+	padding-right: 2.5%;
+	
+}
+
+
+.archive ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.archive h3 {
+	font-size: 20px;
+}
+
+.archive h3:target {
+	font-size: 20px;
+	color: red;
+}
+
+.archive li {
+	margin-bottom: 0.5em;
+}
+
+
+
+.return {
+	display: none;
+
+}
+
+h3:target + .taglist .return {
+	display: block;
+	padding-top: 8px;
+}
+
+.return a {
+	font-family: "trade-gothic-next", sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	text-decoration: none;
+	color: red;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.return a:before {
+	content: '\25b2\00a0';
+}
+
+.taglist li {
+	font-family: letter-gothic-std, monospace;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 14px;
+
+}
+
+.tag_title {
+	font-family: "trade-gothic-next", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 20px;
+}
+
+
+
+
+
+
 

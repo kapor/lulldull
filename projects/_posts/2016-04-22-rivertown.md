@@ -2,7 +2,7 @@
 layout: post
 title: Rivertown Lodge
 date: 2016-04-22
-author: ""
+artist: ""
 loc: 
 entity: 
 target: 

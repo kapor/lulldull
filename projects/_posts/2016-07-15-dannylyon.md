@@ -2,7 +2,7 @@
 layout: post
 title: Danny Lyon
 date: 2016-07-15
-author: "Danny Lyon"
+artist: "Danny Lyon"
 loc: 
 entity: 
 target: 

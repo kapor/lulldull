@@ -2,7 +2,7 @@
 layout: post
 title: Gold Mines of California
 date: 2017-03-03
-author: "Unknown"
+artist: "Unknown"
 loc: 
 entity: 
 target: 

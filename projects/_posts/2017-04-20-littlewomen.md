@@ -2,7 +2,7 @@
 layout: post
 title: Little Women
 date: 2017-04-20
-author: "Betty Fraser"
+artist: "Betty Fraser"
 loc: 
 entity: 
 target: 

@@ -2,7 +2,7 @@
 layout: post
 title: The Scientist
 date: 2019-08-04
-author: ""
+artist: ""
 loc: 
 entity: 
 target: 
