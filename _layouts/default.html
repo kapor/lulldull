@@ -8,25 +8,22 @@
 <link rel="canonical" href="{{site.baseurl}}{{page.url}}"
 <link rel="apple-touch-icon" href="{{site.baseurl}}/apple-touch-icon.png">
 <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
+<link rel="stylesheet" href="{{site.baseurl}}/css/update.css">
 <link rel="stylesheet" href="https://use.typekit.net/bff2sws.css">
+<link rel="stylesheet" href="https://use.typekit.net/krd0wfa.css">
 <script src="{{site.baseurl}}/scripts/modernizr.custom.js"></script>
-<!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
 </head>
 <body>
 <header role="banner" class="page-header" id="top">
-	<h1>{{site.title}}</h1>
+	<h1><a href="{{site.baseurl}}/index.html">{{site.title}}</a></h1>
 	<p>{{site.tagline}}</p>
 <nav role="navigation">
-<input type="checkbox" id="menu-toggle">
-<label for="menu-toggle" class="toggle-label"><span>menu</span></label>
-<ul class="menu">
+
+<!-- <ul class="menu">
 	<li><a href="{{site.baseurl}}/index.html" title="Articles">Blog</a></li>
 	<li><a href="{{site.baseurl}}/about.html" title="learn more">About</a></li>
-	<li><a href="{{site.baseurl}}/resources.html" title="resources">Resources</a></li>
 	<li><a href="{{site.baseurl}}/tags/" title="Archive">Archive</a></li>
-	</ul>
+</ul> -->
 </header>
 {{content}}
 	{% if page.id %}

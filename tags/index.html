@@ -6,8 +6,11 @@ title: Post Archives
 <main role="main" class="cf">
 
 <div class="right_container">
+
 	<article class="archive">
+
 		<article role="article">
+
 			<header>
 				<h2 id="top">{{page.title}}</h2>
 				<ul class="tag-cloud">
@@ -19,6 +22,7 @@ title: Post Archives
 					{% endfor %}
 				</ul>
 			</header>
+			
 				{% for tag in sortedTags %}
 				<h3 id="{{tag | cgi_escape}}">{{tag}}</h3>
 				<ul class="taglist">

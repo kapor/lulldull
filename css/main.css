@@ -3,18 +3,7 @@
 
 
 
-html {
-	-ms-text-size-adjust: 100%; /* 2 */
-	-webkit-text-size-adjust: 100%; /* 2 */
-	background: #F8F4F1;
-}
 
-
-body, html {
-	margin: 0;
-	padding: 0;
-
-}
 
 h1 {
 	margin: 30px 0;
@@ -24,12 +13,6 @@ h1 {
 
 
 
-/* HTML5 display definitions
-========================================================================== */
-
-article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
-	display: block;
-}
 
 /**
 * 1. Correct `inline-block` display not defined in IE 8/9.
@@ -314,18 +297,13 @@ Global settings
 -----------------------------------------------------*/
 
 body {
-	font-family: franklin-gothic-urw, sans-serif;
+	font-family: "trade-gothic-next", sans-serif;
 	font-weight: 300;
 	font-style: normal;
 	background: white;
 	direction: ltr;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: franklin-gothic-urw, sans-serif;
-	font-weight: 300;
-	font-style: normal;
-}
 
 *, *:before, *:after {
 	-webkit-box-sizing: border-box;
@@ -360,7 +338,7 @@ figure {
 
 
 a {
-	color: #6219FF;
+	color: #222222;
 	line-height: inherit;
 	text-decoration: none;
 }
@@ -369,13 +347,6 @@ a:hover {
 	color: #213149;
 }
 
-img, object, embed {
-	max-width: 100%;
-	display: block;
-	height: auto;
-	padding- right: 10px;
-	margin: 20px auto 40px auto;
-}
 
 .left {
 	float: left;
@@ -436,7 +407,7 @@ header h1 {
 }
 
 header p {
-	font-family: franklin-gothic-urw, sans-serif;
+	font-family: "trade-gothic-next", sans-serif;
 	font-weight: 300;
 	font-style: normal;
 	color: #666;
@@ -459,7 +430,7 @@ nav ul, nav li {
 }
 
 nav li a {
-	font-family: franklin-gothic-urw, sans-serif;
+	font-family: "trade-gothic-next", sans-serif;
 	font-weight: 300;
 	font-style: normal;
 	color: white;
@@ -468,14 +439,14 @@ nav li a {
 }
 
 nav li a, .toggle-label {
-    font-family: franklin-gothic-urw, sans-serif;
+    font-family: "trade-gothic-next", sans-serif;
     font-weight: 200;
     font-style: normal;
     font-size: 14px;
     text-transform: uppercase;
-    border: 1px solid #6219FF;
+    border: 1px solid #222222;
     color: white;
-    background: #6219FF;
+    background: #222222;
     margin-right: 0.5em;
     padding: 6px 10px;
     display: inline-block;
@@ -486,9 +457,6 @@ nav li a, .toggle-label {
 
 
 
-.posts, .archive {
-	padding: 0 20px;
-}
 
 article header {
 	padding-bottom: 0px;
@@ -504,25 +472,14 @@ article footer {
 	margin-top: 0px;
 }
 
-article h2 {
-	font-size: 2em;
-	font-weight: 400;
-	line-height:1.2;
-	color: #6219FF;
-	margin-bottom:0.2em;
-}
-
 article h3 {
 	font-weight: 400;
 	font-size: 24px;
-	color: #6219FF;
+	color: #222222;
 	margin-bottom: 20px;
 	color: #222;
 }
 
-article h2 a {
-	text-decoration:none;
-}
 
 article time {
 	display: block;
@@ -551,7 +508,7 @@ p code {
 	margin: 0 0 1em 0;
 	letter-spacing: -0.5px;
 	font-weight: 600;
-	color: #7B7261;
+	color: #222222;
 	padding: auto 3px auto 3px;
 	background-color: #F8F4F1;
 }
@@ -559,11 +516,11 @@ p code {
 pre {
 	font-size: 14px;
 	line-height: 22px;
-	color: #7B7261;
+	color: #222222;
 	padding: 20px 20px;
 	margin-bottom: 40px;
 	margin-top: 20px;
-	border-left: 4px solid #7B7261;
+	border-left: 4px solid #222222;
 	background: #F8F4F1;
 	white-space: pre-wrap;
 	white-space: -moz-pre-wrap;
@@ -587,7 +544,7 @@ figcaption {
 }
 
 blockquote {
-	font-family: franklin-gothic-urw, sans-serif;
+	font-family: "trade-gothic-next", sans-serif;
 	font-weight: 300;
 	font-style: normal;
 	color: #6d6d6d;
@@ -690,43 +647,13 @@ archive styles
 -----------------------------------------------------*/
 
 
-.thumb_post {
-	height: 200px;
-}
-
-.post_block {
-	display: flex;
-	flex-direction: column;
-	width: 48%;
-}
-
-.right_container {
-	width: 78%;
-	float: right;
-	display: flex;
-	flex-direction: row;
-	/*padding-right: 2.5%;*/
-}
-
-aside {
-	text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    width: 20%;
-    float: left;
-	padding: 10px 0px 10px 40px;
-    overflow-y: auto;
-}
 
 
-.posts {
-	float: right;
-	display: flex;
-	gap: 2%;
-	flex-direction: row;
-	padding-right: 2.5%;
-	
-}
+
+
+
+
+
 
 .archive {
 	display: flex;
@@ -760,30 +687,7 @@ aside {
 	margin-bottom: 0.5em;
 }
 
-.tag-cloud {
-	max-width: 600px;
-	margin-top: 20px;
-}
 
-.tag-cloud li {
-	display: inline-block;
-	margin-right: 4px;
-	margin-bottom: 10px;
-}
-
-.tag-cloud a {
-	font-family: franklin-gothic-urw, sans-serif;
-	letter-spacing: 1px;
-	font-weight: 100;
-	text-transform: uppercase;
-	text-decoration: none;
-	font-size: 12px;
-	background: #6219FF;
-	color: white;
-	padding: 4px 6px 4px 6px;
-	border-radius: 0px;
-	margin: 0px;
-}
 
 .return {
 	display: none;
@@ -796,7 +700,7 @@ h3:target + .taglist .return {
 .return a {
 	font-size: 0.8em;
 	text-decoration: none;
-	color: #6219FF;
+	color: #222222;
 }
 
 .return a:before {
@@ -807,43 +711,6 @@ h3:target + .taglist .return {
 sidebar styles
 -----------------------------------------------------*/
 
-
-
-aside h3 {
-	color: #4d4d4d;
-	font-size: 18px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	margin-top: 20px;
-	margin-bottom: 10px;
-}
-
-aside p {
-	font-family: franklin-gothic-urw, sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	font-size: 14px;
-	padding: 0;
-	margin:0;
-	text-decoration: none;
-}
-
-aside ul {
-	font-family: franklin-gothic-urw, sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	font-size: 14px;
-	margin-left: 0px;
-	list-style: none;
-	padding: 0;
-	margin:0;
-	text-decoration: none;
-}
-
-aside li {
-	margin-bottom: 0.5em;
-	text-decoration: none;
-}
 
 
 
@@ -941,7 +808,7 @@ Smaller screen styles
 	}
 
 	nav li {
-		background: #6219FF;
+		background: #222222;
 		margin-bottom: .2em;
 	}
 
@@ -972,7 +839,7 @@ Smaller screen styles
 
 	.toggle-label {
 		display: block;
-		background: #6219FF;
+		background: #222222;
 		font-family: letter-gothic-std, monospace;
 		font-size: 1.2em;
 		font-weight: 400;
@@ -985,25 +852,7 @@ Smaller screen styles
 		cursor: pointer;
 	}
 
-	#menu-toggle {
-		display: none;
-	}
 
-	#menu-toggle:checked + .toggle-label {
-		background: #4d4d4d;
-	}
-
-	#menu-toggle:checked + .toggle-label span {
-		display: none;
-	}
-
-	#menu-toggle:checked + .toggle-label:before {
-		content: 'close';
-	}
-
-	#menu-toggle:checked ~ ul {
-		display: block;
-	}
 
 	pre {
 		font-size: 1.2em;
@@ -1044,76 +893,22 @@ Smaller screen styles
 
 
 
-	body {
-		width: 80%;
-		margin: 0 auto;
-	}
-
-
 	header h1 {
 		font-size: 48px;
 		letter-spacing: 0px;
 	}
 
-	header h2 {
-		letter-spacing: 0px;
-		padding: 0px 0px 0px 0px;
 
-	}
 
 	header p {
-		font-family: franklin-gothic-urw, sans-serif;
+		font-family: "trade-gothic-next", sans-serif;
 		font-weight: 300;
 		font-style: normal;
 		color: #666;
 		text-transform: uppercase;
 	}
 
-	nav {
-		background: none;
-		margin-bottom: 2em;
-	}
 
-	#menu-toggle, .toggle-label {
-		display: none;
-	}
-
-	nav ul {
-		padding: 0;
-		margin: 0;
-		list-style: none;
-		min-height: 0;
-	}
-
-	nav li {
-		display: inline-block;
-		width: 24%;
-		text-align: left;
-	}
-
-	nav li a {
-		font-family: letter-gothic-std, monospace;
-		font-weight: 200;
-		font-style: normal;
-		font-size: 14px;
-		width: 100%;
-		text-transform: uppercase;
-		border: 1px solid #6219FF;
-		color: white;
-		background: #6219FF;
-		margin-right: 0.5em;
-		padding: 6px 10px;
-		display: inline-block;
-		text-decoration: none;
-		letter-spacing: 0.1em;
-	}
-
-	nav li a:hover {
-		color: #6219FF;
-		background: #FFF;
-		border: 1px solid #6219FF;
-		border-collapse: collapse;
-	}
 
 
 	article p {

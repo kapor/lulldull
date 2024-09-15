@@ -2,7 +2,7 @@ title: lulldull
 description: "lulldull"
 baseurl: ""
 url: ""
-tagline: "||||||||||||||||||||||"
+tagline: "REFERENCE REPOSITORY"
 category: ""
 collections_dir: projects
 
@@ -14,6 +14,6 @@ markdown: kramdown
 kramdown:
     auto_ids: false
 paginator: enable 
-paginate: 200
+paginate: 100
 paginate_path: '/blog/page:num/'
 permalink: /blog/:categories/:year/:title/
