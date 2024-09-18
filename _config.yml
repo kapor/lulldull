@@ -14,6 +14,6 @@ markdown: kramdown
 kramdown:
     auto_ids: false
 paginator: enable 
-paginate: 100
+paginate: 50
 paginate_path: '/blog/page:num/'
 permalink: /blog/:categories/:year/:title/

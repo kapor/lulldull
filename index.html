@@ -45,24 +45,26 @@ title: LULLDULL
 
 	{% endfor %}
 
+			<!-- Pagination links -->
+		<div class="pagination">
+			{% if paginator.previous_page %}
+			<a href="{{ paginator.previous_page_path }}" class="previous">back</a>
+			{% else %}
+			<span class="previous"></span>
+			{% endif %}
+			<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+			{% if paginator.next_page %}
+			<a href="{{ paginator.next_page_path }}" class="next">next</a>
+			{% else %}
+			<span class="next "></span>
+		{% endif %}
+		</div>
+
 </div>
 
 
-		<!-- Pagination links -->
-		<div class="pagination">
-		{% if paginator.previous_page %}
-		<a href="{{ paginator.previous_page_path }}" class="previous">back</a>
-		{% else %}
-		<span class="previous"></span>
-		{% endif %}
-		<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
-		{% if paginator.next_page %}
-		<a href="{{ paginator.next_page_path }}" class="next">next</a>
-		{% else %}
-		<span class="next "></span>
-		{% endif %}
-		</div>
-    </article>
+
+	</article>
 
 </main>
 
