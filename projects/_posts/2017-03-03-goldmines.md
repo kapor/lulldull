@@ -16,9 +16,7 @@ permalink:
 
 
 
-{% highlight html %}
-Gold Mines of California
-{% endhighlight %}
+<div class="highlight2">{{ page.title }}</div>
 
 ---
 

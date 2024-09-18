@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Paths
+title: Bookshelf
 date: 2017-02-18
 artist: "Unknown"
 loc: 
@@ -15,9 +15,7 @@ permalink:
 
 
 
-{% highlight html %}
-Bookshelf
-{% endhighlight %}
+<div class="highlight2">{{ page.title }}</div>
 
 ---
 

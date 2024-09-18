@@ -16,9 +16,7 @@ permalink:
 
 
 
-{% highlight html %}
-Danny Lyon
-{% endhighlight %}
+<div class="highlight2">{{ page.title }}</div>
 
 ---
 

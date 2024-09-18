@@ -17,9 +17,7 @@ permalink:
 
 
 
-{% highlight html %}
-Rivertown Lodge Branding
-{% endhighlight %}
+<div class="highlight2">{{ page.title }}</div>
 
 ---
 

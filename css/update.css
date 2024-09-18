@@ -218,6 +218,7 @@ article {
     flex-direction: row;
     /* padding-right: 2.5%; */
     padding-top: 24px;
+    padding-bottom: 60px;
 }
 
 @media screen and (max-width: 800px) {
@@ -590,6 +591,7 @@ aside li {
 
 }
 
+
 h3:target + .taglist .return {
 	display: block;
 	padding-top: 8px;
@@ -629,6 +631,23 @@ h3:target + .taglist .return {
 
 
 
+.highlight2 { 
+	font-family: monospace;
+	font-size: 14px;
+    line-height: 22px;
+    color: #222222;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-left: 4px solid #222222;
+    background: #F8F4F1;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    width: 100%;
+}
 
 
 
@@ -641,7 +660,7 @@ h3:target + .taglist .return {
 	justify-content: space-between;
 	font-size: 16px;
 	text-transform: uppercase;
-    padding: 60px 20px;
+    padding: 80px 0px;
 }
 
 .prevLink {

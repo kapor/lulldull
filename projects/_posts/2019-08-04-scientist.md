@@ -14,9 +14,7 @@ permalink:
 
 ---
 
-{% highlight html %}
-The Scientist
-{% endhighlight %}
+<div class="highlight2">{{ page.title }}</div>
 
 ---
 

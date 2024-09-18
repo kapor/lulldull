@@ -14,9 +14,7 @@ permalink:
 
 ---
 
-{% highlight html %}
-Little Women
-{% endhighlight %}
+<div class="highlight2">{{ page.title }}</div>
 
 ---
 

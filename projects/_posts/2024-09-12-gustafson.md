@@ -15,9 +15,8 @@ permalink:
 
 
 
-{% highlight html %}
-Mats Gustafson
-{% endhighlight %}
+
+<div class="highlight2">{{ page.title }}</div>
 
 ---
 

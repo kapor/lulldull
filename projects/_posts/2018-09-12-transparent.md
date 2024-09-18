@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Picture Dictionary Alphabet
+title: Modern Medical Counselor
 date: 2018-09-12
 artist: ""
 loc: 
@@ -16,9 +16,7 @@ permalink:
 
 
 
-{% highlight html %}
-Modern Medical Counselor
-{% endhighlight %}
+<div class="highlight2">{{ page.title }}</div>
 
 ---
 

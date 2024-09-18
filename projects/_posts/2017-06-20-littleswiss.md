@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Little Swiss Wood Carver
+title: Little Swiss Wood Carver 1929
 date: 2017-06-20
 artist: "Unknown"
 loc: 
@@ -15,10 +15,7 @@ permalink:
 ---
 
 
-
-{% highlight html %}
-Little Swiss Wood Carver
-{% endhighlight %}
+<div class="highlight2">{{ page.title }}</div>
 
 ---
 

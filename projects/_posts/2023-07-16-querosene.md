@@ -15,9 +15,7 @@ permalink:
 
 
 
-{% highlight html %}
-Querosene House: Brazil
-{% endhighlight %}
+<div class="highlight2">{{ page.title }}</div>
 
 ---
 
