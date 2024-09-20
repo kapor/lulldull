@@ -2,10 +2,10 @@
 layout: post
 title: Gold Mines of California
 date: 2017-03-03
-artist: "Unknown"
+artist: 
 loc: 
-entity: 
-target: 
+author: Jack R Wagner
+year: "1970"
 category: 
 tags: [data, illustration, print]
 image: thumbs/2017_goldmines.jpg
@@ -16,7 +16,7 @@ permalink:
 
 
 
-<div class="highlight2">{{ page.title }}</div>
+
 
 ---
 

@@ -1,13 +1,13 @@
 ---
 layout: post
+alt: So They Stood Looking
 title: So They Stood Looking
 date: 2016-04-16
-artist: "Unknown"
+artist: 
 loc: 
-entity: 
-target: 
-category:
+author: 
 year: "1951"
+category:
 tags: [book, illustration, editorial]
 image: thumbs/2016_rootabaga.jpg
 hidden: false
@@ -17,7 +17,7 @@ permalink:
 
 
 
-<div class="highlight2">{{ page.title }}</div>
+
 
 ---
 

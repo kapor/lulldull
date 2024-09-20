@@ -2,10 +2,10 @@
 layout: post
 title: Modern Medical Counselor
 date: 2018-09-12
-artist: ""
+artist: 
 loc: 
-entity: 
-target: 
+author: Hubert Swartout
+year: "1943"
 category: 
 tags: [information, science, education]
 image: thumbs/2018_transparent.jpg
@@ -16,7 +16,7 @@ permalink:
 
 
 
-<div class="highlight2">{{ page.title }}</div>
+
 
 ---
 

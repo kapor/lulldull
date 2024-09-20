@@ -2,10 +2,10 @@
 layout: post
 title: The Scientist
 date: 2019-08-04
-artist: ""
+artist: 
 loc: 
-entity: 
-target: 
+author: Henry Margenau and David Bergamini
+year: "1964"
 category: 
 tags: [print, illustration, science]
 image: thumbs/2019_scientist.jpg
@@ -14,7 +14,7 @@ permalink:
 
 ---
 
-<div class="highlight2">{{ page.title }}</div>
+
 
 ---
 

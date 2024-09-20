@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Education of Vision by Gyorgy Kepes
+title: Education of Vision
 date: 2020-10-12
-artist: "Unknown"
+artist: 
 loc: 
-entity: 
-target: 
+author: Gyorgy Kepes
+year: "1965"
 category: 
 tags: [studies, art, examples]
 image: thumbs/2020_education.jpg
@@ -15,7 +15,7 @@ permalink:
 
 
 
-<div class="highlight2">{{ page.title }}</div>
+
 
 ---
 

@@ -2,10 +2,10 @@
 layout: post
 title: Illustrated Dictionary
 date: 2018-06-05
-artist: "Unknown"
+artist: 
 loc: 
-entity: 
-target: 
+author: 
+year: 
 category: 
 tags: [illusration, animals, birds, culture]
 image: thumbs/2018_dictionary.jpg
@@ -17,7 +17,7 @@ permalink:
 
 
 
-<div class="highlight2">{{ page.title }}</div>
+
 
 ---
 

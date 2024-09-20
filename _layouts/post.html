@@ -15,7 +15,13 @@ page-type: post
         <header>
             <h2>{{page.date | date: "%B %-d, %Y"}}</h2>
         </header>
-
+            {% if page.alt %}
+                <div class="highlight2">{{ page.alt }}</div>
+            {% elsif page.artist %}
+                <div class="highlight2">{{ page.title }} ({{ page.artist }})</div>
+            {% else %}
+                <div class="highlight2">{{ page.title }} {% if page.author %}({{ page.author }}){% endif %}</div>
+            {% endif %}
         {{content}}
 
         <footer>

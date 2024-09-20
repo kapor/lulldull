@@ -1,11 +1,12 @@
 ---
 layout: post
+alt: Rivertown Lodge
 title: Rivertown Lodge
 date: 2016-04-22
 artist: ""
 loc: 
-entity: 
-target: 
+author: 
+year: 
 category: 
 tags: [print, campaign, branding]
 image: thumbs/2016_rivertown.jpg
@@ -17,7 +18,7 @@ permalink:
 
 
 
-<div class="highlight2">{{ page.title }}</div>
+
 
 ---
 

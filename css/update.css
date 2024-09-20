@@ -87,7 +87,7 @@ header h2 {
 
 
 .thumb_post {
-	height: 200px;
+	height: 320px;
 	width: 100%;
     border-radius: 4px;
     position: relative;
@@ -97,6 +97,19 @@ header h2 {
     background-position-y: center;
 	filter: saturate(0);
 	transition: all 0.2s;
+}
+
+@media screen and (max-width: 1000px) {
+	.thumb_post {
+		height: 300px;
+	}
+}
+
+
+@media screen and (max-width: 800px) {
+	.thumb_post {
+		height: 200px;
+	}
 }
 
 

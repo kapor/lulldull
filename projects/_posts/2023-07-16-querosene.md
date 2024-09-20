@@ -4,9 +4,9 @@ title: Querosene House
 date: 2023-07-16
 artist: "Grupo SP"
 loc: Brazil
-entity: 
-target: 
-category: 
+author: 
+year: "2008"
+category: Architecture
 tags: [books, library, architecture, bookshelves]
 image: thumbs/2023_querosene.jpg
 hidden: false
@@ -15,7 +15,7 @@ permalink:
 
 
 
-<div class="highlight2">{{ page.title }}</div>
+
 
 ---
 

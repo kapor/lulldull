@@ -4,8 +4,8 @@ title: Little Women
 date: 2017-04-20
 artist: "Betty Fraser"
 loc: 
-entity: 
-target: 
+author: Louisa May Alcott
+year: 
 category: 
 tags: [print, illustration, book]
 image: thumbs/2017_littlewomen.jpg
@@ -14,7 +14,7 @@ permalink:
 
 ---
 
-<div class="highlight2">{{ page.title }}</div>
+
 
 ---
 

@@ -1,11 +1,12 @@
 ---
 layout: post
+alt: Bookshelf
 title: Bookshelf
 date: 2017-02-18
-artist: "Unknown"
+artist: 
 loc: 
-entity: 
-target: 
+author: 
+year: 
 category: 
 tags: [books, bookshelves]
 image: thumbs/2017_bookshelf.jpg
@@ -15,7 +16,7 @@ permalink:
 
 
 
-<div class="highlight2">{{ page.title }}</div>
+
 
 ---
 

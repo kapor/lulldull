@@ -1,13 +1,14 @@
 ---
 layout: post
+alt: Danny Lyon
 title: Danny Lyon
 date: 2016-07-15
 artist: "Danny Lyon"
 loc: 
-entity: 
-target: 
+author: 
+year: 
 category: 
-tags: [photography, portrait, sad]
+tags: [photography, portrait, street]
 image: thumbs/2016_dannylyon.jpg
 hidden: false
 permalink:
@@ -16,7 +17,7 @@ permalink:
 
 
 
-<div class="highlight2">{{ page.title }}</div>
+
 
 ---
 

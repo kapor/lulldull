@@ -1,11 +1,12 @@
 ---
 layout: post
+alt: Mats Gustafson
 title: Mats Gustafson
 date: 2024-09-12
 artist: "Mats Gustafson"
 loc: 
-entity: 
-target: 
+author: 
+year: 
 category: 
 tags: [fashion, illustration, watercolor]
 image: thumbs/2024_gustafson.jpg
@@ -16,7 +17,7 @@ permalink:
 
 
 
-<div class="highlight2">{{ page.title }}</div>
+
 
 ---
 

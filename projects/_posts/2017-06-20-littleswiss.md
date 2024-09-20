@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Little Swiss Wood Carver 1929
+title: The Little Swiss Wood Carver
 date: 2017-06-20
-artist: "Unknown"
+artist: 
 loc: 
-entity: 
-target: 
+author: Madeline Brandeis
+year: "1929"
 category: 
 tags: [illusration, book, print, editorial]
 image: thumbs/2017_littleswiss.jpg
@@ -15,7 +15,7 @@ permalink:
 ---
 
 
-<div class="highlight2">{{ page.title }}</div>
+
 
 ---
 
