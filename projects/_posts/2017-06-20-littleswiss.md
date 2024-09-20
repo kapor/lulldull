@@ -7,7 +7,7 @@ loc:
 author: Madeline Brandeis
 year: "1929"
 category: 
-tags: [illusration, book, print, editorial]
+tags: [illusration, book, print, editorial, 1920s]
 image: thumbs/2017_littleswiss.jpg
 hidden: false
 permalink:

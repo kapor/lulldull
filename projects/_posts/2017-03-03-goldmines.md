@@ -7,7 +7,7 @@ loc:
 author: Jack R Wagner
 year: "1970"
 category: 
-tags: [data, illustration, print]
+tags: [data, illustration, print, 1970s]
 image: thumbs/2017_goldmines.jpg
 hidden: false
 permalink:

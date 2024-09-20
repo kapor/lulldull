@@ -7,7 +7,7 @@ loc:
 author: Gyorgy Kepes
 year: "1965"
 category: 
-tags: [studies, art, examples]
+tags: [studies, art, examples, 1960s]
 image: thumbs/2020_education.jpg
 hidden: false
 permalink:

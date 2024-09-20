@@ -1,10 +1,4 @@
-<svg width="98" height="98" viewBox="0 0 98 98" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_728_331)">
-<rect width="98" height="98" fill="#222222"/>
-</g>
-<defs>
-<clipPath id="clip0_728_331">
-<rect width="98" height="98" rx="4" fill="white"/>
-</clipPath>
-</defs>
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="400" height="400" fill="#222222"/>
+<path d="M286.472 336.816H113.528V61.5385H146.136V307.751H257.407V239.314H286.472V336.816Z" fill="white"/>
 </svg>

@@ -7,7 +7,7 @@ loc:
 author: Hubert Swartout
 year: "1943"
 category: 
-tags: [information, science, education]
+tags: [information, science, education, 1940s]
 image: thumbs/2018_transparent.jpg
 hidden: false
 permalink:
