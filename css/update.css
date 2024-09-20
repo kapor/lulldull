@@ -84,6 +84,24 @@ header h2 {
 	color: #222222;
 }
 
+.logo {
+	width: 300px;
+}
+
+.logo img {
+	width: 300px;
+}
+
+@media screen and (max-width: 800px) {
+
+	.logo {
+		width: 100%;
+	}
+	.logo img {
+		width: 100%;
+	}
+}
+
 
 
 .thumb_post {
@@ -509,6 +527,52 @@ nav li a {
 
 
 
+.tagline {
+	font-family: letter-gothic-std, monospace;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13px;
+	line-height: 18px;
+    color: #666;
+    text-transform: uppercase;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.page-header {
+	padding: 40px 0px 10px 40px;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+	.page-header {
+		padding: 20px 20px 10px 20px;
+	}
+}
+
+
+header h1 {
+	font-size: 40px;
+	letter-spacing: 0px;
+	margin: 0;
+	padding-bottom: 0px;
+	text-transform: uppercase;
+}
+
+header p {
+	font-family: "trade-gothic-next", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	color: #666;
+	text-transform: uppercase;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
 
 
 
@@ -551,11 +615,20 @@ aside li {
 	text-decoration: none;
 }
 
+@media only screen and (max-width: 1000px) {
+	aside {
+	padding: 10px 0px 10px 20px;
+	}
+}
+
+
 @media only screen and (max-width: 800px) {
 	aside {
 		display: none;
 	}
 }
+
+
 
 
 

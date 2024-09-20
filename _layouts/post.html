@@ -22,6 +22,10 @@ page-type: post
             {% else %}
                 <div class="highlight2">{{ page.title }} {% if page.author %}({{ page.author }}){% endif %}</div>
             {% endif %}
+
+            {% if page.notes %}
+                <div class="highlight2">{{ page.notes }}</div>
+            {% endif %}
         {{content}}
 
         <footer>
