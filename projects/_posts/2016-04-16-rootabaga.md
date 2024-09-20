@@ -8,7 +8,7 @@ entity:
 target: 
 category:
 year: "1951"
-tags: [book, illustration]
+tags: [book, illustration, editorial]
 image: thumbs/2016_rootabaga.jpg
 hidden: false
 permalink:

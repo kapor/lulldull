@@ -7,7 +7,7 @@ loc:
 entity: 
 target: 
 category: 
-tags: [illusration, book, print]
+tags: [illusration, book, print, editorial]
 image: thumbs/2017_littleswiss.jpg
 hidden: false
 permalink:
