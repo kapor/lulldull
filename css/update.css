@@ -193,7 +193,7 @@ header h2 {
     width: 100%;
     gap: 2%;
     flex-direction: row;
-    padding-right: 2.5%;
+    padding: 0 20px;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
@@ -203,15 +203,21 @@ header h2 {
 	    float: right;
 	    display: flex;
 	    gap: 20px;
+		padding: 0 8px;
 	    flex-direction: column;
-	    padding-right: 2.5%;
 	    flex-wrap: wrap;
 	    justify-content: flex-start;
 	}
 }
 
-.posts, .archive {
+.archive {
 	padding: 0 20px;
+}
+
+@media screen and (max-width: 800px) {
+	.archive {
+		padding: 0 8px;
+	}
 }
 
 .post-links {
@@ -236,6 +242,35 @@ p img {
     width: -webkit-fill-available;
     margin: 20px auto 20px auto;
 }
+
+
+@media screen and (max-width: 800px) {
+	.post_image img {
+	    margin: 8px auto;
+	}
+}
+
+
+.post_image_rounded img {
+	max-width: 100%;
+    display: block;
+    height: auto;
+    width: -webkit-fill-available;
+    margin: 20px auto 20px auto;
+	border-radius: 10px;
+}
+
+
+@media screen and (max-width: 800px) {
+	.post_image_rounded img {
+	    margin: 8px auto;
+	    border-radius: 4px;
+	}
+}
+
+
+
+
 
 
 
@@ -740,8 +775,6 @@ h3:target + .taglist .return {
     line-height: 22px;
     color: #222222;
     padding: 20px 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
     border-left: 4px solid #222222;
     background: #F8F4F1;
     white-space: pre-wrap;
@@ -757,9 +790,20 @@ h3:target + .taglist .return {
 	.highlight2 {
 	    font-size: 12px;
 	    padding: 8px 12px;
-	    margin-bottom: 16px;
-	    margin-top: 16px;
 	    border-left: 2px solid #222222;
+	}
+}
+
+.info_container {
+	display: flex;
+	flex-direction: column;
+	margin: 20px auto 20px auto;
+	gap: 8px;
+}
+
+@media only screen and (max-width: 800px) {
+	.info_container {
+		margin: 20px auto 8px auto;
 	}
 }
 
