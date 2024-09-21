@@ -210,6 +210,7 @@ header h2 {
 
 .post-links {
 	width: 100%;
+	padding-top: 100px;
 }
 
 
@@ -259,6 +260,8 @@ article {
 		display: flex;
 		flex-direction: column;
 		/*padding-right: 2.5%;*/
+		padding-top: 0px;
+    	padding-bottom: 60px;
 	}
 }
 
@@ -702,7 +705,9 @@ h3:target + .taglist .return {
 	font-weight: 200;
 	font-style: normal;
 	font-size: 14px;
-
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .tag_title {

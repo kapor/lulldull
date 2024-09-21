@@ -28,10 +28,13 @@ page-type: post
             {% endif %}
         {{content}}
 
-        <footer>
-        <p>{% for tag in page.tags %}<a href="{{ site.baseurl }}/tags/index.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+        <footer class="home_footer">
+                {% for tag in page.tags %}
+                    <div class="post_tag">
+                        <a href="{{site.baseurl}}/tags/index.html#{{tag | cgi_escape}}" title="Posts tagged {{tag}}">{{tag}}</a>
+                    </div>
+                {% unless forloop.last %}{% endunless %} {% endfor %}
         </footer>
-
     </article>
 
 
