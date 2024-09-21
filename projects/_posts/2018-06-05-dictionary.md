@@ -7,7 +7,7 @@ loc:
 author: 
 year: 
 category: 
-tags: [illusration, animals, birds, culture]
+tags: [illustration, animals, birds, culture]
 image: thumbs/2018_dictionary.jpg
 hidden: false
 permalink:

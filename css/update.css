@@ -113,7 +113,7 @@ header h2 {
     background-size: cover;
     background-position: center;
     background-position-y: center;
-	filter: saturate(0);
+	filter: saturate(0.2);
 	transition: all 0.2s;
 }
 
@@ -127,6 +127,7 @@ header h2 {
 @media screen and (max-width: 800px) {
 	.thumb_post {
 		height: 200px;
+		filter: saturate(1);
 	}
 }
 
