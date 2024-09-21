@@ -113,7 +113,7 @@ header h2 {
     background-size: cover;
     background-position: center;
     background-position-y: center;
-	filter: saturate(0.2);
+	filter: saturate(0.4);
 	transition: all 0.2s;
 }
 
