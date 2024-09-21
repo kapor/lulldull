@@ -180,6 +180,12 @@ header h2 {
 	}
 }
 
+.post-footer {
+    margin: 0px 0px;
+    padding: 8px 0px 20px 0px;
+}
+
+
 
 .posts {
     float: right;
@@ -260,7 +266,7 @@ article {
 		display: flex;
 		flex-direction: column;
 		/*padding-right: 2.5%;*/
-		padding-top: 0px;
+		padding-top: 16px;
     	padding-bottom: 60px;
 	}
 }
@@ -544,6 +550,12 @@ nav li a {
     margin-inline-end: 0px;
 }
 
+@media only screen and (max-width: 800px) {
+	.tagline {
+		display: none;
+	}
+}
+
 .page-header {
 	padding: 40px 0px 10px 40px;
 }
@@ -741,6 +753,18 @@ h3:target + .taglist .return {
 }
 
 
+@media only screen and (max-width: 800px) {
+	.highlight2 {
+	    font-size: 12px;
+	    padding: 8px 12px;
+	    margin-bottom: 16px;
+	    margin-top: 16px;
+	    border-left: 2px solid #222222;
+	}
+}
+
+
+
 
 
 .pagination {
@@ -756,13 +780,19 @@ h3:target + .taglist .return {
 
 .prevLink {
 	float: left;
-	width: 50%;
+	width: 40%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .nextLink {
 	float: right;
-	width: 50%;
+	width: 40%;
 	text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 

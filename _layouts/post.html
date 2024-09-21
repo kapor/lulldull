@@ -28,7 +28,7 @@ page-type: post
             {% endif %}
         {{content}}
 
-        <footer class="home_footer">
+        <footer class="post-footer">
                 {% for tag in page.tags %}
                     <div class="post_tag">
                         <a href="{{site.baseurl}}/tags/index.html#{{tag | cgi_escape}}" title="Posts tagged {{tag}}">{{tag}}</a>
