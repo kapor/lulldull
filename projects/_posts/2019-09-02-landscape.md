@@ -132,3 +132,8 @@ permalink:
 	<img src="{{ site.baseurl }}/images/posts/2019_landscape/019.jpg" alt="lulldull"></a>
 </div>
 
+<div class="post_image_rounded">
+	<a href="{{ site.baseurl }}/images/posts/2019_landscape/020.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2019_landscape/020.jpg" alt="lulldull"></a>
+</div>
+

@@ -15,5 +15,5 @@ kramdown:
     auto_ids: false
 paginator: enable 
 paginate: 40
-paginate_path: '/blog/page:num/'
-permalink: /blog/:categories/:year/:title/
+paginate_path: '/page:num/'
+permalink: /:categories/:year/:title/
