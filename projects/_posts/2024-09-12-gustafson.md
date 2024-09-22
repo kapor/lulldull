@@ -18,12 +18,6 @@ permalink:
 
 
 
-
-
----
-
-
-
 <div class="post_image">
 	<a href="{{ site.baseurl }}/images/posts/2024_gustafson/001.jpg" target="_blank">
 	<img src="{{ site.baseurl }}/images/posts/2024_gustafson/001.jpg" alt="lulldull"></a>

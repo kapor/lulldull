@@ -25,13 +25,14 @@ page-type: post
             </a>
             <div class="page_link">
                 <a href="{{ page.link }}" target="_blank">
-                    <div class="link_line">View Information</div>
+                    <div class="link_line">More Information</div>
                 </a>
             </div>
             <div class="date_container">
                 <div class="date_line">{{page.date | date: "%B %-d, %Y"}}</div>
             </div>
         </div>
+        <hr class="header_hr">
      {% else %}
         <div class="page_header">
             {% if page.alt %}
@@ -45,6 +46,7 @@ page-type: post
                 <div class="date_line">{{page.date | date: "%B %-d, %Y"}}</div>
             </div>
         </div>
+        <hr class="header_hr">
     {% endif %}
 
 

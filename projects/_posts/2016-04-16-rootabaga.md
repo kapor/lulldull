@@ -15,13 +15,6 @@ permalink:
 ---
 
 
-
-
-
-
----
-
-
 <div class="post_image">
 	<a href="{{ site.baseurl }}/images/posts/2016_rootabaga/001.jpg" target="_blank">
 	<img src="{{ site.baseurl }}/images/posts/2016_rootabaga/001.jpg" alt="lulldull"></a>

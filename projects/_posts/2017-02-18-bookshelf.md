@@ -14,14 +14,6 @@ hidden: false
 permalink:
 ---
 
-
-
-
-
----
-
-
-
 <div class="post_image">
 	<a href="{{ site.baseurl }}/images/posts/2017_bookshelf/001.jpg" target="_blank">
 	<img src="{{ site.baseurl }}/images/posts/2017_bookshelf/001.jpg" alt="lulldull"></a>

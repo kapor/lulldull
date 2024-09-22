@@ -7,6 +7,7 @@ loc:
 author: 
 year: 
 category: 
+link: https://www.amazon.com/Fundamentals-Physiology-Elbert-Tokay/dp/0064632210
 tags: [science, body, anatomy, medical, diagram, information, 1970s]
 image: thumbs/2020_physiology.jpg
 hidden: false
@@ -14,10 +15,6 @@ permalink:
 ---
 
 
-
-
-
----
 
 
 
