@@ -25,8 +25,11 @@ page-type: post
             </a>
             <div class="page_link">
                 <a href="{{ page.link }}" target="_blank">
-                    <div class="link_line">More Information</div>
+                    <div class="link_line">View Information</div>
                 </a>
+            </div>
+            <div class="date_container">
+                <div class="date_line">{{page.date | date: "%B %-d, %Y"}}</div>
             </div>
         </div>
      {% else %}
@@ -38,6 +41,9 @@ page-type: post
             {% else %}
                 <div class="post_title">{{ page.title }} {% if page.author %}({{ page.author }}){% endif %}</div>
             {% endif %}
+            <div class="date_container">
+                <div class="date_line">{{page.date | date: "%B %-d, %Y"}}</div>
+            </div>
         </div>
     {% endif %}
 
@@ -47,9 +53,6 @@ page-type: post
 
 
 
-        <div class="date_container">
-            <div class="date_line">{{page.date | date: "%B %-d, %Y"}}</div>
-        </div>
 
         {% if page.notes %}
             <div class="info_container">

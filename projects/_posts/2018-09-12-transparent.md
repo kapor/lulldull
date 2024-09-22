@@ -18,8 +18,6 @@ permalink:
 
 
 
----
-
 
 <div class="post_image">
 	<a href="{{ site.baseurl }}/images/posts/2018_transparent/001.jpg" target="_blank">

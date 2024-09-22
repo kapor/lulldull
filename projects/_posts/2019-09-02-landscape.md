@@ -18,10 +18,6 @@ permalink:
 
 
 
----
-
-
-
 <div class="post_image_rounded">
 	<a href="{{ site.baseurl }}/images/posts/2019_landscape/001.jpg" target="_blank">
 	<img src="{{ site.baseurl }}/images/posts/2019_landscape/001.jpg" alt="lulldull"></a>
