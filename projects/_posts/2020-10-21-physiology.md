@@ -5,9 +5,9 @@ date: 2020-10-21
 artist: Elbert Tokay
 loc: 
 author: 
-year: 
+year: "1967"
 category: 
-link: https://www.amazon.com/Fundamentals-Physiology-Elbert-Tokay/dp/0064632210
+link: "https://archive.org/details/fundamentalsofph0000elbe_h5p2/page/n10/mode/thumb"
 tags: [science, body, anatomy, medical, diagram, information, 1970s]
 image: thumbs/2020_physiology.jpg
 hidden: false
