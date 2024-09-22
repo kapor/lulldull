@@ -96,6 +96,7 @@ header h2 {
 
 	.logo {
 		width: 100%;
+		display: block;
 	}
 	.logo img {
 		width: 100%;
@@ -136,6 +137,134 @@ header h2 {
 	filter: saturate(1);
 	border: none;
 }
+
+
+
+.post_title {
+	font-family: "trade-gothic-next", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 24px;
+    color: #222222;
+	letter-spacing: 0px;
+	padding: 0px 0px 8px 0px;
+	margin: 0px;
+}
+
+
+
+
+.date_line {
+	font-family: letter-gothic-std, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #666;
+    text-transform: uppercase;
+    margin-block-start: 24px;
+    margin-block-end: 16px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.link_line {
+	font-family: letter-gothic-std, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #666;
+    display: block;
+    /* text-transform: uppercase; */
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+
+
+
+.page_header {
+	display: block;
+    margin-bottom: 0px;
+    width: fit-content;
+    border-left: 2px solid #888;
+    padding: 4px 20px 4px 20px;
+}
+
+@media screen and (max-width: 600px) {
+
+	.page_header {
+		display: block;
+	    margin-bottom: 0px;
+	    width: fit-content;
+	    border-left: 2px solid #888;
+	    padding: 4px 20px 4px 20px;
+	}
+}
+
+.page_link {
+	display: block;
+	height: 24px;
+}
+
+
+
+
+
+
+
+article header {
+    padding-bottom: 0px;
+    display: block;
+    margin-bottom: 0px;
+    width: fit-content;
+    border-left: 2px solid #888;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+
+	article header {
+	    padding-bottom: 0px;
+	    display: block;
+	    margin-bottom: 0px;
+	    width: fit-content;
+	    border-left: 2px solid #888;
+	    padding-left: 20px;
+	}
+}
+
+article header a {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -201,13 +330,25 @@ header h2 {
 
 @media screen and (max-width: 800px) {
 	.posts {
-	    float: right;
-	    display: flex;
-	    gap: 20px;
-		padding: 0 8px;
-	    flex-direction: column;
-	    flex-wrap: wrap;
-	    justify-content: flex-start;
+        float: right;
+        display: flex;
+        gap: 20px;
+        padding: 0 20px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.posts {
+        float: right;
+        display: flex;
+        gap: 20px;
+        padding: 0 8px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
 	}
 }
 
@@ -229,25 +370,43 @@ header h2 {
 
 
 p img {
-    max-width: 100%;
+	max-width: 100%;
     display: block;
     height: auto;
     width: -webkit-fill-available;
-    margin: 20px auto 20px auto;
+    margin: auto;
 }
+
+.post_image {
+    margin: 20px auto;
+}
+
+
+@media screen and (max-width: 800px) {
+	.post_image {
+	    margin: 8px auto;
+	}
+}
+
+
+article div {
+    display: flex;
+    unicode-bidi: isolate;
+}
+
 
 .post_image img {
 	max-width: 100%;
     display: block;
     height: auto;
     width: -webkit-fill-available;
-    margin: 20px auto 20px auto;
+    margin: auto;
 }
 
 
 @media screen and (max-width: 800px) {
 	.post_image img {
-	    margin: 8px auto;
+	    margin: auto;
 	}
 }
 
@@ -268,6 +427,71 @@ p img {
 	    border-radius: 4px;
 	}
 }
+
+
+
+.post_image_flex img {
+	max-width: 100%;
+    display: flex;
+    height: auto;
+    width: -webkit-fill-available;
+    margin: 20px auto 20px auto;
+	border-radius: 10px;
+}
+
+
+@media screen and (max-width: 800px) {
+	.post_image_flex img {
+	    margin: 8px auto;
+	    border-radius: 4px;
+	}
+}
+
+
+
+
+.post_tiled {  
+	dispay: flex;
+	flex-direction: column;
+}
+
+.post_row {  
+	dispay: flex;
+	flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -606,10 +830,15 @@ nav li a {
 
 @media only screen and (max-width: 800px) {
     .page-header {
-        padding: 8px 8px 10px 8px;
+		padding: 20px 20px 10px 20px;
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .page-header {
+		padding: 8px 8px 10px 8px;
+    }
+}
 
 header h1 {
 	font-size: 40px;
@@ -714,18 +943,18 @@ aside li {
 	margin: 0;
 }
 
-.archive h3 {
+/*.archive h3 {
 	font-size: 20px;
-}
+}*/
 
 .archive h3:target {
-	font-size: 20px;
+/*	font-size: 20px;*/
 	color: red;
 }
 
-.archive li {
+/*.archive li {
 	margin-bottom: 0.5em;
-}
+}*/
 
 
 
@@ -762,6 +991,7 @@ h3:target + .taglist .return {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+	margin-bottom: 0.5em;
 }
 
 .tag_title {
@@ -769,6 +999,14 @@ h3:target + .taglist .return {
 	font-weight: 200;
 	font-style: normal;
 	font-size: 20px;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+	margin: 20px auto 10px auto;
 }
 
 

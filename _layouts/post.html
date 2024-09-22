@@ -12,23 +12,51 @@ page-type: post
 
     <article role="article">
 
-        <header>
-            {% if page.alt %}
-                <h2>{{ page.alt }}</h2>
-            {% elsif page.artist %}
-                <h2>{{ page.title }} ({{ page.artist }})</h2>
-            {% else %}
-                <h2>{{ page.title }} {% if page.author %}({{ page.author }}){% endif %}</h2>
-            {% endif %}
-
-            {% if page.notes %}
-                <h2>{{ page.notes }}</h2>
-            {% endif %}
-        </header>
-
-        <div class="info_container">
-            <div class="highlight2">{{page.date | date: "%B %-d, %Y"}}</div>
+    {% if page.link %}
+            <div class="page_header">
+            <a href="{{ page.link }}" target="_blank">
+                {% if page.alt %}
+                   <div class="post_title">{{ page.alt }}</div>
+                {% elsif page.artist %}
+                    <div class="post_title">{{ page.title }} ({{ page.artist }})</div>
+                {% else %}
+                    <div class="post_title">{{ page.title }} {% if page.author %}({{ page.author }}){% endif %}</div>
+                {% endif %}
+            </a>
+            <div class="page_link">
+                <a href="{{ page.link }}" target="_blank">
+                    <div class="link_line">More Information</div>
+                </a>
+            </div>
         </div>
+     {% else %}
+        <div class="page_header">
+            {% if page.alt %}
+               <div class="post_title">{{ page.alt }}</div>
+            {% elsif page.artist %}
+               <div class="post_title">{{ page.title }} ({{ page.artist }})</div>
+            {% else %}
+                <div class="post_title">{{ page.title }} {% if page.author %}({{ page.author }}){% endif %}</div>
+            {% endif %}
+        </div>
+    {% endif %}
+
+
+
+
+
+
+
+        <div class="date_container">
+            <div class="date_line">{{page.date | date: "%B %-d, %Y"}}</div>
+        </div>
+
+        {% if page.notes %}
+            <div class="info_container">
+                <div class="highlight2">{{ page.notes }}</div>
+            </div>
+        {% endif %}
+
 
         {{content}}
 
