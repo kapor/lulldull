@@ -13,11 +13,25 @@ title: LULLDULL
 
  	<article class="post_block">
 
-        <div class="header">
+    <div class="header">
+            {% if post.alt %}
+                <a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">{{ post.alt }}</a>
+            {% elsif post.artist %}
+                <a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">{{ post.title }} ({{ post.artist }})</a>
+            {% else %}
+                <a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">{{ post.title }} {% if post.author %}({{ post.author }}){% endif %}</a>
+            {% endif %}
+
+            {% if post.notes %}
+                <a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">{{ post.notes }}</a>
+            {% endif %}
+		</div>
+
+<!--     <div class="header">
 			<a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">
 				{{post.date | date: "%B %-d, %Y"}}</a>
 		</div>
-
+ -->
 
 			<a href="{{site.baseurl}}{{post.url}}" title="it's ok.">
 				<div class="thumb_post" style="background-image: url( {{ site.baseurl }}/images/{{ post.image }} );"></div>

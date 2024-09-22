@@ -13,23 +13,22 @@ page-type: post
     <article role="article">
 
         <header>
-            <h2>{{page.date | date: "%B %-d, %Y"}}</h2>
-        </header>
-
-        <div class="info_container">
             {% if page.alt %}
-                <div class="highlight2">{{ page.alt }}</div>
+                <h2>{{ page.alt }}</h2>
             {% elsif page.artist %}
-                <div class="highlight2">{{ page.title }} ({{ page.artist }})</div>
+                <h2>{{ page.title }} ({{ page.artist }})</h2>
             {% else %}
-                <div class="highlight2">{{ page.title }} {% if page.author %}({{ page.author }}){% endif %}</div>
+                <h2>{{ page.title }} {% if page.author %}({{ page.author }}){% endif %}</h2>
             {% endif %}
 
             {% if page.notes %}
-                <div class="highlight2">{{ page.notes }}</div>
+                <h2>{{ page.notes }}</h2>
             {% endif %}
-        </div>
+        </header>
 
+        <div class="info_container">
+            <div class="highlight2">{{page.date | date: "%B %-d, %Y"}}</div>
+        </div>
 
         {{content}}
 
