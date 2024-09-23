@@ -1144,7 +1144,7 @@ h3:target + .taglist .return {
 
 
 .highlight2 { 
-	font-family: monospace;
+	font-family: letter-gothic-std, monospace;
 	font-size: 14px;
     line-height: 22px;
     color: #222222;
