@@ -421,7 +421,7 @@ hr {
 
 
 div {
-    display: flex;
+    display: block;
     unicode-bidi: isolate;
 }
 
@@ -584,6 +584,19 @@ div .post_row {
 
 
 .lost_container {
+	font-family: "trade-gothic-next", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 56px;
+    padding: 100px;
+	margin: auto;
+	max-width: 800px;
+	text-align: center;
+}
+
+
+.lost_container2 {
 	font-family: "trade-gothic-next", sans-serif;
     font-weight: 300;
     font-style: normal;
