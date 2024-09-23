@@ -14,6 +14,6 @@ markdown: kramdown
 kramdown:
     auto_ids: false
 paginator: enable 
-paginate: 40
+paginate: 24
 paginate_path: '/page:num/'
 permalink: /:categories/:year/:title/
