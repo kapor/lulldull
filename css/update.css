@@ -1,7 +1,16 @@
 /* add syntax highlight styles */
 @import url("syntax-highlighting.css");
 
-
+/* reset margins */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, header, hgroup, menu, nav, output, section, summary, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	vertical-align: baseline;
+    text-overflow: ellipsis;
+}
 
 html {
 	-ms-text-size-adjust: 100%; /* 2 */
@@ -479,33 +488,39 @@ p img {
 
 
 
+div {
+    display: flex;
+    unicode-bidi: isolate;
+}
 
 
 
-
-.post_tiled {  
+div.post_tiled {  
 	dispay: flex;
 	flex-direction: column;
 	margin-top: 20px;
+	gap: 20px;
 }
 
 @media screen and (max-width: 600px) {
-	.post_tiled {  
+	div.post_tiled {  
 		dispay: flex;
 		flex-direction: column;
 		margin-top: 8px;
+		gap: 8px;
 	}
 }
 
-.post_row {  
+div.post_row {  
 	dispay: flex;
 	flex-direction: row;
+	gap: 20px;
 }
 
 
 @media screen and (max-width: 600px) {
-	.post_row {  
-		display: block;
+	div.post_row {  
+		gap: 8px;
 	}
 }
 
@@ -534,13 +549,34 @@ p img {
 
 
 
+.lost_container {
+	font-family: "trade-gothic-next", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 56px;
+    padding: 100px;
+	margin: auto;
+	max-width: 800px;
+	text-align: center;
+}
 
 
 
 
+@media screen and (max-width: 800px) {
+	.lost_container {
+		font-family: "trade-gothic-next", sans-serif;
+	    font-weight: 300;
+	    font-style: normal;
+	    font-size: 32px;
+	    line-height: 40px;
+	    padding: 48px;
+		max-width: 800px;
+		text-align: center;
+	}
 
-
-
+}
 
 
 
