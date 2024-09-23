@@ -518,12 +518,12 @@ article div {
 }
 
 
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
 	.post_row {  
 		flex-direction: column;
 	}
 }
-
+*/
 
 
 
