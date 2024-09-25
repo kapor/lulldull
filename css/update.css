@@ -562,6 +562,80 @@ div .post_row {
 
 
 
+article img {
+    width: 100%;
+    background-size: cover;
+    border-radius: 4px;
+}
+
+
+.post_image_01 {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	padding: 20px 0px 0px 0px;
+}
+
+@media screen and (max-width: 1000px) {
+
+	.post_image_01 {
+		display: flex;
+		flex-direction: row;
+		gap: 20px;
+		padding: 20px 0px 0px 0px;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+
+	.post_image_01 {
+		display: flex;
+		flex-direction: row;
+		gap: 8px;
+		padding: 8px 0px 0px 0px;
+	}
+
+}
+
+
+.post_image_inner {
+	display: flex;
+	flex-direction: row;
+
+}
+
+
+.post_image_02 {
+	display: flex;
+	flex-direction: column;
+	gap: 0px;
+	padding: 20px 0px 0px 0px;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+	.post_image_02 {
+		display: flex;
+		flex-direction: column;
+		gap: 0px;
+		padding: 20px 0px 0px 0px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
