@@ -1279,3 +1279,59 @@ h3:target + .taglist .return {
 
 
 
+
+.header_02 {
+	font-family: letter-gothic-std, monospace;
+	font-weight: 800;
+	width: 100%;
+	font-size: 120px;
+	display: flex;
+	justify-content: space-between;
+	text-transform: uppercase;
+    padding: 40px 0px 20px 0px;
+}
+
+.image_caption {
+	font-family: letter-gothic-std, monospace;
+	font-weight: 800;
+	background-color: #efefef;
+	font-size: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 16px;
+	text-transform: uppercase;
+    padding: 4px 0px 4px 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
