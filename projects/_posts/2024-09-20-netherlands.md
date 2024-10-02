@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Stamps_Netherlands"
-date:  2024-07-20
+date:  2024-09-20
 artist: 
 loc: 
 author: 
@@ -9,7 +9,7 @@ year:
 category: Stamps
 images: "100+"
 link: "https://geheugen.delpher.nl/nl/geheugen/results?coll=ngvn&facets%5BcollectionStringNL%5D%5B%5D=Ontwerpen+voor+de+PTT%2C+een+beeldverhaal+van+150+jaar&maxperpage=36&page=1&query="
-notes: A selection of postage stamps from the Netherlands – light years ahead of their time. 
+notes: A (huge) chronological selection of postage stamps from the Netherlands – light years ahead of their time. 
 tags: [stamps, graphic, netherlands, design, book, global, postage]
 image: thumbs/2024_netherlands.jpg
 hidden: false

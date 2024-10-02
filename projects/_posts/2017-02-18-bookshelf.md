@@ -7,7 +7,8 @@ artist:
 loc: 
 author: 
 year: 
-category: 
+category: Bookshelves
+notes: Trying to figure out how they'd access the books in the top-right...
 tags: [books, bookshelves]
 image: thumbs/2017_bookshelf.jpg
 hidden: false

@@ -25,8 +25,8 @@ html {
 
 
 body {
-	font-family: "trade-gothic-next", sans-serif;
-	font-weight: 300;
+	font-family: letter-gothic-std, monospace;
+	font-weight: 200;
 	font-style: normal;
 	background: white;
 	direction: ltr;
@@ -48,13 +48,13 @@ body {
 
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "trade-gothic-next", sans-serif;
-	font-weight: 300;
+	font-family: letter-gothic-std, monospace;
+	font-weight: 200;
 	font-style: normal;
 }
 
 article h2 {
-	font-family: "trade-gothic-next", sans-serif;
+	font-family: letter-gothic-std, monospace;
 	font-size: 32px;
     color: #222222;
 }
@@ -80,12 +80,64 @@ header h2 {
 
 
 .header {
-	font-family: "trade-gothic-next", sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	color: #222222;
+    font-family: "base-mono-narrow", monospace;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-style: normal;
+    color: #222222;
+    font-size: 28px;
+    line-height: 40px;
+    padding: 4px 8px;
+    background-color: #F8F4F1;
+}
+
+.post_block_right_info {
+	display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex-wrap: nowrap;
+    height: -webkit-fill-available;
+
+	font-family: "t26-carbon", monospace;
+    font-weight: 100;
+    font-style: normal;
 	font-size: 16px;
-	padding-bottom: 16px;
+    letter-spacing: -.5px;
+    line-height: 24px;
+}
+
+.post_block_artist {
+    color: #222222;
+    padding: 8px;
+    background-color: #F8F4F1;
+    letter-spacing: 2px;
+/*    margin: 4px 0px;*/
+    font-weight: 400;
+}
+
+.post_block_notes {
+    color: #222222;
+    padding: 8px;
+    background-color: #F8F4F1;
+/*    margin: 4px 0px;*/
+	height: -webkit-fill-available;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.post_block_tags {
+    color: #222222;
+    padding: 8px;
+    background-color: #F8F4F1;
+/*    margin: 4px 0px;*/
+}
+
+.post_block_right_info .post_entry {
+	font-family: letter-gothic-std, monospace;
+	font-weight: 200;
+	font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0px;
 }
 
 
@@ -109,27 +161,26 @@ header h2 {
 	}
 	.logo img {
 		width: 100%;
+		border-radius: 6px;
 	}
 }
 
 
 
 .thumb_post {
-	height: 320px;
-	width: 100%;
-    border-radius: 4px;
+    height: 320px;
+    /*border-radius: 4px;*/
     position: relative;
     overflow: hidden;
     background-size: cover;
     background-position: center;
     background-position-y: center;
-	filter: saturate(0.8);
-	transition: all 0.2s;
+    filter: saturate(0.8);
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
 	.thumb_post {
-		height: 300px;
+	    height: 400px;
 	}
 }
 
@@ -150,14 +201,14 @@ header h2 {
 
 
 .post_title {
-	font-family: "trade-gothic-next", sans-serif;
-	font-weight: 300;
-	font-style: normal;
-	font-size: 32px;
+    font-family: "base-mono-narrow", monospace;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-style: normal;
     color: #222222;
-	letter-spacing: 0px;
-	padding: 0px 0px 8px 0px;
-	margin: 0px;
+    font-size: 32px;
+    line-height: 40px;
+    padding: 4px 0px;
 }
 
 @media screen and (max-width: 800px) {
@@ -170,8 +221,8 @@ header h2 {
 
 
 .date_line {
-	font-family: letter-gothic-std, monospace;
-    font-weight: 400;
+	font-family: "t26-carbon", monospace;
+    font-weight: 100;
     font-style: normal;
     font-size: 13px;
     line-height: 18px;
@@ -186,8 +237,8 @@ header h2 {
 }
 
 .link_line {
-	font-family: letter-gothic-std, monospace;
-    font-weight: 400;
+	font-family: "t26-carbon", monospace;
+    font-weight: 100;
     font-style: normal;
     font-size: 13px;
     line-height: 18px;
@@ -316,8 +367,8 @@ hr {
 
 
 .tag_cloud li {
-	font-family: "trade-gothic-next", sans-serif;
-	font-weight: 300;
+	font-family: letter-gothic-std, monospace;
+	font-weight: 200;
 	font-style: normal;
     letter-spacing: .75px;
     display: inline-block;
@@ -333,8 +384,10 @@ hr {
 }
 
 .home_footer {
-    margin: 0px 0px;
-    padding: 8px 0px 20px 0px;
+	margin: 0px 0px;
+    padding: 8px 0px 0px 0px;
+    max-height: 32px;
+    overflow: hidden;
 }
 
 
@@ -354,11 +407,11 @@ hr {
 
 
 .posts {
-    float: right;
+	float: right;
     display: flex;
     width: 100%;
     gap: 2%;
-    flex-direction: row;
+    flex-direction: column;
     padding: 0 20px;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -377,15 +430,15 @@ hr {
 }
 
 @media screen and (max-width: 600px) {
-	.posts {
+    .posts {
         float: right;
         display: flex;
         gap: 20px;
-        padding: 0 8px;
+        padding: 0px;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: flex-start;
-	}
+    }
 }
 
 .archive {
@@ -647,7 +700,7 @@ article img {
 
 
 .lost_container {
-	font-family: "trade-gothic-next", sans-serif;
+	font-family: letter-gothic-std, monospace;
     font-weight: 300;
     font-style: normal;
     font-size: 48px;
@@ -660,7 +713,7 @@ article img {
 
 
 .lost_container2 {
-	font-family: "trade-gothic-next", sans-serif;
+	font-family: letter-gothic-std, monospace;
     font-weight: 300;
     font-style: normal;
     font-size: 48px;
@@ -676,7 +729,7 @@ article img {
 
 @media screen and (max-width: 800px) {
 	.lost_container {
-		font-family: "trade-gothic-next", sans-serif;
+		font-family: letter-gothic-std, monospace;
 	    font-weight: 300;
 	    font-style: normal;
 	    font-size: 32px;
@@ -727,21 +780,39 @@ article {
 
 .post_block {
 	display: flex;
-	flex-direction: column;
-	width: 48%;
+    flex-direction: row;
+    border-radius: 6px;
+    overflow: hidden;
+    gap: 8px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
 }
 
 @media screen and (max-width: 800px) {
 	.post_block {
 		display: flex;
-		flex-direction: column;
-		width: 100%;
+        flex-direction: column;
+        width: 100%;
+        gap: 8px;
+   		margin-bottom: 0px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.post_block {
+	    display: flex;
+        flex-direction: column;
+	    border-radius: 0px;
+	    padding-bottom: 0px;
+	    border: none;
+	    border-bottom: 4px solid #222222;
 	}
 }
 
 
 .post_tag {
-	font-family: "trade-gothic-next", sans-serif;
+	font-family: letter-gothic-std, monospace;
     font-weight: 300;
     font-style: normal;
     letter-spacing: .75px;
@@ -758,6 +829,23 @@ article {
     border-left: solid 1px #cccccc;
 }
 
+.post_tag2 {
+	font-family: letter-gothic-std, monospace;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: .75px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 10px;
+    background: #FFFFFF;
+    color: #444;
+    margin-right: 6px;
+    margin-top: 8px;
+    padding: 2px 2px 2px 4px;
+    border-radius: 2px;
+}
+
 
 .tag-cloud {
     max-width: 100%;
@@ -771,7 +859,7 @@ article {
 }
 
 .tag-cloud a {
-    font-family: "trade-gothic-next", sans-serif;
+    font-family: letter-gothic-std, monospace;
     font-weight: 300;
     font-style: normal;
     letter-spacing: .75px;
@@ -856,8 +944,8 @@ nav li {
 }
 
 nav li a {
-	font-family: "trade-gothic-next", sans-serif;
-	font-weight: 300;
+	font-family: letter-gothic-std, monospace;
+	font-weight: 200;
 	font-style: normal;
 	color: white;
 	text-decoration: none;
@@ -865,7 +953,7 @@ nav li a {
 }
 
 nav li a {
-    font-family: "trade-gothic-next", sans-serif;
+    font-family: letter-gothic-std, monospace;
     font-weight: 200;
     font-style: normal;
     font-size: 14px;
@@ -881,7 +969,7 @@ nav li a {
 }
 
 .toggle-label {
-    font-family: "trade-gothic-next", sans-serif;
+    font-family: letter-gothic-std, monospace;
     font-weight: 200;
     font-style: normal;
     font-size: 14px;
@@ -1028,7 +1116,7 @@ nav li a {
 
 @media only screen and (max-width: 600px) {
     .page-header {
-		padding: 16px 16px 10px 16px;
+		padding: 8px 8px 0px 8px;
     }
 }
 
@@ -1041,8 +1129,8 @@ header h1 {
 }
 
 header p {
-	font-family: "trade-gothic-next", sans-serif;
-	font-weight: 300;
+	font-family: letter-gothic-std, monospace;
+	font-weight: 200;
 	font-style: normal;
 	color: #666;
 	text-transform: uppercase;
@@ -1077,14 +1165,16 @@ aside h3 {
 
 
 aside ul {
-	font-family: "trade-gothic-next", sans-serif;
-	font-weight: 300;
+	font-family: "t26-carbon", monospace;
+    font-weight: 100;
 	font-style: normal;
-	font-size: 14px;
+    color: #222222;
+	font-size: 16px;
+	line-height: 20px;
 	margin-left: 0px;
 	list-style: none;
 	padding: 0;
-	margin:0;
+	margin: 0;
 	text-decoration: none;
 }
 
@@ -1162,7 +1252,7 @@ h3:target + .taglist .return {
 }
 
 .return a {
-	font-family: "trade-gothic-next", sans-serif;
+	font-family: letter-gothic-std, monospace;
 	font-weight: 400;
 	font-size: 12px;
 	text-decoration: none;
@@ -1187,7 +1277,7 @@ h3:target + .taglist .return {
 }
 
 .tag_title {
-	font-family: "trade-gothic-next", sans-serif;
+	font-family: letter-gothic-std, monospace;
 	font-weight: 200;
 	font-style: normal;
 	font-size: 20px;
@@ -1330,12 +1420,43 @@ h3:target + .taglist .return {
 }
 
 
+.post_block_left {
+    float: left;
+    width: 50%;
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    margin: 8px 0px 8px 8px;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 800px) {
+	.post_block_left {
+		float: left;
+        width: -webkit-fill-available;
+        margin: 8px 8px 0px 8px;
+	}
+}
+
+
+.post_block_right {
+    float: right;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 8px 8px 8px 0px;
+    justify-content: space-between;
+}
 
 
 
-
-
-
+@media only screen and (max-width: 800px) {
+	.post_block_right {
+		float: right;
+        width: -webkit-fill-available;
+        margin: 0px 8px 8px 8px;
+	}
+}
 
 
 

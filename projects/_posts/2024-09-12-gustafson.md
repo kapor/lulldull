@@ -7,7 +7,7 @@ artist: "Mats Gustafson"
 loc: 
 author: 
 year: 
-category:
+category: Publication
 link: "http://matsgustafson.org/" 
 tags: [fashion, illustration, watercolor]
 image: thumbs/2024_gustafson.jpg
