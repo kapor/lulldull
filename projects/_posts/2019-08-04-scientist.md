@@ -6,7 +6,7 @@ artist:
 loc: 
 author: Henry Margenau and David Bergamini
 year: "1964"
-category: 
+category: Illustration
 tags: [print, illustration, science, 1960s]
 image: thumbs/2019_scientist.jpg
 hidden: false

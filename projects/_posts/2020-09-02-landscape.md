@@ -3,11 +3,11 @@ layout: post
 alt: Landscaping Guide 2
 title: Practical Guide to Home Landscaping
 date: 2020-09-02
-artist: 
+artist: Unknown
 loc: 
 author: 
 year: "1971"
-category:
+category: Book
 tags: [garden, landscaping, illustration, diagram, nature, information, data, 1970s]
 image: thumbs/2020_landscape.jpg
 hidden: false

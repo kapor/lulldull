@@ -18,9 +18,9 @@ page-type: post
                 {% if page.alt %}
                    <div class="post_title">{{ page.alt }}</div>
                 {% elsif page.artist %}
-                    <div class="post_title">{{ page.title }} ({{ page.artist }})</div>
+                    <div class="post_title">{{ page.title }}</div>
                 {% else %}
-                    <div class="post_title">{{ page.title }} {% if page.author %}({{ page.author }}){% endif %}</div>
+                    <div class="post_title">{{ page.title }} {% if page.author %}{% endif %}</div>
                 {% endif %}
             </a>
             <div class="page_link">
@@ -38,9 +38,9 @@ page-type: post
             {% if page.alt %}
                <div class="post_title">{{ page.alt }}</div>
             {% elsif page.artist %}
-               <div class="post_title">{{ page.title }} ({{ page.artist }})</div>
+               <div class="post_title">{{ page.title }}</div>
             {% else %}
-                <div class="post_title">{{ page.title }} {% if page.author %}({{ page.author }}){% endif %}</div>
+                <div class="post_title">{{ page.title }} {% if page.author %} {% endif %}</div>
             {% endif %}
             <div class="date_container">
                 <div class="date_line">{{page.date | date: "%B %-d, %Y"}}</div>

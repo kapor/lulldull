@@ -10,7 +10,7 @@ category: Stamps
 images: "100+"
 link: "https://geheugen.delpher.nl/nl/geheugen/results?coll=ngvn&facets%5BcollectionStringNL%5D%5B%5D=Ontwerpen+voor+de+PTT%2C+een+beeldverhaal+van+150+jaar&maxperpage=36&page=1&query="
 notes: A (huge) chronological selection of postage stamps from the Netherlands – light years ahead of their time. 
-tags: [stamps, graphic, netherlands, design, book, global, postage]
+tags: [stamps, graphic, netherlands, design, book, global, postage, karel martens, irma boom]
 image: thumbs/2024_netherlands.jpg
 hidden: false
 permalink:
@@ -512,7 +512,7 @@ Frits Hazelebach (1973)
 </div>
 
 <div class="image_caption">
-042-Karel-Kruysen-001-(1973)
+Karel Kruysen (1973)
 </div>
 
 <div class="post_image">
@@ -555,7 +555,7 @@ Jan Boterman (1974)
 <!-- +++++++++++++++++++++++++++++++ -->
 
 <div class="image_caption">
-045-John-Stegmeijer-(1975)
+John Stegmeijer (1975)
 </div>
 
 <div class="post_image">

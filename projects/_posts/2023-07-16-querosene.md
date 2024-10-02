@@ -7,6 +7,7 @@ loc: Brazil
 author: 
 year: "2008"
 category: Architecture
+notes: "A great bookshelf"
 link: https://www.archdaily.com/89825/morro-do-querosene-house-gruposp
 tags: [books, library, architecture, bookshelves]
 image: thumbs/2023_querosene.jpg

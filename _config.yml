@@ -16,4 +16,4 @@ kramdown:
 paginator: enable 
 paginate: 24
 paginate_path: '/page:num/'
-permalink: /:categories/:year/:title/
+permalink: /:year/:title/

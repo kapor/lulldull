@@ -7,7 +7,7 @@ artist: "José Roca and Alejandro Martín"
 loc: https://www.bgc.bard.edu/exhibitions/exhibitions/13/waterweavers
 author: José Roca and Alejandro Martín
 year: "2014"
-category: 
+category: Book
 tags: [book, exhibition, nature]
 image: thumbs/2018_waterweavers.jpg
 hidden: false
