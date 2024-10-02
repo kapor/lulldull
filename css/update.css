@@ -1291,17 +1291,42 @@ h3:target + .taglist .return {
     padding: 40px 0px 20px 0px;
 }
 
+@media only screen and (max-width: 1200px) {
+	.header_02 {
+		font-size: 80px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.header_02 {
+		font-size: 60px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.header_02 {
+		font-size: 40px;
+    	padding: 20px 0px 20px 0px;
+	}
+}
+
 .image_caption {
 	font-family: letter-gothic-std, monospace;
 	font-weight: 800;
 	background-color: #efefef;
-	font-size: 20px;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	font-size: 16px;
 	text-transform: uppercase;
     padding: 4px 0px 4px 4px;
+}
+
+@media only screen and (max-width: 800px) {
+	.image_caption {
+		font-size: 12px;
+    	padding: 0px 0px 0px 4px;
+	}
 }
 
 
