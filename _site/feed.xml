@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4002/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4002/" rel="alternate" type="text/html" /><updated>2024-10-02T10:09:50-07:00</updated><id>http://localhost:4002/feed.xml</id><title type="html">lulldull</title><subtitle>lulldull</subtitle><entry><title type="html">Stamps_Netherlands</title><link href="http://localhost:4002/2024/netherlands/" rel="alternate" type="text/html" title="Stamps_Netherlands" /><published>2024-09-20T00:00:00-07:00</published><updated>2024-09-20T00:00:00-07:00</updated><id>http://localhost:4002/2024/netherlands</id><content type="html" xml:base="http://localhost:4002/2024/netherlands/"><![CDATA[<div class="post_image">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4002/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4002/" rel="alternate" type="text/html" /><updated>2024-10-02T17:34:13-07:00</updated><id>http://localhost:4002/feed.xml</id><title type="html">lulldull</title><subtitle>lulldull</subtitle><entry><title type="html">Stamps_Netherlands</title><link href="http://localhost:4002/2024/netherlands/" rel="alternate" type="text/html" title="Stamps_Netherlands" /><published>2024-09-20T00:00:00-07:00</published><updated>2024-09-20T00:00:00-07:00</updated><id>http://localhost:4002/2024/netherlands</id><content type="html" xml:base="http://localhost:4002/2024/netherlands/"><![CDATA[<div class="post_image">
 	<a href="/images/posts/2024_netherlands/000.jpg" target="_blank">
 	<img src="/images/posts/2024_netherlands/000.jpg" alt="lulldull" /></a>
 </div>
@@ -853,10 +853,6 @@ Jaap Drupsteen (1983)
 	<img src="/images/posts/2024_netherlands/074.jpg" alt="lulldull" /></a>
 </div>
 
-<div class="image_caption">
- Rob Schröder (1985)
-</div>
-
 <!-- +++++++++++++++++++++++++++++++ -->
 
 <div class="header_02">
@@ -864,6 +860,10 @@ Jaap Drupsteen (1983)
 </div>
 
 <!-- +++++++++++++++++++++++++++++++ -->
+
+<div class="image_caption">
+ Rob Schröder (1985)
+</div>
 
 <div class="post_image">
 	<a href="/images/posts/2024_netherlands/075.jpg" target="_blank">
@@ -951,10 +951,6 @@ Jaap Drupsteen (1983)
 	<img src="/images/posts/2024_netherlands/084.jpg" alt="lulldull" /></a>
 </div>
 
-<div class="image_caption">
- Stefan Graatsma (1986)
-</div>
-
 <!-- +++++++++++++++++++++++++++++++ -->
 
 <div class="header_02">
@@ -962,6 +958,10 @@ Jaap Drupsteen (1983)
 </div>
 
 <!-- +++++++++++++++++++++++++++++++ -->
+
+<div class="image_caption">
+ Stefan Graatsma (1986)
+</div>
 
 <div class="post_image">
 	<a href="/images/posts/2024_netherlands/085.jpg" target="_blank">

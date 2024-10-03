@@ -204,22 +204,22 @@ header h2 {
     font-weight: 100;
     text-transform: uppercase;
     font-style: normal;
-    letter-spacing: .25px;
+    letter-spacing: .5px;
     color: #222222;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 40px;
     padding: 4px 8px;
     background-color: #F8F4F1;
 }
 
 .post_title {
-    font-family: "base-mono-narrow", monospace;
+	font-family: "base-mono-narrow", monospace;
     font-weight: 100;
     text-transform: uppercase;
     font-style: normal;
-    letter-spacing: .25px;
+    letter-spacing: .5px;
     color: #222222;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 40px;
 }
 
@@ -793,12 +793,12 @@ article {
 .post_block {
 	display: flex;
     flex-direction: row;
-    border-radius: 6px;
+    border-radius: 4px;
     overflow: hidden;
     gap: 8px;
     width: 100%;
     margin-bottom: 20px;
-    border: 1px solid #cccccc;
+    border: 1px solid #dedede;
 }
 
 @media screen and (max-width: 800px) {

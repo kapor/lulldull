@@ -898,11 +898,6 @@ Jaap Drupsteen (1983)
 	<img src="{{ site.baseurl }}/images/posts/2024_netherlands/074.jpg" alt="lulldull"></a>
 </div>
 
-
-<div class="image_caption">
- Rob Schröder (1985)
-</div>
-
 <!-- +++++++++++++++++++++++++++++++ -->
 
 <div class="header_02">
@@ -911,6 +906,9 @@ Jaap Drupsteen (1983)
 
 <!-- +++++++++++++++++++++++++++++++ -->
 
+<div class="image_caption">
+ Rob Schröder (1985)
+</div>
 
 <div class="post_image">
 	<a href="{{ site.baseurl }}/images/posts/2024_netherlands/075.jpg" target="_blank">
@@ -998,9 +996,6 @@ Jaap Drupsteen (1983)
 	<img src="{{ site.baseurl }}/images/posts/2024_netherlands/084.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
- Stefan Graatsma (1986)
-</div>
 
 <!-- +++++++++++++++++++++++++++++++ -->
 
@@ -1010,6 +1005,9 @@ Jaap Drupsteen (1983)
 
 <!-- +++++++++++++++++++++++++++++++ -->
 
+<div class="image_caption">
+ Stefan Graatsma (1986)
+</div>
 
 <div class="post_image">
 	<a href="{{ site.baseurl }}/images/posts/2024_netherlands/085.jpg" target="_blank">
