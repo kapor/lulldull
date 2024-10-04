@@ -98,21 +98,37 @@ article h2 a {
 }
 
 .post_block_notes {
-	color: #222222;
+    background-color: #F8F4F1;
+    height: 100%;
+}
+
+.post_block_notes_content {
+    color: #222222;
     padding: 8px;
     padding-right: 20px;
+    height: 64px;
     background-color: #F8F4F1;
     /* margin: 4px 0px; */
-    height: -webkit-fill-available;
-    letter-spacing: 1px;
-    font-weight: 400;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .post_block_tags {
     color: #222222;
     padding: 8px;
     background-color: #F8F4F1;
+    height: 42px;
 /*    margin: 4px 0px;*/
+}
+
+@media screen and (max-width: 800px) {
+
+	.post_block_tags {
+		display: none;
+	}
+
 }
 
 .post_block_right_info .post_entry {
@@ -148,7 +164,7 @@ font-style: normal;*/
 	}
 	.logo img {
 		width: 100%;
-		border-radius: 6px;
+/*		border-radius: 6px;*/
 	}
 }
 
@@ -250,8 +266,8 @@ hr {
 
 .home_footer {
 	margin: 0px 0px;
-    padding: 8px 0px 0px 0px;
-    max-height: 32px;
+    padding: 0px 0px 0px 0px;
+    max-height: 22px;
     overflow: hidden;
 }
 
@@ -261,6 +277,25 @@ hr {
 	.home_footer {
 		display: none;
 	}
+}
+
+
+.home_footer .post_tag2 {
+	font-family: letter-gothic-std, monospace;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: .75px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 10px;
+    background: #FFFFFF;
+    color: #444;
+    margin-right: 0px;
+    line-height: 12px;
+    margin-top: 0px;
+    padding: 4px 4px 2px 4px;
+    border-radius: 2px;
 }
 
 .post-footer {
@@ -273,13 +308,13 @@ hr {
 
 .posts {
 	float: right;
-    display: flex;
+/*    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;*/
     width: 100%;
     gap: 2%;
-    flex-direction: column;
     padding: 0 20px;
-    flex-wrap: wrap;
-    justify-content: flex-start;
 }
 
 @media screen and (max-width: 800px) {
@@ -988,11 +1023,11 @@ aside h3 {
 
 
 aside ul {
-	font-family: "t26-carbon", monospace;
+	font-family: letter-gothic-std, monospace;
     font-weight: 100;
 	font-style: normal;
     color: #222222;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 20px;
 	margin-left: 0px;
 	list-style: none;
@@ -1332,7 +1367,7 @@ header p {
 
 
 .header {
-    /*font-family: "base-mono-narrow", monospace;*/
+    /* font-family: "base-mono-narrow", monospace; */
 	font-family: "t26-carbon", monospace;
     font-weight: 100;
     text-transform: uppercase;
@@ -1340,8 +1375,8 @@ header p {
     letter-spacing: .5px;
     color: #222222;
     font-size: 24px;
-    line-height: 40px;
-    padding: 4px 8px;
+    line-height: 28px;
+    padding: 8px 8px;
     background-color: #F8F4F1;
 }
 

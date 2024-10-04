@@ -1,7 +1,7 @@
 ---
 layout: default
 title: LULLDULL
-description: "a rather long list of lists"
+description: "A reference repository."
 ---
 
 
@@ -53,11 +53,13 @@ description: "a rather long list of lists"
 				</div>
 
 				<div class="post_block_notes">
-					{% if post.notes %}
-						NOTES:  <span class="post_entry"> {{ post.notes }}</span>
-					{% else %}
-						NOTES: <span class="post_entry"> N/A</span>
-					{% endif %}
+					<div class="post_block_notes_content">
+						{% if post.notes %}
+							NOTES:  <span class="post_entry"> {{ post.notes }}</span>
+						{% else %}
+							NOTES: <span class="post_entry"> N/A</span>
+						{% endif %}
+					</div>
 				</div>
 
 			</div>
