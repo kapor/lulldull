@@ -998,6 +998,16 @@ Anthon Beeke (1985)
 	<img src="{{ site.baseurl }}/images/posts/2024_netherlands/084.jpg" alt="lulldull"></a>
 </div>
 
+<div class="image_caption">
+ Stefan Graatsma (1986)
+</div>
+
+<div class="post_image">
+	<a href="{{ site.baseurl }}/images/posts/2024_netherlands/085.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2024_netherlands/085.jpg" alt="lulldull"></a>
+</div>
+
+
 <!-- +++++++++++++++++++++++++++++++ -->
 
 <div class="header_02">
@@ -1005,17 +1015,6 @@ Anthon Beeke (1985)
 </div>
 
 <!-- +++++++++++++++++++++++++++++++ -->
-
-<div class="image_caption">
- Stefan Graatsma (1986)
-</div>
-
-
-
-<div class="post_image">
-	<a href="{{ site.baseurl }}/images/posts/2024_netherlands/085.jpg" target="_blank">
-	<img src="{{ site.baseurl }}/images/posts/2024_netherlands/085.jpg" alt="lulldull"></a>
-</div>
 
 <div class="image_caption">
  Charlotte Jacoba Maria Mutsaers (1987)
