@@ -9,11 +9,10 @@ year:
 category: Stamps
 images: "100+"
 link: "https://geheugen.delpher.nl/nl/geheugen/results?coll=ngvn&facets%5BcollectionStringNL%5D%5B%5D=Ontwerpen+voor+de+PTT%2C+een+beeldverhaal+van+150+jaar&maxperpage=36&page=1&query="
-notes: A (huge) chronological selection of postage stamps from the Netherlands – light years ahead of their time. 
-tags: [stamps, graphic, netherlands, design, book, global, postage, karel martens, irma boom]
+notes: A selection of postage stamps from the Netherlands – light years ahead of their time. 
+tags: [stamps, graphic, netherlands, design, book, global, postage]
 image: thumbs/2024_netherlands.jpg
 hidden: false
-related: "http://localhost:4002/2023/karel/"
 permalink:
 ---
 
@@ -187,7 +186,7 @@ Lex Weyer (1962)
 </div>
 
 <div class="image_caption">
-Reindert Juurt Draijer [Rein] (1963)
+Rein Draijer (1963)
 </div>
 
 <div class="post_image">
@@ -196,7 +195,7 @@ Reindert Juurt Draijer [Rein] (1963)
 </div>
 
 <div class="image_caption">
-Reindert Juurt Draijer [Rein] (1963)
+Rein Draijer (1963)
 </div>
 
 <div class="post_image">
@@ -214,7 +213,7 @@ Wim Crouwel (1963)
 </div>
 
 <div class="image_caption">
-Casparus Bernardus Oorthuys [Cas] (1964)
+Cas Oorthuys (1964)
 </div>
 
 <div class="post_image">
@@ -286,7 +285,7 @@ Wim Crouwel (1968)
 </div>
 
 <div class="image_caption">
-Robert Deodaat Emile Oxenaar [Ootje] (1968)
+Ootje Oxenaar (1968)
 </div>
 
 <div class="post_image">
@@ -295,7 +294,7 @@ Robert Deodaat Emile Oxenaar [Ootje] (1968)
 </div>
 
 <div class="image_caption">
-024-Piet-Black-001-(1968)
+Piet Black (1968)
 </div>
 
 <div class="post_image">
@@ -313,7 +312,7 @@ Dick Elffers (1969)
 </div>
 
 <div class="image_caption">
-Reindert Juurt Draijer [Rein] (1969)
+Rein Draijer (1969)
 </div>
 
 <div class="post_image">
@@ -372,7 +371,7 @@ Wim Crouwel (1970)
 </div>
 
 <div class="image_caption">
-Robert Deodaat Emile Oxenaar [Ootje] (1970)
+Ootje Oxenaar (1970)
 </div>
 
 <div class="post_image">
@@ -407,7 +406,7 @@ Marte Marijke Röling (1970)
 <!-- +++++++++++++++++++++++++++++++ -->
 
 <div class="image_caption">
-032-Babs-van-Wely-001-(1971)
+Babs van Wely (1971)
 </div>
 
 <div class="post_image">
@@ -432,6 +431,16 @@ Dick Elffers (1971)
 
 <!-- +++++++++++++++++++++++++++++++ -->
 
+
+<div class="image_caption">
+Will van Sambeek (1972)
+</div>
+
+<div class="post_image">
+	<a href="{{ site.baseurl }}/images/posts/2024_netherlands/038.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2024_netherlands/038.jpg" alt="lulldull"></a>
+</div>
+
 <div class="image_caption">
 Will van Sambeek (1972)
 </div>
@@ -442,7 +451,7 @@ Will van Sambeek (1972)
 </div>
 
 <div class="image_caption">
-Reindert Juurt Draijer [Rein] (1972)
+Rein Draijer (1972)
 </div>
 
 <div class="post_image">
@@ -451,7 +460,7 @@ Reindert Juurt Draijer [Rein] (1972)
 </div>
 
 <div class="image_caption">
-036-Paavo-Huovinen-001-(1972)
+Paavo Huovinen (1972)
 </div>
 
 <div class="post_image">
@@ -477,16 +486,7 @@ Donald Patiwael (1973)
 </div>
 
 <div class="image_caption">
-038-Will-van-Sambeek-001-(1972)
-</div>
-
-<div class="post_image">
-	<a href="{{ site.baseurl }}/images/posts/2024_netherlands/038.jpg" target="_blank">
-	<img src="{{ site.baseurl }}/images/posts/2024_netherlands/038.jpg" alt="lulldull"></a>
-</div>
-
-<div class="image_caption">
-Gerhardus Wernars [Gerard] (1973)
+Gerard Wernars (1973)
 </div>
 
 <div class="post_image">
@@ -574,7 +574,7 @@ André Leenes (1975)
 </div>
 
 <div class="image_caption">
-Reindert Juurt Draijer [Rein] (1975)
+Rein Draijer(1975)
 </div>
 
 <div class="post_image">
@@ -694,7 +694,7 @@ Jan Willem van Toorn (1980)
 </div>
 
 <div class="image_caption">
-Reindert Juurt Draijer [Rein] (1980)
+Rein Draijer (1980)
 </div>
 
 <div class="post_image">
@@ -738,7 +738,7 @@ Ger Dekkers (1981)
 </div>
 
 <div class="image_caption">
- Adrianus Stolk Zwerus [Swip] (1981)
+Swip Stolk (1981)
 </div>
 
 <div class="post_image">
@@ -747,7 +747,7 @@ Ger Dekkers (1981)
 </div>
 
 <div class="image_caption">
- Adrianus Stolk Zwerus [Swip] (1981)
+Swip Stolk (1981)
 </div>
 
 <div class="post_image">
@@ -873,7 +873,7 @@ Jaap Drupsteen (1983)
 </div>
 
 <div class="image_caption">
- Anthonie Johannes Beeke (1985)
+Anthon Beeke (1985)
 </div>
 
 <div class="post_image">
@@ -907,9 +907,11 @@ Jaap Drupsteen (1983)
 
 <!-- +++++++++++++++++++++++++++++++ -->
 
+
 <div class="image_caption">
  Rob Schröder (1985)
 </div>
+
 
 <div class="post_image">
 	<a href="{{ site.baseurl }}/images/posts/2024_netherlands/075.jpg" target="_blank">
@@ -997,7 +999,6 @@ Jaap Drupsteen (1983)
 	<img src="{{ site.baseurl }}/images/posts/2024_netherlands/084.jpg" alt="lulldull"></a>
 </div>
 
-
 <!-- +++++++++++++++++++++++++++++++ -->
 
 <div class="header_02">
@@ -1009,6 +1010,8 @@ Jaap Drupsteen (1983)
 <div class="image_caption">
  Stefan Graatsma (1986)
 </div>
+
+
 
 <div class="post_image">
 	<a href="{{ site.baseurl }}/images/posts/2024_netherlands/085.jpg" target="_blank">
@@ -1079,7 +1082,7 @@ Jaap Drupsteen (1983)
 </div>
 
 <div class="image_caption">
- Zwerus Adrianus Stolk [Swip] (1987)
+Swip Stolk (1987)
 </div>
 
 <div class="post_image">
@@ -1168,7 +1171,7 @@ Jaap Drupsteen (1983)
 </div>
 
 <div class="image_caption">
- Marinus Bernardus Wilhelmus Maria Warmerdam [Mart] (1989)
+ Mart Warmerdam (1989)
 </div>
 
 <div class="post_image">
@@ -1177,7 +1180,7 @@ Jaap Drupsteen (1983)
 </div>
 
 <div class="image_caption">
- Marinus Bernardus Wilhelmus Maria Warmerdam [Mart] (1989).jpg
+ Mart Warmerdam (1989)
 </div>
 
 <div class="post_image">
@@ -1290,7 +1293,7 @@ Jaap Drupsteen (1983)
 </div>
 
 <div class="image_caption">
- Gerhardus Wernars [Gerard] (1991)
+ Gerard Wernars (1991)
 </div>
 
 <div class="post_image">
@@ -1406,7 +1409,7 @@ Jaap Drupsteen (1983)
 </div>
 
 <div class="image_caption">
- Robert Deodaat Emile Oxenaar [Ootje] (1992)
+Ootje Oxenaar (1992)
 </div>
 
 <div class="post_image">
@@ -1423,7 +1426,7 @@ Jaap Drupsteen (1983)
 <!-- +++++++++++++++++++++++++++++++ -->
 
 <div class="image_caption">
- Anthonie Johannes Beeke [Anthon] (1993)
+Anthon Beeke (1993)
 </div>
 
 <div class="post_image">
@@ -1459,7 +1462,7 @@ Jaap Drupsteen (1983)
 </div>
 
 <div class="image_caption">
- Robert Deodaat Emile Oxenaar [Ootje] (1993)
+ Ootje Oxenaar (1993)
 </div>
 
 <div class="post_image">
@@ -1691,7 +1694,7 @@ Jaap Drupsteen (1983)
 </div>
 
 <div class="image_caption">
- Greet_Egbers (2000)
+ Greet Egbers (2000)
 </div>
 
 <div class="post_image">
@@ -1872,7 +1875,7 @@ Julia Born (2009)
 </div>
 
 <div class="image_caption">
- Experimental_Jetset (2012)
+ Experimental Jetset (2012)
 </div>
 
 <div class="post_image">
