@@ -13,6 +13,7 @@ notes: A (huge) chronological selection of postage stamps from the Netherlands â
 tags: [stamps, graphic, netherlands, design, book, global, postage, karel martens, irma boom]
 image: thumbs/2024_netherlands.jpg
 hidden: false
+related: "http://localhost:4002/2023/karel/"
 permalink:
 ---
 
