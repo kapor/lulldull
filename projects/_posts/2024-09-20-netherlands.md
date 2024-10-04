@@ -2,14 +2,15 @@
 layout: post
 title: "Stamps_Netherlands"
 date:  2024-09-20
-artist: 
+artist: Various
 loc: 
 author: 
 year: 
 category: Stamps
 images: "100+"
 link: "https://geheugen.delpher.nl/nl/geheugen/results?coll=ngvn&facets%5BcollectionStringNL%5D%5B%5D=Ontwerpen+voor+de+PTT%2C+een+beeldverhaal+van+150+jaar&maxperpage=36&page=1&query="
-notes: A selection of postage stamps from the Netherlands – light years ahead of their time. 
+linktext: "The Memory"
+notes: "A selection of postage stamps from the Netherlands. Youc almost feel how these designers pushed eachother to better themselves. It's difficult to comprehend the inspiration for some of these, they seem years ahead of their time. Nearly all of these are taken from the incrdibly comprehsive 'Image bank Het Geheugen' (The Memory) – a project that started digitzing their country's art in the late 90s."
 tags: [stamps, graphic, netherlands, design, book, global, postage]
 image: thumbs/2024_netherlands.jpg
 hidden: false
@@ -999,6 +1000,15 @@ Anthon Beeke (1985)
 	<img src="{{ site.baseurl }}/images/posts/2024_netherlands/084.jpg" alt="lulldull"></a>
 </div>
 
+<div class="image_caption">
+ Stefan Graatsma (1986)
+</div>
+
+<div class="post_image">
+	<a href="{{ site.baseurl }}/images/posts/2024_netherlands/085.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2024_netherlands/085.jpg" alt="lulldull"></a>
+</div>
+
 <!-- +++++++++++++++++++++++++++++++ -->
 
 <div class="header_02">
@@ -1007,16 +1017,6 @@ Anthon Beeke (1985)
 
 <!-- +++++++++++++++++++++++++++++++ -->
 
-<div class="image_caption">
- Stefan Graatsma (1986)
-</div>
-
-
-
-<div class="post_image">
-	<a href="{{ site.baseurl }}/images/posts/2024_netherlands/085.jpg" target="_blank">
-	<img src="{{ site.baseurl }}/images/posts/2024_netherlands/085.jpg" alt="lulldull"></a>
-</div>
 
 <div class="image_caption">
  Charlotte Jacoba Maria Mutsaers (1987)

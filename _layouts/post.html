@@ -14,44 +14,82 @@ page-type: post
 
     <article role="article">
 
+        <div class="page_block">
 
+            <div class="page_block_top_info">
 
-    {% if page.link %}
-            <div class="page_header">
-            <a href="{{ page.link }}" target="_blank">
-                {% if page.alt %}
-                   <div class="post_title">{{ page.alt }}</div>
-                {% elsif page.artist %}
-                    <div class="post_title">{{ page.title }}</div>
-                {% else %}
-                    <div class="post_title">{{ page.title }} {% if page.author %}{% endif %}</div>
-                {% endif %}
-            </a>
-            <div class="page_link">
-                <a href="{{ page.link }}" target="_blank">
-                    <div class="link_line">More Information</div>
-                </a>
-            </div>
-            <div class="date_container">
-                <div class="date_line">{{page.date | date: "%B %-d, %Y"}}</div>
+                <div class="header">
+                    {{ page.date | date: "%Y-%m-%d" }}
+                </div>
+
+                <div class="header">
+                    {% if page.alt %}
+                        {{ page.alt }}
+                    {% else %}
+                        {{ page.title }} {% if page.author %}{% endif %}
+                    {% endif %}
+                </div>
+
+                <div class="post_block_artist">
+                    {% if page.artist %}
+                        MAKER: <span class="post_entry">{{ page.artist }}</span>
+                    {% else %}
+                        MAKER: <span class="post_entry">N/A</span>
+                    {% endif %}
+                </div>
+
+                <div class="post_block_artist">
+                    {% if page.category %}
+                        CATEGORY: <span class="post_entry">{{ page.category }}</span>
+                    {% elsif page.series %}
+                        SERIES: <span class="post_entry">{{ page.series }}</span>
+                    {% else %}
+                        CATEGORY: <span class="post_entry">N/A</span>
+                    {% endif %}
+                </div>
+
+                <div class="post_block_notes">
+                    <div class="page_block_notes_content">
+                        {% if page.notes %}
+                            NOTES:  <span class="post_entry"> {{ page.notes }}</span>
+                        {% else %}
+                            NOTES: <span class="post_entry"> N/A</span>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <div class="post_block_artist">
+                    {% if page.link %}
+                        {% if page.linktext %}
+                            LINK: <span class="post_entry">
+                                <a href="{{ page.link }}" target="_blank" style="color:#555555">
+                                    {{ page.linktext }}
+                                </a>
+                            </span>
+                        {% else %}
+                            LINK: <span class="post_entry">
+                                <a href="{{ page.link }}" target="_blank" style="color:#555555">
+                                    More Information
+                                </a>
+                            </span>
+                        {% endif %}
+                    {% else %}
+                        Link: <span class="post_entry"> None Available</span>
+                    {% endif %}
+                </div>
+
+                <div class="page_block_tags">
+                    <footer class="page_footer">
+                            {% for tag in page.tags %}
+                                <div class="post_tag2">
+                                    <a href="{{site.baseurl}}/tags/index.html#{{tag | cgi_escape}}" title="Posts tagged {{tag}}">{{tag}}</a>
+                                </div>
+                            {% unless forloop.last %}{% endunless %} {% endfor %}
+                    </footer>
+                </div>
+
             </div>
         </div>
-        <hr class="header_hr">
-     {% else %}
-        <div class="page_header">
-            {% if page.alt %}
-               <div class="post_title">{{ page.alt }}</div>
-            {% elsif page.artist %}
-               <div class="post_title">{{ page.title }}</div>
-            {% else %}
-                <div class="post_title">{{ page.title }} {% if page.author %} {% endif %}</div>
-            {% endif %}
-            <div class="date_container">
-                <div class="date_line">{{page.date | date: "%B %-d, %Y"}}</div>
-            </div>
-        </div>
-        <hr class="header_hr">
-    {% endif %}
 
 
 
@@ -60,11 +98,13 @@ page-type: post
 
 
 
-        {% if page.notes %}
+
+
+<!--         {% if page.notes %}
             <div class="info_container">
                 <div class="highlight2">{{ page.notes }}</div>
             </div>
-        {% endif %}
+        {% endif %} -->
 
 
         {{content}}
