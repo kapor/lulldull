@@ -10,7 +10,7 @@ category: Stamps
 images: "100+"
 link: "https://geheugen.delpher.nl/nl/geheugen/results?coll=ngvn&facets%5BcollectionStringNL%5D%5B%5D=Ontwerpen+voor+de+PTT%2C+een+beeldverhaal+van+150+jaar&maxperpage=36&page=1&query="
 linktext: "The Memory"
-notes: "A selection of postage stamps from the Netherlands. Youc almost feel how these designers pushed eachother to better themselves. It's difficult to comprehend the inspiration for some of these, they seem years ahead of their time. Nearly all of these are taken from the incrdibly comprehsive 'Image bank Het Geheugen' (The Memory) – a project that started digitzing their country's art in the late 90s."
+notes: "A selection of postage stamps from the Netherlands. You can really feel how these designers pushed eachother to better themselves. It's difficult to comprehend where the inspiration came frome for some of these, they seem years ahead of their time. Nearly all were taken from the incrdibly comprehsive 'Image bank Het Geheugen' (The Memory) – a project that started digitzing their country's art in the late 90s."
 tags: [stamps, graphic, netherlands, design, book, global, postage]
 image: thumbs/2024_netherlands.jpg
 hidden: false
