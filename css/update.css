@@ -820,6 +820,7 @@ article {
         /*gap: 8px;*/
         margin-bottom: 0px;
 	    border: none;
+	    border-radius: 0px;
 	    border-bottom: 4px solid #222222;
 	}
 }
@@ -1435,6 +1436,7 @@ h3:target + .taglist .return {
         float: left;
         width: auto;
         display: block;
+        width: -webkit-fill-available;
         margin: 8px 8px 8px 8px;
     }
 }
@@ -1666,7 +1668,7 @@ article header a {
 @media only screen and (max-width: 800px) {
 	.header_02 {
 		font-size: 40px;
-    	padding: 20px 0px 20px 0px;
+    	padding: 8px 0px 8px 8px;
 	}
 }
 
