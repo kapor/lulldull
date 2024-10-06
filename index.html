@@ -38,7 +38,7 @@ description: "A reference repository."
 					{% if post.artist %}
 						MAKER: <span class="post_entry">{{ post.artist }}</span>
 					{% else %}
-						MAKER: <span class="post_entry">N/A</span>
+						MAKER: <span class="post_entry">Not available</span>
 					{% endif %}
 				</div>
 
@@ -48,7 +48,7 @@ description: "A reference repository."
 					{% elsif post.series %}
 						SERIES: <span class="post_entry">{{ post.series }}</span>
 					{% else %}
-						CATEGORY: <span class="post_entry">N/A</span>
+						CATEGORY: <span class="post_entry">Not available</span>
 					{% endif %}
 				</div>
 
@@ -57,7 +57,7 @@ description: "A reference repository."
 						{% if post.notes %}
 							NOTES:  <span class="post_entry"> {{ post.notes }}</span>
 						{% else %}
-							NOTES: <span class="post_entry"> N/A</span>
+							NOTES: <span class="post_entry"> Not available</span>
 						{% endif %}
 					</div>
 				</div>

@@ -8,7 +8,7 @@ author:
 year: "2004"
 category: Book
 link: "https://www.amazon.com/Infiltrate-Front-Lines-Design-Scene/dp/9063690444"
-linktext: "Purchase the book here"
+linktext: "Infiltrate: The Front Lines of the NYC Design Scene (Amazon)"
 notes: "Another mid-aughts graphic design showcase with a hodge-podge of styles/mediums on display. Some rock stars (Sahre, Sagmeister) and others who are better (Cezzar, Choi)."
 tags: [graphic, design, nyc, typography, 2000s]
 image: thumbs/2021_infiltrate.jpg

@@ -34,7 +34,7 @@ page-type: post
                     {% if page.artist %}
                         MAKER: <span class="post_entry">{{ page.artist }}</span>
                     {% else %}
-                        MAKER: <span class="post_entry">N/A</span>
+                        MAKER: <span class="post_entry">Not available</span>
                     {% endif %}
                 </div>
 
@@ -44,7 +44,7 @@ page-type: post
                     {% elsif page.series %}
                         SERIES: <span class="post_entry">{{ page.series }}</span>
                     {% else %}
-                        CATEGORY: <span class="post_entry">N/A</span>
+                        CATEGORY: <span class="post_entry">Not available</span>
                     {% endif %}
                 </div>
 
@@ -53,7 +53,7 @@ page-type: post
                         {% if page.notes %}
                             NOTES:  <span class="post_entry"> {{ page.notes }}</span>
                         {% else %}
-                            NOTES: <span class="post_entry"> N/A</span>
+                            NOTES: <span class="post_entry"> Not available</span>
                         {% endif %}
                     </div>
                 </div>
