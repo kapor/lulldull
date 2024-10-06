@@ -562,6 +562,13 @@ p img {
 	}
 }
 
+@media screen and (max-width: 800px) {
+	.post_image_rounded img {
+	    margin: auto;
+	    border-radius: 0px;
+	}
+}
+
 
 
 /*div .post_image_flex img {
