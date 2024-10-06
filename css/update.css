@@ -96,6 +96,9 @@ article h2 a {
     letter-spacing: 2px;
 /*    margin: 4px 0px;*/
     font-weight: 400;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .post_block_notes {
@@ -1508,6 +1511,9 @@ header p {
     line-height: 28px;
     padding: 8px 8px;
     background-color: #F8F4F1;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .post_title {
