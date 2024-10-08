@@ -26,14 +26,23 @@ title: Post Archives
 			</header>
 			
 				{% for tag in sortedTags %}
-				<h3 class="tag_title" id="{{tag | cgi_escape}}">{{tag}}</h3>
-				<ul class="taglist">
-					{% for post in site.tags[tag] %}
-					<li>
-						<time itemprop="dateCreated" datetime="{{post.date}}">
-						{{ post.date | date: "%b %d, %Y" }}
-						</time> | <a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">{{post.title}}</a>
-					</li>
+
+				
+					<h3 class="tag_title" id="{{tag | cgi_escape}}">{{tag}}</h3>
+					<ul class="taglist">
+						{% for post in site.tags[tag] %}
+						<div class="tag_desk">
+							<li>
+								<time itemprop="dateCreated" datetime="{{post.date}}">
+								{{ post.date | date: "%b %d, %Y" }}</time> | <a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">{{post.title}}</a>
+							</li>
+						</div>
+						<div class="tag_mob">
+							<li>
+								<time itemprop="dateCreated" datetime="{{post.date}}">
+								{{ post.date | date: "%Y" }}</time> | <a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">{{post.title}}</a>
+							</li>
+						</div>
 					{% endfor %}
 					<li class="return"><a href="#top" title="return to top">return to top</a></li>
 				</ul>
