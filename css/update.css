@@ -220,7 +220,35 @@ font-style: normal;*/
 
 
 
+.page-header {
+	padding: 40px 0px 10px 40px;
+	margin-top: 0px;
+}
 
+
+
+@media only screen and (max-width: 1000px) {
+	.page-header {
+		padding: 20px 20px 10px 20px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+    .page-header {
+		padding: 0px;
+        padding-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .page-header {
+        padding-top: 48px;
+    }
+}
+
+.content1 {
+
+}
 
 
 
@@ -233,17 +261,40 @@ font-style: normal;*/
 
 .logo img {
 	width: 300px;
+	display: block;
 }
+
+
 
 @media screen and (max-width: 800px) {
 
 	.logo {
-		width: 100%;
 		display: block;
+		background-color: #222222;
+	    position: fixed;
+	    top: 0;
+	    width: 100%;
 	}
 	.logo img {
 		width: 100%;
 /*		border-radius: 6px;*/
+		display: block;
+		max-height: 72px;
+	}
+
+	#logo {
+		display: block;
+        overflow: hidden;
+        opacity: 1;
+        z-index: 8;
+	}
+}
+
+
+@media screen and (max-width: 600px) {
+
+	.logo img {
+		max-height: 48px;
 	}
 }
 
@@ -1630,29 +1681,6 @@ article header a {
 	display: block;
 }
 
-.page-header {
-	padding: 40px 0px 10px 40px;
-}
-
-
-
-@media only screen and (max-width: 1000px) {
-	.page-header {
-		padding: 20px 20px 10px 20px;
-	}
-}
-
-@media only screen and (max-width: 800px) {
-    .page-header {
-		padding: 20px 20px 10px 20px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .page-header {
-		padding: 8px 8px 0px 8px;
-    }
-}
 
 
 
