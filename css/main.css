@@ -611,7 +611,8 @@ main footer styles
 
 .legal {
 	font-size: .7em;
-	margin: 0;
+    margin: auto;
+    text-align: center;
 }
 
 .page-footer a {
