@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width">
 <title>{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}</title> 
 <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}">
-<link rel="canonical" href="{{site.baseurl}}{{page.url}}"
+<link rel="canonical" href="{{site.baseurl}}{{page.url}}">
 <link rel="apple-touch-icon" href="{{site.baseurl}}/images/icon/favicon.svg">
 <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/images/icon/favicon.svg">
 <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
@@ -36,8 +36,12 @@
 	<li><a href="{{site.baseurl}}/about.html" title="learn more">About</a></li>
 	<li><a href="{{site.baseurl}}/tags/" title="Archive">Archive</a></li>
 </ul> -->
+
 </header>
-	<div class="content1">
+
+
+
+	<div class="content2">
 	{{content}}
 		{% if page.id %}
 			{% include footer-post.html %}
