@@ -14,6 +14,11 @@ markdown: kramdown
 kramdown:
     auto_ids: false
 paginator: enable 
-paginate: 24
+paginate: 25
 paginate_path: '/page:num/'
 permalink: /:year/:title/
+
+# pagination:
+#   trail: 
+#     before: 2 # The number of links before the current page
+#     after: 2  # The number of links after the current page

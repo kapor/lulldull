@@ -12,25 +12,24 @@ description: "A reference repository."
 {% include sidebar.html %}
 
 
-
-<div class="right_container">
-
+<div class="home_container">
 
 
-  <article class="posts"> {% for post in paginator.posts offset:1 limit:24 %}
+
+  <article class="home_posts"> {% for post in paginator.posts offset:1 limit:25 %}
  	
 
-	 	<article class="post_block">
+	 	<article class="home_block">
 
-		 	<div class="post_block_left">
+		 	<div class="home_block_left">
 		 		
-		 		<div class="post_block_right_info">
+		 		<div class="home_block_info">
 
-					<div class="header">
+					<div class="header_home">
 							<a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">{{ post.date | date: "%Y-%m-%d" }}</a>
 					</div>
 
-					<div class="header">
+					<div class="header_home">
 						{% if post.alt %}
 							<a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">{{ post.alt }}</a>
 						{% else %}
@@ -38,7 +37,7 @@ description: "A reference repository."
 						{% endif %}
 					</div>
 
-					<div class="post_block_artist">
+					<div class="home_block_artist">
 						{% if post.artist %}
 							MAKER: <span class="post_entry">{{ post.artist }}</span>
 						{% else %}
@@ -46,7 +45,7 @@ description: "A reference repository."
 						{% endif %}
 					</div>
 
-					<div class="post_block_artist">
+					<div class="home_block_artist">
 						{% if post.category %}
 							CATEGORY: <span class="post_entry">{{ post.category }}</span>
 						{% elsif post.series %}

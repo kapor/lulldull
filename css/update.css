@@ -54,7 +54,7 @@ body {
 	font-family: letter-gothic-std, monospace;
 	font-weight: 200;
 	font-style: normal;
-	background: white;
+	background: #F8F4F1;
 	direction: ltr;
     margin: 0;
     padding: 0;
@@ -112,10 +112,10 @@ article h2 a {
     gap: 4px;
     flex-wrap: nowrap;
     height: auto;
-	font-family: "t26-carbon", monospace;
+    font-family: "t26-carbon", monospace;
     font-weight: 100;
     font-style: normal;
-	font-size: 16px;
+    font-size: 16px;
     letter-spacing: -.5px;
     line-height: 24px;
 }
@@ -309,17 +309,11 @@ font-style: normal;*/
 	padding-top: 40px;
 }
 
-@media only screen and (max-width: 1000px) {
-
-	.content1 {
-		padding-top: 64px;
-	}
-}
 
 @media only screen and (max-width: 800px) {
 
 	.content1 {
-		padding-top: 0px;
+		padding-top: 20px;
 	}
 
 }
@@ -564,73 +558,7 @@ hr {
     border-radius: 2px;
 }
 
-.home_footer {
-	margin: 0px 0px;
-    padding: 0px 0px 0px 0px;
-    max-height: 22px;
-    overflow: hidden;
-}
 
-
-@media screen and (max-width: 800px) {
-
-	.home_footer {
-		display: none;
-	}
-}
-
-
-.home_footer .post_tag2 {
-	font-family: letter-gothic-std, monospace;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: .75px;
-    display: inline-block;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 10px;
-    background: #FFFFFF;
-    color: #444;
-    margin-right: 0px;
-    line-height: 12px;
-    margin-top: 0px;
-    padding: 4px 4px 2px 4px;
-    border-radius: 2px;
-}
-
-
-.home_hero_footer {
-	margin: 0px 0px;
-    padding: 0px 0px 0px 0px;
-    max-height: 22px;
-    overflow: hidden;
-}
-
-@media screen and (max-width: 800px) {
-/*
-	.home_hero_footer {
-		display: none;
-	}*/
-}
-
-
-.home_hero_footer .post_tag2 {
-	font-family: letter-gothic-std, monospace;
-    font-weight: 300;
-    font-style: normal;
-    letter-spacing: .75px;
-    display: inline-block;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 10px;
-    background: #F8F4F1;
-    color: #444;
-    margin-right: 0px;
-    line-height: 12px;
-    margin-top: 0px;
-    padding: 4px 4px 2px 4px;
-    border-radius: 2px;
-}
 
 
 
@@ -690,25 +618,33 @@ hr {
 
 .posts {
 	float: right;
-/*    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;*/
     width: 100%;
     gap: 2%;
-    padding: 0 40px;
-	transition: 0.4s;
+    padding: 0px;
+    transition: 0.4s;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 1800px) {
+	.posts {
+		padding: 0px;
+	    margin: 0% 2%;
+	}
 }
 
 @media screen and (max-width: 800px) {
 	.posts {
-        float: right;
+		float: right;
         display: flex;
         gap: 20px;
         padding: 0 20px;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: flex-start;
+        margin: 0px;
 	}
 }
 
@@ -1238,13 +1174,14 @@ article {
 
 
 .right_container {
-    width: 78%;
+    width: 100%;
     float: right;
     display: flex;
     flex-direction: row;
     /* padding-right: 2.5%; */
-    padding-top: 24px;
+    padding-top: 0px;
     padding-bottom: 60px;
+    flex-wrap: wrap;
 }
 
 @media screen and (max-width: 800px) {
@@ -1254,14 +1191,14 @@ article {
         display: flex;
         flex-direction: column;
         /* padding-right: 2.5%; */
-        padding-top: 120px;
+        padding-top: 0px;
         padding-bottom: 60px;
 	}
 }
 
 @media screen and (max-width: 600px) {
 	.right_container {
-        padding-top: 80px;
+        padding-top: 0px;
 	}
 }
 
@@ -1269,13 +1206,20 @@ article {
 
 .post_block {
 	display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border-radius: 4px;
     overflow: hidden;
-    gap: 8px;
-    width: 100%;
-    margin-bottom: 20px;
+    gap: 0px;
+    width: 49%;
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
     border: 1px solid #dedede;
+}
+
+@media screen and (max-width: 1000px) {
+    .post_block {
+ 	   width: 100%;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -1312,7 +1256,7 @@ article {
     border-radius: 4px;
     overflow: hidden;
     width: 100%;
-    margin-bottom: 12px;
+    margin-bottom: 0px;
     padding: 8px;
     border: 1px solid #dedede;
 }
@@ -1326,10 +1270,10 @@ article {
 
 @media screen and (max-width: 600px) {
 	.page_block {
-	    border-radius: 0px;
-	    padding: none;
-	    border: none;
-   		margin-bottom: 0px;
+		border-radius: 0px;
+        border: none;
+        margin-bottom: 0px;
+        padding: 8px 8px 0px 8px;
   	}
 }
 
@@ -1688,7 +1632,9 @@ aside li {
 
 
 
-
+.content1 aside {
+	display: none;
+}
 
 /*   ARCHIVE STYLES     */
 
@@ -1880,11 +1826,11 @@ h3:target + .taglist .return {
 
 
 .post_block_right {
-    float: right;
-    width: 60%;
+	float: right;
+    width: auto;
     display: flex;
     flex-direction: column;
-    margin: 8px 8px 8px 0px;
+    margin: 8px 8px 8px 8px;
     justify-content: space-between;
 }
 
@@ -1901,12 +1847,12 @@ h3:target + .taglist .return {
 
 
 .post_block_left {
-    float: left;
-    width: 40%;
+	float: left;
+    width: -webkit-fill-available;
     display: flex;
     gap: 4px;
     flex-direction: column;
-    margin: 8px 0px 8px 8px;
+    margin: 8px 8px 0px 8px;
     justify-content: space-between;
 }
 
@@ -1970,7 +1916,6 @@ header p {
 
 
 .header {
-    /* font-family: "base-mono-narrow", monospace; */
 	font-family: "t26-carbon", monospace;
     font-weight: 100;
     text-transform: uppercase;
@@ -1981,9 +1926,9 @@ header p {
     line-height: 28px;
     padding: 8px 8px;
     background-color: #F8F4F1;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .post_title {
@@ -2173,7 +2118,7 @@ article header a {
     background-repeat: repeat;
     width: 100%;
     height: 40px;
-    margin-top: 0px;
+    margin-top: 12px;
     margin-bottom: 12px;
 /*    border-radius: 2px;*/
 }
@@ -2185,7 +2130,7 @@ article header a {
 	    background-repeat: repeat;
 	    width: 100%;
 	    height: 40px;
-	    margin-top: 0px;
+	    margin-top: 8px;
 	    margin-bottom: 8px;
 	}
 }
@@ -2199,9 +2144,14 @@ article header a {
     margin-top: 0px;
     margin-bottom: 12px;
     margin-top: 12px;
-    /* border-radius: 2px;
 }
 
+@media only screen and (max-width: 800px) {
+	.divider_02 {
+	    margin-top: 8px;
+	    margin-bottom: 8px;
+	}
+}
 
 
 
