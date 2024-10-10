@@ -4,7 +4,7 @@ page-type: post
 ---
 <main role="main" class="cf">
 
-{% include sidebar.html %}
+
 
 <div class="right_container">
 
@@ -30,13 +30,6 @@ page-type: post
                     {% endif %}
                 </div>
 
-                <div class="post_block_artist">
-                    {% if page.artist %}
-                        MAKER: <span class="post_entry">{{ page.artist }}</span>
-                    {% else %}
-                        MAKER: <span class="post_entry">Not available</span>
-                    {% endif %}
-                </div>
 
                 <div class="post_block_artist">
                     {% if page.category %}
@@ -58,35 +51,8 @@ page-type: post
                     </div>
                 </div>
 
-                <div class="post_block_artist">
-                    {% if page.link %}
-                        {% if page.linktext %}
-                            LINK: <span class="post_entry">
-                                <a href="{{ page.link }}" target="_blank" style="color:#555555">
-                                    {{ page.linktext }}
-                                </a>
-                            </span>
-                        {% else %}
-                            LINK: <span class="post_entry">
-                                <a href="{{ page.link }}" target="_blank" style="color:#555555">
-                                    More Information
-                                </a>
-                            </span>
-                        {% endif %}
-                    {% else %}
-                        Link: <span class="post_entry"> None Available</span>
-                    {% endif %}
-                </div>
 
-                <div class="page_block_tags">
-                    <footer class="page_footer">
-                            {% for tag in page.tags %}
-                                <div class="post_tag2">
-                                    <a href="{{site.baseurl}}/tags/index.html#{{tag | cgi_escape}}" title="Posts tagged {{tag}}">{{tag}}</a>
-                                </div>
-                            {% unless forloop.last %}{% endunless %} {% endfor %}
-                    </footer>
-                </div>
+
 
             </div>
         </div>
@@ -121,15 +87,6 @@ page-type: post
     </article>
 
 
-
-    <section class="post-links">
-          {% if page.previous.url %}
-            <p class="prevLink"><a class="previous" href="{{ site.baseurl }}{{page.previous.url}}">{{page.previous.title}}</a></p>
-          {% endif %}
-          {% if page.next.url %}
-            <p class="nextLink"><a class="next" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}}</a></p>
-          {% endif %}
-	</section>
 
 </article>
 

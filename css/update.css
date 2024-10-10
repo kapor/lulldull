@@ -476,7 +476,7 @@ font-style: normal;*/
 
 
 .thumb_post {
-	height: 316px;
+	height: 750px;
     /* border-radius: 4px; */
     position: relative;
     overflow: hidden;
@@ -698,6 +698,10 @@ hr {
     gap: 2%;
     padding: 0 40px;
 	transition: 0.4s;
+    display: flex;
+    width: -webkit-fill-available;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 @media screen and (max-width: 800px) {
@@ -1238,7 +1242,7 @@ article {
 
 
 .right_container {
-    width: 78%;
+    width: 100%;
     float: right;
     display: flex;
     flex-direction: row;
@@ -1268,21 +1272,21 @@ article {
 
 
 .post_block {
-	display: flex;
+    display: flex;
     flex-direction: row;
     border-radius: 4px;
     overflow: hidden;
-    gap: 8px;
-    width: 100%;
-    margin-bottom: 20px;
-    border: 1px solid #dedede;
+    gap: 2%;
+    width: 49%;
+    margin-bottom: 2%;
+   /* border: 1px solid #dedede;*/
 }
 
 @media screen and (max-width: 800px) {
     .post_block {
         display: block;
         /*flex-direction: column;*/
-        width: 100%;
+        width: 40%;
         /*gap: 8px;*/
         margin-bottom: 0px;
     }
@@ -1312,7 +1316,7 @@ article {
     border-radius: 4px;
     overflow: hidden;
     width: 100%;
-    margin-bottom: 12px;
+    margin-bottom: 0px;
     padding: 8px;
     border: 1px solid #dedede;
 }
@@ -1326,10 +1330,10 @@ article {
 
 @media screen and (max-width: 600px) {
 	.page_block {
-	    border-radius: 0px;
-	    padding: none;
-	    border: none;
-   		margin-bottom: 0px;
+		border-radius: 0px;
+        border: none;
+        margin-bottom: 0px;
+        padding: 8px 8px 0px 8px;
   	}
 }
 
@@ -1881,10 +1885,10 @@ h3:target + .taglist .return {
 
 .post_block_right {
     float: right;
-    width: 60%;
+    width: auto;
     display: flex;
     flex-direction: column;
-    margin: 8px 8px 8px 0px;
+    margin: 0px;
     justify-content: space-between;
 }
 
@@ -1900,20 +1904,20 @@ h3:target + .taglist .return {
 
 
 
-.post_block_left {
+.post_block_inner {
     float: left;
-    width: 40%;
+    width: 100%;
     display: flex;
     gap: 4px;
     flex-direction: column;
-    margin: 8px 0px 8px 8px;
+    margin: 8px;
     justify-content: space-between;
 }
 
 
 
 @media only screen and (max-width: 800px) {
-    .post_block_left {
+    .post_block_inner {
         float: left;
         width: auto;
         display: block;
@@ -2099,109 +2103,6 @@ article header {
 article header a {
 	display: block;
 }
-
-
-
-
-.header_02 {
-	font-family: letter-gothic-std, monospace;
-	font-weight: 800;
-	width: 100%;
-	font-size: 120px;
-	display: flex;
-	justify-content: space-between;
-	text-transform: uppercase;
-    padding: 40px 0px 20px 0px;
-}
-
-@media only screen and (max-width: 1200px) {
-	.header_02 {
-		font-size: 80px;
-	}
-}
-
-@media only screen and (max-width: 800px) {
-	.header_02 {
-		font-size: 60px;
-	}
-}
-
-@media only screen and (max-width: 800px) {
-	.header_02 {
-		font-size: 40px;
-    	padding: 8px 0px 8px 8px;
-	}
-}
-
-
-.image_caption {
-/*	font-family: "kepler-std", serif;*/
-	font-family: letter-gothic-std, monospace;
-	font-weight: 300;
-	font-style: normal;
-    font-size: 12px;
-    color: #222;
-    letter-spacing: 0px;
-	text-transform: uppercase;
-	background-color: #F8F4F1;
-/*  font-weight: 300;
-	color: #222222;*/
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-    padding: 6px;
-}
-
-@media only screen and (max-width: 800px) {
-	.image_caption {
-		font-size: 10px;
-        padding: 4px 4px 4px 4px;
-	}
-}
-
-
-@media only screen and (max-width: 600px) {
-	.image_caption {
-        padding: 4px 4px 4px 8px;
-	}
-}
-
-
-.divider_01 {
-    background-image: url("../images/patterns/pattern_03.png");
-    background-color: none;
-    background-repeat: repeat;
-    width: 100%;
-    height: 40px;
-    margin-top: 0px;
-    margin-bottom: 12px;
-/*    border-radius: 2px;*/
-}
-
-@media only screen and (max-width: 800px) {
-	.divider_01 {
-	    background-image: url("../images/patterns/pattern_03.png");
-	    background-color: none;
-	    background-repeat: repeat;
-	    width: 100%;
-	    height: 40px;
-	    margin-top: 0px;
-	    margin-bottom: 8px;
-	}
-}
-
-.divider_02 {
-    background-image: url(../images/patterns/pattern_03.png);
-    background-color: none;
-    background-repeat: repeat;
-    width: 100%;
-    height: 80px;
-    margin-top: 0px;
-    margin-bottom: 12px;
-    margin-top: 12px;
-    /* border-radius: 2px;
-}
-
 
 
 
