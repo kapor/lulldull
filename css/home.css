@@ -35,7 +35,7 @@
     width: 100%;
     gap: 2%;
     padding: 0px;
-    transition: 0.4s;
+/*    transition: 0.4s;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -48,6 +48,8 @@
 	    margin: 0% 2%;
 	}
 }
+
+
 
 @media screen and (max-width: 800px) {
 	.home_posts {
@@ -75,20 +77,26 @@
 }
 
 .home_block {
-	display: flex;
+    display: flex;
     flex-direction: column;
     border-radius: 4px;
     overflow: hidden;
     gap: 0px;
-    width: 49%;
+    width: 32%;
     background-color: #FFFFFF;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     border: 1px solid #dedede;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1250px) {
     .home_block {
- 	   width: 100%;
+       width: 49%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .home_block {
+ 	   margin-bottom: 20px;
     }
 }
 

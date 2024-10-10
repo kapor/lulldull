@@ -16,7 +16,7 @@ blockquote, pre, form, label, legend, table, caption, tbody, tfoot, thead, tr, t
 html {
 	-ms-text-size-adjust: 100%; /* 2 */
 	-webkit-text-size-adjust: 100%; /* 2 */
-	background: #F8F4F1;
+	background: #FFFFFF;
     margin: 0;
     padding: 0;
     min-width: 300px;
@@ -54,7 +54,7 @@ body {
 	font-family: letter-gothic-std, monospace;
 	font-weight: 200;
 	font-style: normal;
-	background: #F8F4F1;
+	background: #FFFFFF;
 	direction: ltr;
     margin: 0;
     padding: 0;
@@ -176,7 +176,7 @@ article h2 a {
     padding: 8px;
     background-color: #F8F4F1;
     height: auto;
-    /*margin: 4px 0px;*/
+    margin: 0px 8px 8px 8px;
 }
 
 @media screen and (max-width: 800px) {
@@ -306,7 +306,7 @@ font-style: normal;*/
 
 
 .content1 {
-	padding-top: 40px;
+	padding-top: 32px;
 }
 
 
@@ -329,10 +329,10 @@ font-style: normal;*/
 	}
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
 
 	.content2 {
-		padding-top: 0px;
+		padding-top: 72px;
 	}
 
 }
@@ -1174,12 +1174,12 @@ article {
 
 
 .right_container {
-    width: 100%;
+    width: 78%;
     float: right;
     display: flex;
     flex-direction: row;
     /* padding-right: 2.5%; */
-    padding-top: 0px;
+    padding-top: 24px;
     padding-bottom: 60px;
     flex-wrap: wrap;
 }
@@ -2152,6 +2152,34 @@ article header a {
 	    margin-bottom: 8px;
 	}
 }
+
+
+
+
+
+
+/* FOOTER */
+
+
+
+.footer_container {
+    width: 100%;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    padding-top: 0px;
+    padding-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
 
 
 
