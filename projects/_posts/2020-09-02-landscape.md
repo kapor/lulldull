@@ -7,7 +7,8 @@ artist: Unknown
 loc: 
 author: 
 year: "1971"
-category: Book
+category: Illustration
+book: yes
 tags: [garden, landscaping, illustration, diagram, nature, information, data, 1970s]
 image: thumbs/2020_landscape.jpg
 hidden: false

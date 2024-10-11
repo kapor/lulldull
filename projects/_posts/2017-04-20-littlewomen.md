@@ -6,7 +6,8 @@ artist: "Betty Fraser"
 loc: 
 author: Louisa May Alcott
 year: 
-category: 
+category: Illustration
+book: yes
 tags: [print, illustration, book]
 image: thumbs/2017_littlewomen.jpg
 hidden: false

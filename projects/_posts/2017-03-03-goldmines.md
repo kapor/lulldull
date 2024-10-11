@@ -6,7 +6,8 @@ artist:
 loc: 
 author: Jack R Wagner
 year: "1970"
-category: 
+category: Illustration
+book: yes
 link: https://www.amazon.com/Gold-Mines-California-Jack-Wagner/dp/0831070021
 tags: [data, illustration, print, 1970s]
 image: thumbs/2017_goldmines.jpg

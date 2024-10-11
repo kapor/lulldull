@@ -7,7 +7,7 @@ artist: "Danny Lyon"
 loc: 
 author: 
 year: 
-category: Photography
+category: "Spotlight / Photography"
 notes: That first image of the two boys and the puppy just hits me every time.
 tags: [photography, portrait, street]
 image: thumbs/2016_dannylyon.jpg

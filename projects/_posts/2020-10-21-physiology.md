@@ -6,7 +6,8 @@ artist: Elbert Tokay
 loc: 
 author: 
 year: "1967"
-category: Book
+category: Illustration
+book: yes
 link: "https://archive.org/details/fundamentalsofph0000elbe_h5p2/page/n10/mode/thumb"
 tags: [science, body, anatomy, medical, diagram, information, 1970s]
 image: thumbs/2020_physiology.jpg

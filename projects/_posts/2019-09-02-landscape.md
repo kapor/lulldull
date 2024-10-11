@@ -7,7 +7,10 @@ artist:
 loc: 
 author: 
 year: "1971"
-category:
+category: Illustration
+book: yes
+link: "https://www.amazon.com/Practical-Guide-Landscaping-Readers-Digest/dp/0888500270"
+linktext: "Amazon"
 tags: [garden, landscaping, illustration, diagram, nature, information, data, 1970s]
 image: thumbs/2019_landscape.jpg
 hidden: false

@@ -7,6 +7,7 @@ loc:
 author: 
 year: 
 category: Stamps
+stamps: yes
 images: "100+"
 link: "https://geheugen.delpher.nl/nl/geheugen/results?coll=ngvn&facets%5BcollectionStringNL%5D%5B%5D=Ontwerpen+voor+de+PTT%2C+een+beeldverhaal+van+150+jaar&maxperpage=36&page=1&query="
 linktext: "Image bank Het Geheugen (The Memory)"

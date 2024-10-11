@@ -7,7 +7,8 @@ artist:
 loc: 
 author: 
 year: "1951"
-category: Book
+category: Illustration
+book: yes
 tags: [book, illustration, editorial, 1950s]
 image: thumbs/2016_rootabaga.jpg
 hidden: false

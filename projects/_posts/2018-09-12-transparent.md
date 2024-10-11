@@ -6,7 +6,8 @@ artist:
 loc: 
 author: Hubert Swartout
 year: "1943"
-category: 
+category: Illustration
+book: yes
 tags: [information, science, education, 1940s]
 image: thumbs/2018_transparent.jpg
 hidden: false

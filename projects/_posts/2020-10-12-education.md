@@ -6,7 +6,8 @@ artist:
 loc: 
 author: Gyorgy Kepes
 year: "1965"
-category: Book
+category: Illustration
+book: yes
 link: "https://books.google.com/books/about/Education_of_Vision.html?id=_6Mg0AEACAAJ"
 tags: [studies, art, examples, 1960s]
 image: thumbs/2020_education.jpg

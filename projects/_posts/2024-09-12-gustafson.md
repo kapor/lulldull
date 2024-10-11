@@ -7,7 +7,7 @@ artist: "Mats Gustafson"
 loc: 
 author: 
 year: 
-category: Publication
+category: Illustration
 notes: "Uses the more-grounded venue of fashion illustration to churn out ethereal visual dreamscapes. Subtle, impressionistic and meaningful."
 link: "http://matsgustafson.org/" 
 linktext: "matsgustafson.org"

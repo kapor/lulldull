@@ -7,7 +7,7 @@ artist: ""
 loc: 
 author: 
 year: 
-category: Self-Promotion
+category: Design
 tags: [print, campaign, branding]
 image: thumbs/2016_rivertown.jpg
 hidden: false

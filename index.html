@@ -16,7 +16,7 @@ description: "A reference repository."
 
 
 
-  <article class="home_posts"> {% for post in paginator.posts offset:1 limit:25 %}
+  <article class="home_posts"> {% for post in paginator.posts offset:1 limit:31 %}
  	
 
 	 	<article class="home_block">
@@ -60,7 +60,7 @@ description: "A reference repository."
 							{% if post.notes %}
 								NOTES:  <span class="post_entry"> {{ post.notes }}</span>
 							{% else %}
-								NOTES: <span class="post_entry"> None added</span>
+								NOTES: <span class="post_entry">Noone's written anything yet.</span>
 							{% endif %}
 						</div>
 					</div>
@@ -72,8 +72,14 @@ description: "A reference repository."
 
 			<div class="post_block_right">
 					<a href="{{site.baseurl}}{{post.url}}" title="{{ post.title }}">
+						{% if post.book %}
+						<div class="thumb_post" style="background-image: url( {{ site.baseurl }}/images/{{ post.image }} );">
+							  <img class="icon_book" src="{{site.baseurl}}/images/icon/book_icon.svg">
+						</div>
+						{% else %}
 						<div class="thumb_post" style="background-image: url( {{ site.baseurl }}/images/{{ post.image }} );"></div>
 					</a>
+					{% endif %}
 			</div>
 
 				<div class="post_block_tags">

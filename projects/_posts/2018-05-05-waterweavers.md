@@ -4,10 +4,12 @@ alt: Waterweavers, A Chronicle of Rivers
 title: Waterweavers, A Chronicle of Rivers
 date: 2018-05-05
 artist: "José Roca and Alejandro Martín"
-loc: https://www.bgc.bard.edu/exhibitions/exhibitions/13/waterweavers
 author: José Roca and Alejandro Martín
 year: "2014"
 category: Book
+book: yes
+link: "https://www.bgc.bard.edu/publications/all/46/waterweavers"
+linktext: "Bard Graduate Center"
 tags: [book, exhibition, nature]
 image: thumbs/2018_waterweavers.jpg
 hidden: false

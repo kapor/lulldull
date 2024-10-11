@@ -6,7 +6,8 @@ artist: Various
 loc: 
 author: 
 year: "2004"
-category: Book
+category: Design
+book: yes
 link: "https://www.amazon.com/Infiltrate-Front-Lines-Design-Scene/dp/9063690444"
 linktext: "Infiltrate: The Front Lines of the NYC Design Scene (Amazon)"
 notes: "Another mid-aughts graphic design showcase with a hodge-podge of styles/mediums on display. Some rock stars (Sahre, Sagmeister) and others who are better (Cezzar, Choi)."
