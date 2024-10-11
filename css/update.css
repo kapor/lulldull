@@ -1931,6 +1931,20 @@ header p {
     text-overflow: ellipsis;
 }
 
+
+.post_header {
+	font-family: "t26-carbon", monospace;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: .5px;
+    color: #222222;
+    font-size: 24px;
+    line-height: 28px;
+    padding: 8px 8px;
+    background-color: #F8F4F1;
+}
+
 .post_title {
     /*font-family: "base-mono-narrow", monospace;*/
 	font-family: "t26-carbon", monospace;
@@ -2175,19 +2189,23 @@ article header a {
 
 
 
-.icon_book {
+.icon_post {
 	position: absolute;
 	top: 0px;
 	left: 0px;
-	width: 40px;
-	height: 40px;
+	width: 32px;
+	height: 32px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	z-index: 1;
-	background-color: #F8F4F1;
+/*	background-color: #F8F4F1;*/
+	background-color: white;
 	border-radius: 0px;
 }
+
+
+
 
 
 

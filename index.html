@@ -74,7 +74,15 @@ description: "A reference repository."
 					<a href="{{site.baseurl}}{{post.url}}" title="{{ post.title }}">
 						{% if post.book %}
 						<div class="thumb_post" style="background-image: url( {{ site.baseurl }}/images/{{ post.image }} );">
-							  <img class="icon_book" src="{{site.baseurl}}/images/icon/book_icon.svg">
+							  <img class="icon_post" src="{{site.baseurl}}/images/icon/icon_book.svg">
+						</div>
+						{% elsif post.stamps %}
+						<div class="thumb_post" style="background-image: url( {{ site.baseurl }}/images/{{ post.image }} );">
+							  <img class="icon_post" src="{{site.baseurl}}/images/icon/icon_stamp.svg">
+						</div>
+						{% elsif post.maps %}
+						<div class="thumb_post" style="background-image: url( {{ site.baseurl }}/images/{{ post.image }} );">
+							  <img class="icon_post" src="{{site.baseurl}}/images/icon/icon_map.svg">
 						</div>
 						{% else %}
 						<div class="thumb_post" style="background-image: url( {{ site.baseurl }}/images/{{ post.image }} );"></div>
