@@ -5,13 +5,16 @@
 
 
 <aside>
-<h3>SPECIFICS</h3>
-<ul class="archives">
-			<li><a href="{{site.baseurl}}/tags/">All posts</a></li>
-            {% for tag in sortedTags %}
-                <li><a href="{{site.baseurl}}/tags/#{{ tag | cgi_escape }}">{{ tag }} ({{ site.tags[tag].size }})</a></li>
-            {% endfor %}
-        </ul>
-
+    <div class="aside_inner">
+        <div class="archives">
+            <h3>SPECIFICS</h3>
+            <ul>
+            	<li><a href="{{site.baseurl}}/tags/">All posts</a></li>
+                {% for tag in sortedTags %}
+                    <li><a href="{{site.baseurl}}/tags/#{{ tag | cgi_escape }}">{{ tag }} ({{ site.tags[tag].size }})</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
 </aside>
 
