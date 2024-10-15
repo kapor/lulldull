@@ -15,58 +15,27 @@ description: "A reference repository."
 
 
 
-  <article class="posts"> {% for post in paginator.posts limit:24 %}
  	
 
-	 	<article class="post_block">
-
-		 	<div class="post_block_inner">
-		 		
-		 		<div class="post_block_right_info">
 
 
-					<div class="header">
-						{% if post.alt %}
-							<a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">{{ post.alt }}</a>
-						{% else %}
-							<a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">{{ post.title }} {% if post.author %}{% endif %}</a>
-						{% endif %}
-					</div>
 
-
-			<div class="post_block_right">
-					<a href="{{site.baseurl}}{{post.url}}" title="{{ post.title }}">
-						<div class="thumb_post" style="background-image: url( {{ site.baseurl }}/images/{{ post.image }} );"></div>
-					</a>
-			</div>
-
+<div class="row">
+	{% for post in paginator.posts limit:24 %}
+	<div class="column">
+    <div class="card" style="background-image: url( {{ site.baseurl }}/images/{{ post.image }} );">
+				<div class="title">
+					{% if post.alt %}
+						<a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">{{ post.alt }}</a>
+					{% else %}
+						<a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">{{ post.title }} {% if post.author %}{% endif %}</a>
+					{% endif %}
 				</div>
-			</div>
-
-
-
-
-    </article>
-
-
-
-	{% endfor %}
-
-			<!-- Pagination links -->
-		<div class="pagination">
-			{% if paginator.previous_page %}
-			<a href="{{ paginator.previous_page_path }}" class="previous">back</a>
-			{% else %}
-			<span class="previous"></span>
-			{% endif %}
-			<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
-			{% if paginator.next_page %}
-			<a href="{{ paginator.next_page_path }}" class="next">next</a>
-			{% else %}
-			<span class="next "></span>
-		{% endif %}
+			<a href="{{site.baseurl}}{{post.url}}">
+			</a>
 		</div>
-
+	</div>
+	{% endfor %}
 </div>
 
 
@@ -74,7 +43,11 @@ description: "A reference repository."
 
 
 
-	</article>
+</div>
+
+
+
+
 
 </main>
 
