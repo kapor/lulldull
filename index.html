@@ -22,19 +22,19 @@ description: "A reference repository."
 
 <div class="row">
 	{% for post in paginator.posts limit:24 %}
+
 	<div class="column">
-    <div class="card" style="background-image: url( {{ site.baseurl }}/images/{{ post.image }} );">
-				<div class="title">
-					{% if post.alt %}
-						<a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">{{ post.alt }}</a>
-					{% else %}
-						<a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">{{ post.title }} {% if post.author %}{% endif %}</a>
-					{% endif %}
-				</div>
+		<div class="thumb_container">
 			<a href="{{site.baseurl}}{{post.url}}">
-			</a>
+		    <div class="card" style="background-image: url( {{ site.baseurl }}/images/{{ post.image }} );">
+						<div class="title">
+						{{ post.title }}
+						</div>
+				</div>
+		  </a>
 		</div>
 	</div>
+
 	{% endfor %}
 </div>
 
