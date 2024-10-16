@@ -2,7 +2,7 @@
 layout: post
 title: "Compendium of Astronomy and Astrology"
 date:  2023-10-12
-artist: 
+artist: "Unknown"
 loc: 
 author: "Unknown"
 year: "1774"

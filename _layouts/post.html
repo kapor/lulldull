@@ -34,20 +34,32 @@ page-type: post
                 <div class="post_block_artist">
                     {% if page.artist %}
                         MAKER: <span class="post_entry">{{ page.artist }}</span>
+                    {% elsif page.author %}
+                        MAKER: <span class="post_entry">{{ page.author }}</span>
                     {% else %}
-                        MAKER: <span class="post_entry">Not available</span>
+                        MAKER: <span class="post_entry">Unknown</span>
                     {% endif %}
                 </div>
 
+                {% if page.year %}
                 <div class="post_block_artist">
-                    {% if page.category %}
-                        CATEGORY: <span class="post_entry">{{ page.category }}</span>
-                    {% elsif page.series %}
-                        SERIES: <span class="post_entry">{{ page.series }}</span>
-                    {% else %}
-                        CATEGORY: <span class="post_entry">Not available</span>
-                    {% endif %}
+                    YEAR: <span class="post_entry">{{ page.year }}</span>
                 </div>
+                {% else %}
+                {% endif %}
+
+    
+                    {% if page.category %}
+                    <div class="post_block_artist">
+                        CATEGORY: <span class="post_entry">{{ page.category }}</span>
+                    </div>
+                    {% elsif page.series %}
+                    <div class="post_block_artist">
+                        SERIES: <span class="post_entry">{{ page.series }}</span>
+                    </div>
+                    {% else %}
+                    {% endif %}
+
 
                 <div class="post_block_notes">
                     <div class="page_block_notes_content">
@@ -58,6 +70,7 @@ page-type: post
                         {% endif %}
                     </div>
                 </div>
+
 
                 <div class="post_block_artist">
                     {% if page.link %}
