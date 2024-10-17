@@ -11,40 +11,44 @@ description: "A reference repository."
 
 
 
-<div class="right_container">
 
 
 
- 	
-
-
-
-
-<div class="row">
+<div class="grid">
 	{% for post in paginator.posts limit:24 %}
-
-	<div class="column">
-		<div class="thumb_container">
-			<a href="{{site.baseurl}}{{post.url}}">
-		    <div class="card" style="background-image: url( {{ site.baseurl }}/images/{{ post.image }} );">
-						<div class="title">
-						{{ post.title }}
-						</div>
-				</div>
-		  </a>
-		</div>
-	</div>
-
+	<a href="{{site.baseurl}}{{post.url}}">
+  <div class="item" style="background-image: url( {{ site.baseurl }}/images/{{ post.image }} );">
+			<div class="title">
+			{{ post.title }}
+			</div>
+  </div>
+</a>
 	{% endfor %}
-</div>
-
-
-
-
-
 
 </div>
 
+<div class="fancy_table" style="overflow-x: auto;">
+	<table>
+		<tr>
+			<th class="menu_header">Title</th>
+			<th class="menu_header">Location</th>
+			<th class="menu_header">Category</th>
+			<th class="menu_header">Year</th>
+			<th class="menu_header">Date</th>
+		</tr>
+	{% assign posts = site.posts %}
+	{% for post in paginator.posts limit:100 %}
+		<tr class="menu_row" style="transform: rotate(0);">
+			<td class="menu_data">{{post.title}}</td>
+			<td class="menu_data">{{post.loc}}</td>
+			<td class="menu_data">{{post.category}}</td>
+			<td class="menu_data">{{post.year}}</td>
+			<td class="menu_data">{{post.date}}</td>
+		</tr>
+	{% endfor %}
+
+	</table>
+</div>
 
 
 
