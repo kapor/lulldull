@@ -92,6 +92,16 @@ page-type: post
                     {% endif %}
                 </div>
 
+                {% if page.download %}
+                    <div class="post_block_artist">
+                        DOWNLOAD: <span class="post_entry">
+                            <a href="{{ page.download }}" target="_blank" style="color:#555555">
+                                {{ page.dltext }}
+                            </a>
+                        </span>
+                    </div>
+                {% else %}
+                {% endif %}
 
                 <div class="page_block_tags">
                     <footer class="page_footer">
