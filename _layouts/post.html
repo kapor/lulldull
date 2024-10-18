@@ -71,9 +71,8 @@ page-type: post
                     </div>
                 </div>
 
-
+                {% if page.link %}
                 <div class="post_block_artist">
-                    {% if page.link %}
                         {% if page.linktext %}
                             LINK: <span class="post_entry">
                                 <a href="{{ page.link }}" target="_blank" style="color:#555555">
@@ -87,10 +86,10 @@ page-type: post
                                 </a>
                             </span>
                         {% endif %}
-                    {% else %}
-                        Link: <span class="post_entry"> None Available</span>
-                    {% endif %}
                 </div>
+                {% else %}
+                {% endif %}
+
 
                 {% if page.download %}
                     <div class="post_block_artist">
