@@ -61,16 +61,6 @@ page-type: post
                     {% endif %}
 
 
-                <div class="post_block_notes">
-                    <div class="page_block_notes_content">
-                        {% if page.notes %}
-                            NOTES:  <span class="post_entry"> {{ page.notes }}</span>
-                        {% else %}
-                            NOTES: <span class="post_entry">Noone's written anything yet.</span>
-                        {% endif %}
-                    </div>
-                </div>
-
                 {% if page.link %}
                 <div class="post_block_artist">
                         {% if page.linktext %}
@@ -91,6 +81,19 @@ page-type: post
                 </div>
                 {% else %}
                 {% endif %}
+
+
+                <div class="post_block_notes">
+                    <div class="page_block_notes_content">
+                        {% if page.notes %}
+                            NOTES:  <span class="post_entry"> {{ page.notes }}</span>
+                        {% else %}
+                            NOTES: <span class="post_entry">Noone's written anything yet.</span>
+                        {% endif %}
+                    </div>
+                </div>
+
+
 
 
                 {% if page.download %}
