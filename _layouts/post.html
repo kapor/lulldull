@@ -74,16 +74,18 @@ page-type: post
                 {% if page.link %}
                 <div class="post_block_artist">
                         {% if page.linktext %}
-                            LINK: <span class="post_entry">
+                            LINK: <span class="post_entry_icon">
                                 <a href="{{ page.link }}" target="_blank" style="color:#555555">
                                     {{ page.linktext }}
                                 </a>
+                                <div class="icon_small"><img src="{{ site.baseurl }}/images/link.svg" alt="download"></div>
                             </span>
                         {% else %}
-                            LINK: <span class="post_entry">
+                            LINK: <span class="post_entry_icon">
                                 <a href="{{ page.link }}" target="_blank" style="color:#555555">
                                     More Information
                                 </a>
+                                <div class="icon_small"><img src="{{ site.baseurl }}/images/link.svg" alt="download"></div>
                             </span>
                         {% endif %}
                 </div>
@@ -93,11 +95,13 @@ page-type: post
 
                 {% if page.download %}
                     <div class="post_block_artist">
-                        DOWNLOAD: <span class="post_entry">
+                        DOWNLOAD: <span class="post_entry_icon">
                             <a href="{{ page.download }}" target="_blank" style="color:#555555">
                                 {{ page.dltext }}
                             </a>
+                            <div class="icon_small"><img src="{{ site.baseurl }}/images/download.svg" alt="download"></div>
                         </span>
+
                     </div>
                 {% else %}
                 {% endif %}

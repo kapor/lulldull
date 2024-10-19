@@ -301,6 +301,18 @@ font-style: normal;*/
 }
 
 
+.page_block_top_info .post_entry_icon {
+	font-family: "kepler-std", serif;
+	font-weight: 300;
+	font-style: italic;
+    font-size: 16px;
+    color: #555555;
+    letter-spacing: 0px;
+    display: inline-flex;
+    gap: 2px;
+}
+
+
 
 .page-header {
 	padding: 0px 0px 0px 0px;
@@ -1166,7 +1178,14 @@ article img {
 
 
 
+.icon_small {
+	height: 24px;
+	float: right;
+}
 
+.icon_small img {
+	width: 24px;
+}
 
 
 
