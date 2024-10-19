@@ -9,7 +9,7 @@ year: "1774"
 category: Books / Astronomy
 book: yes
 link: "https://lccn.loc.gov/2021668107"
-linktext: "Compendium of Astronomy and Astrology (Library of Congress)"
+linktext: "Library of Congress"
 notes: "'This manuscript with beautifully illuminated margins, by an unknown writer, is an 18th century compendium of works on astronomy and astrology. It contains excerpts of several treatises on astronomy and numerology...'"
 tags: [book, astrology, astronomy, 1700s, history]
 image: thumbs/2023_astronomy.jpg

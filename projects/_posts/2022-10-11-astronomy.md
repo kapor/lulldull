@@ -11,7 +11,7 @@ category: "Books / Astronomy"
 book: yes
 notes: 
 link: "https://www.loc.gov/item/87176190/" 
-linktext: "Theorica Planetarum (Library of Congress)"
+linktext: "Theorica Planetarum"
 download: /images/downloads/2022_astronomy.zip
 dltext: "This set"
 tags: [cosmography, diagram, astronomy, 1400s, astrology]
