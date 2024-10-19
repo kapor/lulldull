@@ -1217,8 +1217,8 @@ article img {
 
 
 .lost_container {
-	font-family: letter-gothic-std, monospace;
-    font-weight: 300;
+	font-family: "kepler-std", serif;
+    font-weight: 200;
     font-style: normal;
     font-size: 48px;
     line-height: 56px;
@@ -1229,16 +1229,15 @@ article img {
 }
 
 
-.lost_container2 {
-	font-family: letter-gothic-std, monospace;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 48px;
-    line-height: 56px;
-    padding: 100px;
+.lost_container2  {
 	margin: auto;
-	max-width: 800px;
-	text-align: center;
+	padding-top: 60px;
+}
+
+.lost_container2 img {
+	width: 100%;
+	margin: auto;
+	width: 300px;
 }
 
 
@@ -1246,14 +1245,21 @@ article img {
 
 @media screen and (max-width: 800px) {
 	.lost_container {
-		font-family: letter-gothic-std, monospace;
-	    font-weight: 300;
+		font-family: "kepler-std", serif;
+	    font-weight: 200;
 	    font-style: normal;
 	    font-size: 32px;
 	    line-height: 40px;
 	    padding: 48px;
 		max-width: 800px;
 		text-align: center;
+	}
+	
+
+	.lost_container2 img {
+		width: 100%;
+		margin: auto;
+		width: 200px;
 	}
 
 }
