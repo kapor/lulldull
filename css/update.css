@@ -1134,6 +1134,19 @@ article img {
 
 }
 
+.post_image_outer {
+	display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+@media screen and (max-width: 600px) {
+
+	.post_image_outer {
+		gap: 8px;
+	}
+
+}
 
 .post_image_inner {
 	display: flex;
@@ -1254,7 +1267,7 @@ article img {
 		max-width: 800px;
 		text-align: center;
 	}
-	
+
 
 	.lost_container2 img {
 		width: 100%;
