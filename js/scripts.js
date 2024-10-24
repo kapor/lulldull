@@ -11,13 +11,13 @@ function scrollFunction() {
     document.getElementById("logo_mob").style.margin = "0px";
     document.getElementById("logo_mob").style.maxHeight = "56px";
     document.getElementById("logo_img").style.maxHeight = "56px";
-    document.getElementById("logo_img").style.width = "100%";
+    document.getElementById("logo_img").style.width = "auto";
   } else {
     document.getElementById("logo_tab").style.margin = "20px";
     document.getElementById("logo_mob").style.margin = "8px";
     document.getElementById("logo_mob").style.maxHeight = "80px";
     document.getElementById("logo_img").style.maxHeight = "80px";
-    document.getElementById("logo_img").style.width = "auto";
+    document.getElementById("logo_img").style.width = "100%";
   }
 }
 
