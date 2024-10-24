@@ -381,6 +381,12 @@ font-style: normal;*/
 
 }
 
+@media only screen and (max-width: 600px) {
+    .content1 {
+        padding-top: 0px;
+    }
+}
+
 .content2 {
 	padding-top: 140px;
 }
@@ -437,9 +443,16 @@ font-style: normal;*/
 
 }
 
+#logo_img {
+	transition: 0.4s;
+}
+
+
 @media screen and (max-width: 600px) {
-	.logo img {
-		max-height: 56px;
+	#logo_img {
+		max-height: 80px;
+		transition: 0.4s;
+		width: 100%;
 
 	}
 }
@@ -495,7 +508,7 @@ font-style: normal;*/
         width: -webkit-fill-available;
         text-align: center;
         background-color: #222222;
-        position-area: center;
+        position-area: top;
 	}
 
 	#logo_desk {
@@ -515,7 +528,7 @@ font-style: normal;*/
         width: -webkit-fill-available;
         text-align: center;
         background-color: #222222;
-        position-area: center;
+        position-area: top;
 	}
 
 	#logo_tab {

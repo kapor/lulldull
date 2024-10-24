@@ -6,12 +6,18 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
+  if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
     document.getElementById("logo_tab").style.margin = "0px";
     document.getElementById("logo_mob").style.margin = "0px";
+    document.getElementById("logo_mob").style.maxHeight = "56px";
+    document.getElementById("logo_img").style.maxHeight = "56px";
+    document.getElementById("logo_img").style.width = "100%";
   } else {
     document.getElementById("logo_tab").style.margin = "20px";
     document.getElementById("logo_mob").style.margin = "8px";
+    document.getElementById("logo_mob").style.maxHeight = "80px";
+    document.getElementById("logo_img").style.maxHeight = "80px";
+    document.getElementById("logo_img").style.width = "auto";
   }
 }
 
