@@ -1,19 +1,19 @@
 ---
 layout: post
-title: "The history of four-footed beasts and serpents"
+title: 
 date:  2022-10-12
-artist: "Edward Topsell"
+artist: 
 loc: 
-author: "Conrad Gessner, Thomas Moffett, John Rowland"
-year: "1658"
+author: 
+year: 
 category: Books
 book: yes
-link: "https://www.loc.gov/item/06004055/"
+link: 
 linktext: "Library of Congress"
 download: /images/downloads/2022_topsell.zip
-dltext: "Full set of black and white images"
-notes: "A series of woodcut illustrations by Edward Topsell. The lines separating reality from fantasy are rather blurred here and a fair amount of these 'animals' seem to have human faces."
-tags: [book, woodcut, illustration, 1600s, nature, animals, history]
+dltext: 
+notes: 
+tags: [book]
 image: thumbs/2022_topsell.jpg
 hidden: false
 permalink:
