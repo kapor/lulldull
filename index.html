@@ -26,14 +26,14 @@ description: "A reference repository."
 		 		<div class="home_block_info">
 
 					<div class="header_home">
-							<a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">{{ post.date | date: "%Y-%m-%d" }}</a>
+							<a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="{{site.baseurl}}{{post.url}}">{{ post.date | date: "%Y-%m-%d" }}</a>
 					</div>
 
 					<div class="header_home">
 						{% if post.alt %}
-							<a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">{{ post.alt }}</a>
+							<a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="{{site.baseurl}}{{post.url}}">{{ post.alt }}</a>
 						{% else %}
-							<a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">{{ post.title }} {% if post.author %}{% endif %}</a>
+							<a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="{{site.baseurl}}{{post.url}}">{{ post.title }} {% if post.author %}{% endif %}</a>
 						{% endif %}
 					</div>
 
