@@ -2481,6 +2481,7 @@ article header a {
 	padding: 0 4px;
 }
 
+
 .post_image_column:first-child {
 	padding-left: 0px;
 }
@@ -2518,6 +2519,58 @@ article header a {
     -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
+	padding: 0px;
+  }
+}
+
+
+
+.post_image_column2 {
+	-ms-flex: 16.66%; /* IE10 */
+	flex: 16.66%;
+	max-width: 16.66%;
+	padding: 0px 0px;
+}
+
+
+.post_image_column2:first-child {
+	padding-left: 0px;
+}
+
+.post_image_column2:nth-of-type(2) {
+	padding-right: 0px;
+}
+
+.post_image_column2 img {
+	/*margin-top: 8px;*/
+	vertical-align: middle;
+	width: 100%;
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+
+
+@media screen and (max-width: 1000px) {
+	.post_image_column2 {
+		-ms-flex: 33.33%; /* IE10 */
+		flex: 33.33%;
+		max-width: 33.33%;
+		padding: 0px 0px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.post_image_column2:nth-of-type(2) {
+		padding-right: 0px;
+	}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .post_image_column2 {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
 	padding: 0px;
   }
 }
