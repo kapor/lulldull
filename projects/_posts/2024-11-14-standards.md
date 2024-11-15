@@ -2,7 +2,7 @@
 layout: post
 title: "Battle Standards"
 date:  2024-11-14
-artist: "Rabanus Maurus"
+artist: "Unkown"
 loc: 
 author: 
 year: "1624-1644"
@@ -10,7 +10,7 @@ category: Books
 book: yes
 link: "https://www.loc.gov/item/2021667410/"
 linktext: "Library of Congress"
-notes: "Illustrations of Japanese battle standards from the 16th and 17th centuries."
+notes: "Illustrations of Japanese battle standards from the 16th and 17th centuries. This scroll is important for marking the origin of multicolor woodblock printing."
 download: /images/downloads/2024_standards.zip
 dltext: "This set"
 tags: [japan, illustration, history, 1600s, military]
