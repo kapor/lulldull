@@ -32,3 +32,9 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
+
+# A Jekyll plugin to add metadata tags for search engines and social networks to better index and display your site’s content.
+gem 'jekyll-seo-tag'
+
+# Jekyll plugin to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+gem 'jekyll-sitemap'

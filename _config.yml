@@ -1,8 +1,8 @@
 title: lulldull
-description: "lulldull"
+description: "A Reference Repository"
 baseurl: ""
 url: ""
-tagline: "REFERENCE REPOSITORY"
+tagline: "A Reference Repository"
 category: ""
 collections_dir: projects
 
@@ -10,6 +10,8 @@ collections_dir: projects
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
 markdown: kramdown
 kramdown:
     auto_ids: false
