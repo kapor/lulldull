@@ -2300,6 +2300,38 @@ article header a {
 }
 
 
+.image_caption_dark {
+/*	font-family: "kepler-std", serif;*/
+	font-family: letter-gothic-std, monospace;
+	font-weight: 300;
+	font-style: normal;
+    font-size: 12px;
+    color: #fff;
+    letter-spacing: 0px;
+	text-transform: uppercase;
+	background-color: #000000;
+/*  font-weight: 300;
+	color: #222222;*/
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+    padding: 6px;
+}
+
+@media only screen and (max-width: 800px) {
+	.image_caption_dark {
+   		padding: 6px;
+	}
+}
+
+
+@media only screen and (max-width: 600px) {
+	.image_caption_dark {
+        padding: 4px 4px 4px 8px;
+	}
+}
+
+
 .divider_01 {
     background-image: url("../images/patterns/pattern_03.png");
     background-color: none;
