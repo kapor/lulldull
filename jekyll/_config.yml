@@ -1,0 +1,19 @@
+title: Triteyed
+description: "By definition, when you make something no one hates, no one loves it."
+baseurl: ""
+url: ""
+tagline: "Might your eyes be trite?"
+category: ""
+collections_dir: projects
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+    auto_ids: false
+paginator: enable 
+paginate: 24
+paginate_path: '/page:num/'
+permalink: /:year/:title/

@@ -1,0 +1,96 @@
+---
+layout: default
+page-type: post
+---
+<main role="main" class="cf">
+
+
+
+<div class="right_container">
+
+
+
+<article class="posts">
+
+    <article role="article">
+
+        <div class="page_block">
+
+            <div class="page_block_top_info">
+
+                <div class="header">
+                    {{ page.date | date: "%Y-%m-%d" }}
+                </div>
+
+                <div class="header">
+                    {% if page.alt %}
+                        {{ page.alt }}
+                    {% else %}
+                        {{ page.title }} {% if page.author %}{% endif %}
+                    {% endif %}
+                </div>
+
+
+                <div class="post_block_artist">
+                    {% if page.category %}
+                        CATEGORY: <span class="post_entry">{{ page.category }}</span>
+                    {% elsif page.series %}
+                        SERIES: <span class="post_entry">{{ page.series }}</span>
+                    {% else %}
+                        CATEGORY: <span class="post_entry">Not available</span>
+                    {% endif %}
+                </div>
+
+                <div class="post_block_notes">
+                    <div class="page_block_notes_content">
+                        {% if page.notes %}
+                            NOTES:  <span class="post_entry"> {{ page.notes }}</span>
+                        {% else %}
+                            NOTES: <span class="post_entry"> Not available</span>
+                        {% endif %}
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+<div class="divider_01"></div>
+
+
+
+
+<!--         {% if page.notes %}
+            <div class="info_container">
+                <div class="highlight2">{{ page.notes }}</div>
+            </div>
+        {% endif %} -->
+
+
+        {{content}}
+
+<div class="divider_02"></div>
+
+        <footer class="post-footer">
+                {% for tag in page.tags %}
+                    <div class="post_tag">
+                        <a href="{{site.baseurl}}/tags/index.html#{{tag | cgi_escape}}" title="Posts tagged {{tag}}">{{tag}}</a>
+                    </div>
+                {% unless forloop.last %}{% endunless %} {% endfor %}
+        </footer>
+    </article>
+
+
+
+</article>
+
+</div>
+
+
+</main>

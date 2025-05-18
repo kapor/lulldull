@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+{{ post.alt }}
+
+<div class="right_container">
+
+
+
+  
+
+    <article class="post_block">
+
+      <div class="post_block_left">
+        
+        <div class="post_block_right_info">
+
+          <div class="header">
+              <a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">{{ post.date | date: "%Y-%m-%d" }}</a>
+          </div>
+
+          <div class="header">
+            {% if post.alt %}
+              <a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">{{ post.alt }}</a>
+            {% else %}
+              <a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">{{ post.title }} {% if post.author %}{% endif %}</a>
+            {% endif %}
+          </div>
+
+
+
+    </article>
+
+
+
