@@ -207,6 +207,196 @@ Gandaui: P. Cesaris, 151
 
 
 
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/013.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/013.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+Supputatio Romanorum et Grecorum numismatum / De mensuris et ponderibus
+</div>
+<div class="image_caption">
+Gandavi: Ex officana I. Lamberti, 1537
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/014.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/014.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+De keyserlyke ordonnancien / Keyserlyke ordonnancien
+</div>
+<div class="image_caption">
+Ghent: Gheprent by P. de Keysere, 1531
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/015.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/015.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+The mirror of Saxony of all imperial rights
+</div>
+<div class="image_caption">
+Antwerpen : Gheprent by Willem Vorsterman, ca. 1504
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/016.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/016.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+Marcus Aurelius Antoninus
+</div>
+<div class="image_caption">
+London: A. L. Humphreys, 1908
+</div>
+
+
+
+
+<!-- –––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+<!-- <div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/017.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/017.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+The Impromptu Tales of Fontainebleau
+</div>
+<div class="image_caption">
+Paris: L'auteur, 1750
+</div>
+ -->
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/018.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/018.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+Een nieuwe eualuacie boecxken goerdonneert van wegen des Keysers bi den generael vander munten vanden gouden enn silueren geualueerde penningen
+</div>
+<div class="image_caption">
+Amstelredam: Gheprent by D. Pieterzoen, 1526
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/019.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/019.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+Description of the paintings in the Royal Palace, with the lives of the painters at the head of their works
+</div>
+<div class="image_caption">
+Paris: D'Houry, 1727
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/020.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/020.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+Les vigilles de la mort du feu roy Charles septiesme
+</div>
+<div class="image_caption">
+Lyon: Claude Dayne ca. 1500
+</div>
+
+
+
+
+<!-- –––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/021.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/021.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+The state of the art, in England
+</div>
+<div class="image_caption">
+Paris: C. A. Jombert, 1755
+</div>
+
+
+<!-- <div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/022.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/022.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+Description of the paintings in the Royal Palace, with the lives of the painters at the head of their works
+</div>
+<div class="image_caption">
+Paris: D'Houry, 1727
+</div> -->
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/023.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/023.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+A collection of portraits to illustrate Granger's Biog. hist. of England, and Noble's continuation to Granger
+</div>
+<div class="image_caption">
+London: T. & H. Rodd, 1820-1822
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/024.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/024.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+A parallel between ancient and modern architecture. With a collection of the ten principal authors who wrote on the five orders
+</div>
+<div class="image_caption">
+Paris: Quay des Augustins, 1702
+</div>
+
+
+
+
+<!-- –––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+
 
 
 
