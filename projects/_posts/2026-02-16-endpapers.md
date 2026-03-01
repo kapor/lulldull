@@ -20,6 +20,24 @@ permalink:
 
 <div class="post_image">
 <div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/053.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/053.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Complete textbook of lithography
+	</div>
+	<div>
+	München: K. Theinemann, 1818
+	</div>
+</div>
+</div>
+
+<!-- –––––––––––––––––––––––––––––––––––––––––– -->
+
+<div class="post_image">
+<div class="post_image1">
 	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/041.jpg" target="_blank">
 	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/041.jpg" alt="lulldull"></a>
 </div>
@@ -232,7 +250,7 @@ permalink:
 
 
 
-<div class="post_image">
+<!-- <div class="post_image">
 <div class="post_image1">
 	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/053.jpg" target="_blank">
 	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/053.jpg" alt="lulldull"></a>
@@ -246,7 +264,7 @@ permalink:
 	München: K. Theinemann, 1818
 	</div>
 </div>
-</div>
+</div> -->
 
 <div class="post_image">
 <div class="post_image1">
@@ -295,6 +313,366 @@ permalink:
 	</div>
 	<div>
 	London: Ludgate-Hill, 1774
+	</div>
+</div>
+</div>
+
+<!-- –––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/057.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/057.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Oeuvre de Mes. de Cuvillies
+	</div>
+	<div>
+	Munich: 1745
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/058.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/058.jpg" alt="lulldull"></a>
+</div>
+
+
+<div class="image_caption2">
+	<div>Title:
+	Lithography; or, The art of making drawings on stone, for the purpose of being multiplied by printing
+	</div>
+	<div>
+	Bath: Printed by Wood, 1813
+	</div>
+</div>
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/059.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/059.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Of the just shaping of letters : from the Applied geometry of Albrecht Dürer, book III
+	</div>
+	<div>
+	New York: Grolier Club, 1917
+	</div>
+</div>
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/060.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/060.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Arte nuevo de escribir por preceptos geometricos y reglas mathematicas.
+	</div>
+	<div>
+	Madrid: 1719
+	</div>
+</div>
+</div>
+
+<!-- –––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/061.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/061.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	A biographical dictionary
+	</div>
+	<div>
+	London: Printed by J. Davis for R. Faulder, 1785-1786
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/062.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/062.jpg" alt="lulldull"></a>
+</div>
+
+
+<div class="image_caption2">
+	<div>Title:
+	Repertorium sculptile-typicum
+	</div>
+	<div>
+	London: S.G. for S. Harding, 1730
+	</div>
+</div>
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/063.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/063.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	An essay on prints
+	</div>
+	<div>
+	London: R. Blamire, 1792
+	</div>
+</div>
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/064.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/064.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	The print collector
+	</div>
+	<div>
+	London: Saunders and Otley, 1844
+	</div>
+</div>
+</div>
+
+<!-- –––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/065.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/065.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Catalogue de livres d'estampes et de figures en taille-douce
+	</div>
+	<div>
+	Paris: I. Langlois, 1672
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/066.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/066.jpg" alt="lulldull"></a>
+</div>
+
+
+<div class="image_caption2">
+	<div>Title:
+	Dissertatio epistolaris de calligraphiae nomenclatione
+	</div>
+	<div>
+	Vienna: Kaliwodiano, 1756
+	</div>
+</div>
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/067.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/067.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Idée générale d'une collection complete d'estampes
+	</div>
+	<div>
+	Leipsic et Vienne: J. P. Kraus, 1771
+	</div>
+</div>
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/068.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/068.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	The imperial Russian dinner service; a story of a famous work by Josiah Wedgwood
+	</div>
+	<div>
+	London: G. Bell and sons, 1909
+	</div>
+</div>
+</div>
+
+<!-- –––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/069.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/069.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Pierres antiques gravées, sur lesquelles les graveurs ont mis leurs noms. Dessinées & gravées en cuivre sur les originaux ou d'après les empreintes
+	</div>
+	<div>
+	Amsterdam: B. Picart, 1724
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/070.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/070.jpg" alt="lulldull"></a>
+</div>
+
+
+<div class="image_caption2">
+	<div>Title:
+	Collection of J. Pierpont Morgan; bronzes of the renaissance and subsequent periods
+	</div>
+	<div>
+	Paris: Librairie centrale des beauxarts, 1910
+	</div>
+</div>
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/071.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/071.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	The origin and progress of writing, as well hieroglyphic as elementary, illustrated by engravings taken from marbles, manuscripts and charters, ancient and modern
+	</div>
+	<div>
+	London: Printed for the author, 1784
+	</div>
+</div>
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/072.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/072.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Incipit summa que vocatur Catholicon
+	</div>
+	<div>
+	Mainz: Printer of the Catholicon (Johann Gutenberg), 1460
+	</div>
+</div>
+</div>
+
+<!-- –––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/073.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/073.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Daphnis et Chloé, traduction complète d'après le manuscript de l'Abaye de Florence
+	</div>
+	<div>
+	Florence: Imprimé chez Piatti, 1810
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/074.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/074.jpg" alt="lulldull"></a>
+</div>
+
+
+<div class="image_caption2">
+	<div>Title:
+	Les pastorales de Longus, ou, Daphnis et Chloé
+	</div>
+	<div>
+	Paris: Ambroise Vollard, éditeur, 1902 
+	</div>
+</div>
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/075.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/075.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Pomponius Mela De totius orbis descriptione
+	</div>
+	<div>
+	Paris: Gilles De Gourmont for Jean Petit, 1507
+	</div>
+</div>
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/076.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/076.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Publius Terentius After Carthagine natus
+	</div>
+	<div>
+	Strasbourg: R-Printer Adolf Rusch, 1473
 	</div>
 </div>
 </div>
