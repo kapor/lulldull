@@ -25,7 +25,7 @@ permalink:
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	The Grand Gallery of Versailles
 	</div>
 	<div>
@@ -42,7 +42,7 @@ permalink:
 
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Roman comique de Scarron d'après Oudry et Pater
 	</div>
 	<div>
@@ -60,7 +60,7 @@ permalink:
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	The world celebrates
 	</div>
 	<div>
@@ -79,7 +79,7 @@ permalink:
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Topographical, picturesque, physical, historical, moral, political, and literary descriptions of Switzerland
 	</div>
 	<div>
@@ -99,7 +99,7 @@ permalink:
 
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Divine teaching to be sought, that we may be led into divine truth
 	</div>
 	<div>
@@ -117,7 +117,7 @@ permalink:
 
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	A new book of cyphers
 	</div>
 	<div>
@@ -135,7 +135,7 @@ permalink:
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Letter, 1686, July 16, Sayes Court, to Samuel Pepys, secretary to the Admiralty, York Buildings
 	</div>
 	<div>
@@ -154,7 +154,7 @@ permalink:
 
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Lettera di Filippo Baldinvcci nella quale risponde ad alcuni quesiti in materie di pittura
 	</div>
 	<div>
@@ -176,7 +176,7 @@ permalink:
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Q. Curtii Rufi Historia Alexandri Magni : cum notis selectiss
 	</div>
 	<div>
@@ -193,7 +193,7 @@ permalink:
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Advis fidelle aux veritables Hollandois
 	</div>
 	<div>
@@ -209,7 +209,7 @@ permalink:
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Ars pictoria
 	</div>
 	<div>
@@ -225,7 +225,7 @@ permalink:
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Recueil d'estampes representant les différents événemens de la Guerre qui a procuré l'indépendance aux Etats Unis de l'Amérique
 	</div>
 	<div>
@@ -249,7 +249,7 @@ permalink:
 
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	The comedy of Dante Alighieri of Florence commonly called the Divine comedy; a line-for-line translation in the rime-form of the original by Melville Best Anderson
 	</div>
 	<div>
@@ -266,7 +266,7 @@ permalink:
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Feestdagen
 	</div>
 	<div>
@@ -283,7 +283,7 @@ permalink:
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Le Iardin d'armoiries contenant les armes de plusieurs nobles royaumes & maisons de Germanie Inferieure
 	</div>
 	<div>
@@ -300,7 +300,7 @@ permalink:
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Carmen rithmicum de passione Domini
 	</div>
 	<div>
@@ -323,7 +323,7 @@ permalink:
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Supputatio Romanorum et Grecorum numismatum / De mensuris et ponderibus
 	</div>
 	<div>
@@ -340,7 +340,7 @@ permalink:
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	De keyserlyke ordonnancien / Keyserlyke ordonnancien
 	</div>
 	<div>
@@ -357,7 +357,7 @@ permalink:
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	The mirror of Saxony of all imperial rights
 	</div>
 	<div>
@@ -374,7 +374,7 @@ permalink:
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Marcus Aurelius Antoninus
 	</div>
 	<div>
@@ -398,7 +398,7 @@ permalink:
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 The Impromptu Tales of Fontainebleau
 	</div>
 	<div>
@@ -413,7 +413,7 @@ Paris: L'auteur, 1750
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Een nieuwe eualuacie boecxken goerdonneert van wegen des Keysers bi den generael vander munten vanden gouden enn silueren geualueerde penningen
 	</div>
 	<div>
@@ -430,7 +430,7 @@ Paris: L'auteur, 1750
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Description of the paintings in the Royal Palace, with the lives of the painters at the head of their works
 	</div>
 	<div>
@@ -447,7 +447,7 @@ Paris: L'auteur, 1750
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Les vigilles de la mort du feu roy Charles septiesme
 	</div>
 	<div>
@@ -471,7 +471,7 @@ Paris: L'auteur, 1750
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	The state of the art, in England
 	</div>
 	<div>
@@ -488,7 +488,7 @@ Paris: L'auteur, 1750
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 Description of the paintings in the Royal Palace, with the lives of the painters at the head of their works
 	</div>
 	<div>
@@ -503,7 +503,7 @@ Paris: D'Houry, 1727
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	A collection of portraits to illustrate Granger's Biog. hist. of England, and Noble's continuation to Granger
 	</div>
 	<div>
@@ -520,7 +520,7 @@ Paris: D'Houry, 1727
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	A parallel between ancient and modern architecture. With a collection of the ten principal authors who wrote on the five orders
 	</div>
 	<div>
@@ -543,7 +543,7 @@ Paris: D'Houry, 1727
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	History of a voyage made to the land of Brazil, otherwise known as America
 	</div>
 	<div>
@@ -560,7 +560,7 @@ Paris: D'Houry, 1727
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Periplus; an essay on the early history of charts and sailing-directions
 	</div>
 	<div>
@@ -577,7 +577,7 @@ Paris: D'Houry, 1727
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	New voyages to the West Indies
 	</div>
 	<div>
@@ -594,11 +594,11 @@ Paris: D'Houry, 1727
 </div>
 
 <div class="image_caption2">
-	<div>
-	Maritime Atlas / Reduced-size maps of all the coasts of France
+	<div>Title:
+	Maritime Atlas
 	</div>
 	<div>
-	Paris: Lattré, 176
+	Paris: Lattré, 1762
 	</div>
 </div>
 </div>
@@ -616,7 +616,7 @@ Paris: D'Houry, 1727
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Rhetorica ad Herennium
 	</div>
 	<div>
@@ -633,7 +633,7 @@ Paris: D'Houry, 1727
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Historia ecclesiastica
 	</div>
 	<div>
@@ -650,7 +650,7 @@ Paris: D'Houry, 1727
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Petri Mocenici, Imperatoris, gesta
 	</div>
 	<div>
@@ -667,7 +667,7 @@ Paris: D'Houry, 1727
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Albert Durer revived
 	</div>
 	<div>
@@ -691,7 +691,7 @@ Paris: D'Houry, 1727
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Albert Durer revived
 	</div>
 	<div>
@@ -708,7 +708,7 @@ Paris: D'Houry, 1727
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Instructions for drawing flowers
 	</div>
 	<div>
@@ -725,7 +725,7 @@ Paris: D'Houry, 1727
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Historical and descriptive account of the caricatures of James Gillray: comprising a political and humorous history of the latter part of the reign of George the Third
 	</div>
 	<div>
@@ -742,7 +742,7 @@ Paris: D'Houry, 1727
 </div>
 
 <div class="image_caption2">
-	<div>
+	<div>Title:
 	Collection de differents sujets gravés
 	</div>
 	<div>
