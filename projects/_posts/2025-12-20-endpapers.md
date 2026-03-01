@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Endpaper Patterns 1"
+title: "Endpaper Patterns 01"
 date:  2025-12-20
 artist: Various
 loc: 
