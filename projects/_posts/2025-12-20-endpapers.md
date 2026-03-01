@@ -18,6 +18,65 @@ permalink:
 ---
 
 
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/025.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/025.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+The Grand Gallery of Versailles
+</div>
+<div class="image_caption">
+Paris: Royale, 1752
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/026.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/026.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+Roman comique de Scarron d'après Oudry et Pater
+</div>
+<div class="image_caption">
+Paris: Chez Oudry et chez Duchange, 1720
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/027.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/027.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+The world celebrates
+</div>
+<div class="image_caption">
+Florence: Stamperia di S.A.S., 1661
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/028.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/028.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+Topographical, picturesque, physical, historical, moral, political, and literary descriptions of Switzerland
+</div>
+<div class="image_caption">
+Paris: Clousier, 1780-86
+</div>
+
+
+
+
+<!-- –––––––––––––––––––––––––––––––––––––––––– -->
 
 
 <div class="post_image">
@@ -392,6 +451,132 @@ Paris: Quay des Augustins, 1702
 
 
 <!-- –––––––––––––––––––––––––––––––––––––––––– -->
+<!-- –––––––––––––––––––––––––––––––––––––––––– -->
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/029.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/029.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+History of a voyage made to the land of Brazil, otherwise known as America
+</div>
+<div class="image_caption">
+Geneva: Pour Antoine Chuppin, 1580
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/030.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/030.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+Periplus; an essay on the early history of charts and sailing-directions
+</div>
+<div class="image_caption">
+Stockholm: P. A. Norstedt & söner, 1897
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/031.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/031.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+New voyages to the West Indies
+</div>
+<div class="image_caption">
+Paris: Chez Le Jay, 1768
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/032.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/032.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+Maritime Atlas / Reduced-size maps of all the coasts of France
+</div>
+<div class="image_caption">
+Paris: Lattré, 176
+</div>
+
+
+
+
+<!-- –––––––––––––––––––––––––––––––––––––––––– -->
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/033.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/033.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+Rhetorica ad Herennium
+</div>
+<div class="image_caption">
+Venice: Nicolaus Jenson, 1470
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/034.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/034.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+Historia ecclesiastica
+</div>
+<div class="image_caption">
+Utrecht: Nicolaus Ketelaer and Gerardus de Leempt, 1474
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/035.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/035.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+Petri Mocenici, Imperatoris, gesta
+</div>
+<div class="image_caption">
+Venice, Bernhard Maler, Erhard Ratdolt, and Peter Löslein, 1477
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/036.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/036.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+Albert Durer revived
+</div>
+<div class="image_caption">
+London: J. Garrett, 1705
+</div>
+
+
+
+
+<!-- –––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
 
 
 
