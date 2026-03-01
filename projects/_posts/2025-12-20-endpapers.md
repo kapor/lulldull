@@ -578,6 +578,66 @@ London: J. Garrett, 1705
 
 
 
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/037.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/037.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+Albert Durer revived
+</div>
+<div class="image_caption">
+London: J. Garrett, 1718
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/038.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/038.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+Instructions for drawing flowers
+</div>
+<div class="image_caption">
+Munich: At the Lithographic Art Institute, 1810
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/039.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/039.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+Historical and descriptive account of the caricatures of James Gillray: comprising a political and humorous history of the latter part of the reign of George the Third
+</div>
+<div class="image_caption">
+London: H.G. Bohn, 1851
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2025_endpapers_1/040.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/040.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption">
+Collection de differents sujets gravés
+</div>
+<div class="image_caption">
+Paris: Bresson de Maillard, 1770
+</div>
+
+
+
+
+<!-- –––––––––––––––––––––––––––––––––––––––––– -->
+
 
 
 
