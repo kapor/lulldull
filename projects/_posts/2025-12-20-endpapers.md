@@ -24,13 +24,15 @@ permalink:
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/025.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-The Grand Gallery of Versailles
+<div class="image_caption2">
+	<div>
+	The Grand Gallery of Versailles
+	</div>
+	<div>
+	Paris: Royale, 1752
+	</div>
 </div>
-<div class="image_caption">
-Paris: Royale, 1752
 </div>
-
 
 <div class="post_image">
 <div class="post_image1">
@@ -38,12 +40,17 @@ Paris: Royale, 1752
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/026.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Roman comique de Scarron d'après Oudry et Pater
+
+<div class="image_caption2">
+	<div>
+	Roman comique de Scarron d'après Oudry et Pater
+	</div>
+	<div>
+	Paris: Chez Oudry et chez Duchange, 1720
+	</div>
 </div>
-<div class="image_caption">
-Paris: Chez Oudry et chez Duchange, 1720
 </div>
+
 
 
 <div class="post_image">
@@ -52,12 +59,17 @@ Paris: Chez Oudry et chez Duchange, 1720
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/027.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-The world celebrates
+<div class="image_caption2">
+	<div>
+	The world celebrates
+	</div>
+	<div>
+	Florence: Stamperia di S.A.S., 1661
+	</div>
 </div>
-<div class="image_caption">
-Florence: Stamperia di S.A.S., 1661
 </div>
+
+
 
 
 <div class="post_image">
@@ -66,15 +78,15 @@ Florence: Stamperia di S.A.S., 1661
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/028.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Topographical, picturesque, physical, historical, moral, political, and literary descriptions of Switzerland
+<div class="image_caption2">
+	<div>
+	Topographical, picturesque, physical, historical, moral, political, and literary descriptions of Switzerland
+	</div>
+	<div>
+	Paris: Clousier, 1780-86
+	</div>
 </div>
-<div class="image_caption">
-Paris: Clousier, 1780-86
 </div>
-
-
-
 
 <!-- –––––––––––––––––––––––––––––––––––––––––– -->
 
@@ -85,11 +97,15 @@ Paris: Clousier, 1780-86
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/001.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Divine teaching to be sought, that we may be led into divine truth
+
+<div class="image_caption2">
+	<div>
+	Divine teaching to be sought, that we may be led into divine truth
+	</div>
+	<div>
+	Boston: Printed for J. Edwards, 1732
+	</div>
 </div>
-<div class="image_caption">
-Boston: Printed for J. Edwards, 1732
 </div>
 
 
@@ -99,12 +115,17 @@ Boston: Printed for J. Edwards, 1732
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/002.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-A new book of cyphers
+
+<div class="image_caption2">
+	<div>
+	A new book of cyphers
+	</div>
+	<div>
+	London: 1704
+	</div>
 </div>
-<div class="image_caption">
-London: 1704
 </div>
+
 
 
 <div class="post_image">
@@ -113,12 +134,16 @@ London: 1704
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/003.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Letter, 1686, July 16, Sayes Court, to Samuel Pepys, secretary to the Admiralty, York Buildings
+<div class="image_caption2">
+	<div>
+	Letter, 1686, July 16, Sayes Court, to Samuel Pepys, secretary to the Admiralty, York Buildings
+	</div>
+	<div>
+	London: 1686
+	</div>
 </div>
-<div class="image_caption">
-London: 1686
 </div>
+
 
 
 <div class="post_image">
@@ -127,11 +152,15 @@ London: 1686
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/004.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Lettera di Filippo Baldinvcci nella quale risponde ad alcuni quesiti in materie di pittura
+
+<div class="image_caption2">
+	<div>
+	Lettera di Filippo Baldinvcci nella quale risponde ad alcuni quesiti in materie di pittura
+	</div>
+	<div>
+	Roma: Tinassi, 1681
+	</div>
 </div>
-<div class="image_caption">
-Roma: Tinassi, 1681
 </div>
 
 
@@ -146,11 +175,14 @@ Roma: Tinassi, 1681
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/005.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Q. Curtii Rufi Historia Alexandri Magni : cum notis selectiss
+<div class="image_caption2">
+	<div>
+	Q. Curtii Rufi Historia Alexandri Magni : cum notis selectiss
+	</div>
+	<div>
+	Amsterdam: Elzeviriana, 1673
+	</div>
 </div>
-<div class="image_caption">
-Amsterdam: Elzeviriana, 1673
 </div>
 
 
@@ -160,13 +192,15 @@ Amsterdam: Elzeviriana, 1673
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/006.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Advis fidelle aux veritables Hollandois
+<div class="image_caption2">
+	<div>
+	Advis fidelle aux veritables Hollandois
+	</div>
+	<div>
+	The Hague: D. Steucker, 1673
+	</div>
 </div>
-<div class="image_caption">
-The Hague: D. Steucker, 1673
 </div>
-
 
 <div class="post_image">
 <div class="post_image1">
@@ -174,13 +208,15 @@ The Hague: D. Steucker, 1673
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/007.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Ars pictoria
+<div class="image_caption2">
+	<div>
+	Ars pictoria
+	</div>
+	<div>
+	London: Globe in the Strand, 1675
+	</div>
 </div>
-<div class="image_caption">
-London: Globe in the Strand, 1675
 </div>
-
 
 <div class="post_image">
 <div class="post_image1">
@@ -188,13 +224,15 @@ London: Globe in the Strand, 1675
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/008.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Recueil d'estampes representant les différents événemens de la Guerre qui a procuré l'indépendance aux Etats Unis de l'Amérique
+<div class="image_caption2">
+	<div>
+	Recueil d'estampes representant les différents événemens de la Guerre qui a procuré l'indépendance aux Etats Unis de l'Amérique
+	</div>
+	<div>
+	Paris: Godefroy, 1784
+	</div>
 </div>
-<div class="image_caption">
-Paris: Godefroy, 1784
 </div>
-
 
 
 
@@ -209,11 +247,15 @@ Paris: Godefroy, 1784
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/009.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-The comedy of Dante Alighieri of Florence commonly called the Divine comedy; a line-for-line translation in the rime-form of the original by Melville Best Anderson
+
+<div class="image_caption2">
+	<div>
+	The comedy of Dante Alighieri of Florence commonly called the Divine comedy; a line-for-line translation in the rime-form of the original by Melville Best Anderson
+	</div>
+	<div>
+	Amsterdam: Elzeviriana, 1673
+	</div>
 </div>
-<div class="image_caption">
-Amsterdam: Elzeviriana, 1673
 </div>
 
 
@@ -223,11 +265,14 @@ Amsterdam: Elzeviriana, 1673
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/010.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Feestdagen
+<div class="image_caption2">
+	<div>
+	Feestdagen
+	</div>
+	<div>
+	Delft: A. Beman, Rotterdam, J. D. Beman, 1729
+	</div>
 </div>
-<div class="image_caption">
-Delft: A. Beman, Rotterdam, J. D. Beman, 1729
 </div>
 
 
@@ -237,11 +282,14 @@ Delft: A. Beman, Rotterdam, J. D. Beman, 1729
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/011.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Le Iardin d'armoiries contenant les armes de plusieurs nobles royaumes & maisons de Germanie Inferieure
+<div class="image_caption2">
+	<div>
+	Le Iardin d'armoiries contenant les armes de plusieurs nobles royaumes & maisons de Germanie Inferieure
+	</div>
+	<div>
+	Gendt: G. Salenson, 1567
+	</div>
 </div>
-<div class="image_caption">
-Gendt: G. Salenson, 1567
 </div>
 
 
@@ -251,13 +299,15 @@ Gendt: G. Salenson, 1567
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/012.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Carmen rithmicum de passione Domini
+<div class="image_caption2">
+	<div>
+	Carmen rithmicum de passione Domini
+	</div>
+	<div>
+	Gandaui: P. Cesaris, 151
+	</div>
 </div>
-<div class="image_caption">
-Gandaui: P. Cesaris, 151
 </div>
-
 
 
 
@@ -272,11 +322,14 @@ Gandaui: P. Cesaris, 151
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/013.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Supputatio Romanorum et Grecorum numismatum / De mensuris et ponderibus
+<div class="image_caption2">
+	<div>
+	Supputatio Romanorum et Grecorum numismatum / De mensuris et ponderibus
+	</div>
+	<div>
+	Gandavi: Ex officana I. Lamberti, 1537
+	</div>
 </div>
-<div class="image_caption">
-Gandavi: Ex officana I. Lamberti, 1537
 </div>
 
 
@@ -286,11 +339,14 @@ Gandavi: Ex officana I. Lamberti, 1537
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/014.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-De keyserlyke ordonnancien / Keyserlyke ordonnancien
+<div class="image_caption2">
+	<div>
+	De keyserlyke ordonnancien / Keyserlyke ordonnancien
+	</div>
+	<div>
+	Ghent: Gheprent by P. de Keysere, 1531
+	</div>
 </div>
-<div class="image_caption">
-Ghent: Gheprent by P. de Keysere, 1531
 </div>
 
 
@@ -300,11 +356,14 @@ Ghent: Gheprent by P. de Keysere, 1531
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/015.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-The mirror of Saxony of all imperial rights
+<div class="image_caption2">
+	<div>
+	The mirror of Saxony of all imperial rights
+	</div>
+	<div>
+	Antwerpen : Gheprent by Willem Vorsterman, ca. 1504
+	</div>
 </div>
-<div class="image_caption">
-Antwerpen : Gheprent by Willem Vorsterman, ca. 1504
 </div>
 
 
@@ -314,11 +373,14 @@ Antwerpen : Gheprent by Willem Vorsterman, ca. 1504
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/016.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Marcus Aurelius Antoninus
+<div class="image_caption2">
+	<div>
+	Marcus Aurelius Antoninus
+	</div>
+	<div>
+	London: A. L. Humphreys, 1908
+	</div>
 </div>
-<div class="image_caption">
-London: A. L. Humphreys, 1908
 </div>
 
 
@@ -335,10 +397,11 @@ London: A. L. Humphreys, 1908
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/017.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
+<div class="image_caption2">
+	<div>
 The Impromptu Tales of Fontainebleau
-</div>
-<div class="image_caption">
+	</div>
+	<div>
 Paris: L'auteur, 1750
 </div>
  -->
@@ -349,11 +412,14 @@ Paris: L'auteur, 1750
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/018.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Een nieuwe eualuacie boecxken goerdonneert van wegen des Keysers bi den generael vander munten vanden gouden enn silueren geualueerde penningen
+<div class="image_caption2">
+	<div>
+	Een nieuwe eualuacie boecxken goerdonneert van wegen des Keysers bi den generael vander munten vanden gouden enn silueren geualueerde penningen
+	</div>
+	<div>
+	Amstelredam: Gheprent by D. Pieterzoen, 1526
+	</div>
 </div>
-<div class="image_caption">
-Amstelredam: Gheprent by D. Pieterzoen, 1526
 </div>
 
 
@@ -363,11 +429,14 @@ Amstelredam: Gheprent by D. Pieterzoen, 1526
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/019.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Description of the paintings in the Royal Palace, with the lives of the painters at the head of their works
+<div class="image_caption2">
+	<div>
+	Description of the paintings in the Royal Palace, with the lives of the painters at the head of their works
+	</div>
+	<div>
+	Paris: D'Houry, 1727
+	</div>
 </div>
-<div class="image_caption">
-Paris: D'Houry, 1727
 </div>
 
 
@@ -377,11 +446,14 @@ Paris: D'Houry, 1727
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/020.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Les vigilles de la mort du feu roy Charles septiesme
+<div class="image_caption2">
+	<div>
+	Les vigilles de la mort du feu roy Charles septiesme
+	</div>
+	<div>
+	Lyon: Claude Dayne ca. 1500
+	</div>
 </div>
-<div class="image_caption">
-Lyon: Claude Dayne ca. 1500
 </div>
 
 
@@ -398,11 +470,14 @@ Lyon: Claude Dayne ca. 1500
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/021.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-The state of the art, in England
+<div class="image_caption2">
+	<div>
+	The state of the art, in England
+	</div>
+	<div>
+	Paris: C. A. Jombert, 1755
+	</div>
 </div>
-<div class="image_caption">
-Paris: C. A. Jombert, 1755
 </div>
 
 
@@ -412,10 +487,11 @@ Paris: C. A. Jombert, 1755
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/022.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
+<div class="image_caption2">
+	<div>
 Description of the paintings in the Royal Palace, with the lives of the painters at the head of their works
-</div>
-<div class="image_caption">
+	</div>
+	<div>
 Paris: D'Houry, 1727
 </div> -->
 
@@ -426,11 +502,14 @@ Paris: D'Houry, 1727
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/023.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-A collection of portraits to illustrate Granger's Biog. hist. of England, and Noble's continuation to Granger
+<div class="image_caption2">
+	<div>
+	A collection of portraits to illustrate Granger's Biog. hist. of England, and Noble's continuation to Granger
+	</div>
+	<div>
+	London: T. & H. Rodd, 1820-1822
+	</div>
 </div>
-<div class="image_caption">
-London: T. & H. Rodd, 1820-1822
 </div>
 
 
@@ -440,11 +519,14 @@ London: T. & H. Rodd, 1820-1822
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/024.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-A parallel between ancient and modern architecture. With a collection of the ten principal authors who wrote on the five orders
+<div class="image_caption2">
+	<div>
+	A parallel between ancient and modern architecture. With a collection of the ten principal authors who wrote on the five orders
+	</div>
+	<div>
+	Paris: Quay des Augustins, 1702
+	</div>
 </div>
-<div class="image_caption">
-Paris: Quay des Augustins, 1702
 </div>
 
 
@@ -460,11 +542,14 @@ Paris: Quay des Augustins, 1702
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/029.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-History of a voyage made to the land of Brazil, otherwise known as America
+<div class="image_caption2">
+	<div>
+	History of a voyage made to the land of Brazil, otherwise known as America
+	</div>
+	<div>
+	Geneva: Pour Antoine Chuppin, 1580
+	</div>
 </div>
-<div class="image_caption">
-Geneva: Pour Antoine Chuppin, 1580
 </div>
 
 
@@ -474,11 +559,14 @@ Geneva: Pour Antoine Chuppin, 1580
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/030.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Periplus; an essay on the early history of charts and sailing-directions
+<div class="image_caption2">
+	<div>
+	Periplus; an essay on the early history of charts and sailing-directions
+	</div>
+	<div>
+	Stockholm: P. A. Norstedt & söner, 1897
+	</div>
 </div>
-<div class="image_caption">
-Stockholm: P. A. Norstedt & söner, 1897
 </div>
 
 
@@ -488,11 +576,14 @@ Stockholm: P. A. Norstedt & söner, 1897
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/031.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-New voyages to the West Indies
+<div class="image_caption2">
+	<div>
+	New voyages to the West Indies
+	</div>
+	<div>
+	Paris: Chez Le Jay, 1768
+	</div>
 </div>
-<div class="image_caption">
-Paris: Chez Le Jay, 1768
 </div>
 
 
@@ -502,11 +593,14 @@ Paris: Chez Le Jay, 1768
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/032.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Maritime Atlas / Reduced-size maps of all the coasts of France
+<div class="image_caption2">
+	<div>
+	Maritime Atlas / Reduced-size maps of all the coasts of France
+	</div>
+	<div>
+	Paris: Lattré, 176
+	</div>
 </div>
-<div class="image_caption">
-Paris: Lattré, 176
 </div>
 
 
@@ -521,11 +615,14 @@ Paris: Lattré, 176
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/033.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Rhetorica ad Herennium
+<div class="image_caption2">
+	<div>
+	Rhetorica ad Herennium
+	</div>
+	<div>
+	Venice: Nicolaus Jenson, 1470
+	</div>
 </div>
-<div class="image_caption">
-Venice: Nicolaus Jenson, 1470
 </div>
 
 
@@ -535,11 +632,14 @@ Venice: Nicolaus Jenson, 1470
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/034.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Historia ecclesiastica
+<div class="image_caption2">
+	<div>
+	Historia ecclesiastica
+	</div>
+	<div>
+	Utrecht: Nicolaus Ketelaer and Gerardus de Leempt, 1474
+	</div>
 </div>
-<div class="image_caption">
-Utrecht: Nicolaus Ketelaer and Gerardus de Leempt, 1474
 </div>
 
 
@@ -549,11 +649,14 @@ Utrecht: Nicolaus Ketelaer and Gerardus de Leempt, 1474
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/035.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Petri Mocenici, Imperatoris, gesta
+<div class="image_caption2">
+	<div>
+	Petri Mocenici, Imperatoris, gesta
+	</div>
+	<div>
+	Venice, Bernhard Maler, Erhard Ratdolt, and Peter Löslein, 1477
+	</div>
 </div>
-<div class="image_caption">
-Venice, Bernhard Maler, Erhard Ratdolt, and Peter Löslein, 1477
 </div>
 
 
@@ -563,11 +666,14 @@ Venice, Bernhard Maler, Erhard Ratdolt, and Peter Löslein, 1477
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/036.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Albert Durer revived
+<div class="image_caption2">
+	<div>
+	Albert Durer revived
+	</div>
+	<div>
+	London: J. Garrett, 1705
+	</div>
 </div>
-<div class="image_caption">
-London: J. Garrett, 1705
 </div>
 
 
@@ -584,11 +690,14 @@ London: J. Garrett, 1705
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/037.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Albert Durer revived
+<div class="image_caption2">
+	<div>
+	Albert Durer revived
+	</div>
+	<div>
+	London: J. Garrett, 1718
+	</div>
 </div>
-<div class="image_caption">
-London: J. Garrett, 1718
 </div>
 
 
@@ -598,11 +707,14 @@ London: J. Garrett, 1718
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/038.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Instructions for drawing flowers
+<div class="image_caption2">
+	<div>
+	Instructions for drawing flowers
+	</div>
+	<div>
+	Munich: At the Lithographic Art Institute, 1810
+	</div>
 </div>
-<div class="image_caption">
-Munich: At the Lithographic Art Institute, 1810
 </div>
 
 
@@ -612,11 +724,14 @@ Munich: At the Lithographic Art Institute, 1810
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/039.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Historical and descriptive account of the caricatures of James Gillray: comprising a political and humorous history of the latter part of the reign of George the Third
+<div class="image_caption2">
+	<div>
+	Historical and descriptive account of the caricatures of James Gillray: comprising a political and humorous history of the latter part of the reign of George the Third
+	</div>
+	<div>
+	London: H.G. Bohn, 1851
+	</div>
 </div>
-<div class="image_caption">
-London: H.G. Bohn, 1851
 </div>
 
 
@@ -626,11 +741,14 @@ London: H.G. Bohn, 1851
 	<img src="{{ site.baseurl }}/images/posts/2025_endpapers_1/040.jpg" alt="lulldull"></a>
 </div>
 
-<div class="image_caption">
-Collection de differents sujets gravés
+<div class="image_caption2">
+	<div>
+	Collection de differents sujets gravés
+	</div>
+	<div>
+	Paris: Bresson de Maillard, 1770
+	</div>
 </div>
-<div class="image_caption">
-Paris: Bresson de Maillard, 1770
 </div>
 
 
