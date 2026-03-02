@@ -682,6 +682,78 @@ permalink:
 
 
 
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/077.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/077.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Publius Terentius After Carthagine natus
+	</div>
+	<div>
+	Strasbourg: R-Printer Adolf Rusch, 1473
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/078.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/078.jpg" alt="lulldull"></a>
+</div>
+
+
+<div class="image_caption2">
+	<div>Title:
+	Opera
+	</div>
+	<div>
+	Parma: in the palatial house/press, 1793
+	</div>
+</div>
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/079.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/079.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Les églogues de Virgile
+	</div>
+	<div>
+	Paris: Plon-Nourrit, 1906
+	</div>
+</div>
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_2/080.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_2/080.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Féminies, huit chapitres inédits dévoués à la femme, à l'amour, à la beauté
+	</div>
+	<div>
+	Paris: Académie des beaux livres, 1896
+	</div>
+</div>
+</div>
+
+<!-- –––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
 
 
 
