@@ -567,6 +567,290 @@ permalink:
 </div>
 
 
+
+
+<!-- –––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/113.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/113.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Works
+	</div>
+	<div>
+	Paris: The Barber the Elder, 1786-1793
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/114.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/114.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Uncle Remus, his songs and his sayings : the folk-lore of the old plantation
+	</div>
+	<div>
+	New York: D. Appleton and Company, 1, 3, and 5 Bond Street, 1881
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/115.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/115.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Mengeldichten
+	</div>
+	<div>
+	Delft: P. vander Kloot, 1738
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/116.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/116.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Abraham, de Aartsvader, in XII boeken
+	</div>
+	<div>
+	Rotterdam: J. D. Beman, 1746
+	</div>
+</div>
+</div>
+
+
+<!-- –––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/117.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/117.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Leather Stump Stories
+	</div>
+	<div>
+	Berlin: P. Cassirer, 1909
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/118.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/118.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Collection of plants engraved by order of King Louis XIV
+	</div>
+	<div>
+	Paris: 1750
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/119.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/119.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	History of plants newly found in the Isle of Virginia, and other places
+	</div>
+	<div>
+	Paris: At Guillaume Macé's, on Mount Saint Hilaire, at the sign of the Pyramid, 1620
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/120.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/120.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Delineations of exotick plants cultivated in the Royal Gardens at Kew, drawn and coloured
+	</div>
+	<div>
+	London: G. Nicol, 1796
+	</div>
+</div>
+</div>
+
+
+<!-- –––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/121.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/121.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	A selection of the most beautiful flowers from different families of the plant kingdom and some branches of the most beautiful fruits
+	</div>
+	<div>
+	Paris: 1827
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/122.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/122.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Ideas for a geography of plants, together with a natural history of the tropical countries, based on observations and measurements…
+	</div>
+	<div>
+	Tübingen: F. G. Cotta; 1807
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/123.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/123.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	On the dissection of the parts of the human body, book three
+	</div>
+	<div>
+	Paris: Apud Simonem Colinaeum, 1545
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/124.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/124.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	The vertuose boke of the distyllacyon of all maner of waters of the herbes in this present volume expressed with the fygures of the styllatoryes to that noble worke belongyne
+	</div>
+	<div>
+	London: L. Andrew or P. Treveris, 1530
+	</div>
+</div>
+</div>
+
+
+<!-- –––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/125.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/125.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Paul et Virginie
+	</div>
+	<div>
+	Paris: L. Curmer, 25, rue Sainte-Anne, 1838
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/126.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/126.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	The book of English trades, and library of the useful arts
+	</div>
+	<div>
+	London: R. Phillips, 1823
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/127.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/127.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	The secrets of Alexis of Piemont
+	</div>
+	<div>
+	London: Imprinted by Peter Short, for Thomas Wight, 1595.
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/128.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/128.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	The laboratory, or school of arts
+	</div>
+	<div>
+	London: J. James, 1739
+	</div>
+</div>
+</div>
+
+
 <!-- –––––––––––––––––––––––––––––––––––––––––– -->
 
 
