@@ -362,6 +362,214 @@ permalink:
 
 
 
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/101.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/101.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	The grave, a poem, illus by 12 etchings executed from original designs. To which is added a life of the author.
+	</div>
+	<div>
+	London: R. Ackermann, 1813.
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/102.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/102.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	The history of Helyas, Knight of the Swan
+	</div>
+	<div>
+	New York: The Grolier Club, 1901
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/103.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/103.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	The life and posthumous writings of William Cowper, Esqr.
+	</div>
+	<div>
+	Chichester: Printed by J. Seagrave for J. Johnson, London, 1803-1804
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/104.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/104.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	The triumphs of temper: a poem: in six cantos
+	</div>
+	<div>
+	London: T. Cadell and W. Davies, 1803
+	</div>
+</div>
+</div>
+
+
+<!-- –––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/105.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/105.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Shakspeare's Seven ages of man illustrated
+	</div>
+	<div>
+	London: W. Bromley, 1799
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/106.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/106.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	America, a prophecy
+	</div>
+	<div>
+	Edmonton, Eng., 1887
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/107.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/107.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	The marriage of Heaven and Hell
+	</div>
+	<div>
+	London: ca. 1794
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/108.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/108.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	The Birth and triumph of Love. A poem.
+	</div>
+	<div>
+	London: Printed by C. Roworth, for T. Egerton, 1796
+	</div>
+</div>
+</div>
+
+
+<!-- –––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/109.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/109.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Songs of innocence and of experience, shewing the two contrary states of the human soul
+	</div>
+	<div>
+	London: W. Blake, 1794
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/110.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/110.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	The love-lyrics & songs of Proteus
+	</div>
+	<div>
+	Upper Mall, Hammersmith: Printed by William Morris at the Kelmscott Press, 1892
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/111.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/111.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	A Connecticut Yankee in King Arthur's court
+	</div>
+	<div>
+	New York: Charles L. Webster & Co., 1889
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/112.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/112.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Leonora, a tale
+	</div>
+	<div>
+	London: printed by S. Gosnell, for William Miller, Old Bond Street, 1796
+	</div>
+</div>
+</div>
+
+
+<!-- –––––––––––––––––––––––––––––––––––––––––– -->
+
+
 
 
 
