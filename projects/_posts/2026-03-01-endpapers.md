@@ -20,22 +20,6 @@ permalink:
 
 <div class="post_image">
 <div class="post_image1">
-	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/081.jpg" target="_blank">
-	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/081.jpg" alt="lulldull"></a>
-</div>
-
-<div class="image_caption2">
-	<div>Title:
-	Scalptura, carmen
-	</div>
-	<div>
-	Paris: Le Mercier, 1753
-	</div>
-</div>
-</div>
-
-<div class="post_image">
-<div class="post_image1">
 	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/082.jpg" target="_blank">
 	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/082.jpg" alt="lulldull"></a>
 </div>
@@ -46,6 +30,22 @@ permalink:
 	</div>
 	<div>
 	Paris: A. A. Renouard, 1817
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/081.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/081.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	Scalptura, carmen
+	</div>
+	<div>
+	Paris: Le Mercier, 1753
 	</div>
 </div>
 </div>
@@ -459,7 +459,7 @@ permalink:
 	America, a prophecy
 	</div>
 	<div>
-	Edmonton, Eng., 1887
+	Edmonton: 1887
 	</div>
 </div>
 </div>
@@ -849,6 +849,47 @@ permalink:
 	</div>
 </div>
 </div>
+
+
+<!-- –––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/129.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/129.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	History of plants newly found in the Isle of Virginia, and other places
+	</div>
+	<div>
+	Paris: at Guillaume Macé's, on Mont Saint-Hilaire, with the sign of the Pyramid, 1620
+	</div>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_endpapers_3/130.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_endpapers_3/130.jpg" alt="lulldull"></a>
+</div>
+
+<div class="image_caption2">
+	<div>Title:
+	An historical account of inventions and discoveries in those arts and sciences, which are of utility or ornament to man, lend assistance to human comfort, a polish to life, and render the civilized state, beyond comparison, preferable to a state of nature
+	</div>
+	<div>
+	London: Printed for T. and J. Allman, 1820
+	</div>
+</div>
+</div>
+
+
 
 
 <!-- –––––––––––––––––––––––––––––––––––––––––– -->
