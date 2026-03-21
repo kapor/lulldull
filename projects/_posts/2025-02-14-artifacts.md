@@ -2,9 +2,9 @@
 layout: post
 title: "Artifacts"
 date:  2025-02-14
-artist: Various
+artist: Julien Gréau
 loc: 
-author: Various
+author: Wilhelm Froehner, ed
 year: 
 maps: no
 link: "https://www.metmuseum.org/art/collection/search/591851"

@@ -33,12 +33,18 @@ description: {{page.description}}
                 </div>
 
                 <div class="post_block_artist">
-                    {% if page.artist %}
-                        CREATOR: <span class="post_entry">{{ page.artist }}</span>
-                    {% elsif page.author %}
+                    {% if page.author %}
                         AUTHOR: <span class="post_entry">{{ page.author }}</span>
                     {% else %}
-                        CREATOR: <span class="post_entry">Unknown</span>
+                        AUTHOR: <span class="post_entry">Unknown</span>
+                    {% endif %}
+                </div>
+
+                <div class="post_block_artist">
+                    {% if page.artist %}
+                        ARTIST: <span class="post_entry">{{ page.artist }}</span>
+                    {% else %}
+                        ARTIST: <span class="post_entry">Unknown</span>
                     {% endif %}
                 </div>
 
