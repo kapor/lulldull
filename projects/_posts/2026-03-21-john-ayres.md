@@ -117,3 +117,147 @@ permalink:
 </div>
 </div>
 
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_john_ayres/013.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_john_ayres/013.jpg" alt="lulldull"></a>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_john_ayres/014.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_john_ayres/014.jpg" alt="lulldull"></a>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_john_ayres/015.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_john_ayres/015.jpg" alt="lulldull"></a>
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_john_ayres/016.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_john_ayres/016.jpg" alt="lulldull"></a>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_john_ayres/017.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_john_ayres/017.jpg" alt="lulldull"></a>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_john_ayres/018.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_john_ayres/018.jpg" alt="lulldull"></a>
+</div>
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_john_ayres/019.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_john_ayres/019.jpg" alt="lulldull"></a>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_john_ayres/020.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_john_ayres/020.jpg" alt="lulldull"></a>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_john_ayres/021.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_john_ayres/021.jpg" alt="lulldull"></a>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_john_ayres/022.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_john_ayres/022.jpg" alt="lulldull"></a>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_john_ayres/023.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_john_ayres/023.jpg" alt="lulldull"></a>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_john_ayres/024.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_john_ayres/024.jpg" alt="lulldull"></a>
+</div>
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_john_ayres/025.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_john_ayres/025.jpg" alt="lulldull"></a>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_john_ayres/026.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_john_ayres/026.jpg" alt="lulldull"></a>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_john_ayres/027.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_john_ayres/027.jpg" alt="lulldull"></a>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_john_ayres/028.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_john_ayres/028.jpg" alt="lulldull"></a>
+</div>
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_john_ayres/029.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_john_ayres/029.jpg" alt="lulldull"></a>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_john_ayres/030.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_john_ayres/030.jpg" alt="lulldull"></a>
+</div>
+</div>
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_john_ayres/031.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_john_ayres/031.jpg" alt="lulldull"></a>
+</div>
+</div>
+
+
+<div class="post_image">
+<div class="post_image1">
+	<a href="{{ site.baseurl }}/images/posts/2026_john_ayres/032.jpg" target="_blank">
+	<img src="{{ site.baseurl }}/images/posts/2026_john_ayres/032.jpg" alt="lulldull"></a>
+</div>
+</div>

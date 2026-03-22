@@ -751,6 +751,12 @@ hr {
 }
 
 
+@media only screen and (max-width: 800px) {
+    .posts_hero {
+        height: 600px;
+    }
+}
+
 
 .post_hero_block {
     float: left;
