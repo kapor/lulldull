@@ -14,7 +14,7 @@ category: Typography/Calligraphy
 download: /images/downloads/2026_john_ayres.zip
 dltext: "This set"
 notes: 'A Tutor to Penmanship, or The Writing Master is a landmark 17th-century English copy book, created by writing master John Ayres and engraved by John Sturt. Published around 1695-1698 in London, it was designed to show "all the variety of penmanship and clerkship as now practised in England"'
-tags: [calligraphy, script, 1600s, typography, design, alphabet, engraving]
+tags: [calligraphy, script, 1600s, typography, design, alphabet, engraving, penmanship]
 image: thumbs/2026_john_ayres.jpg
 hidden: false
 permalink:
