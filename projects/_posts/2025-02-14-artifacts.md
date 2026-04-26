@@ -13,7 +13,7 @@ category: Illustration/History
 download: /images/downloads/2025_artifacts.zip
 dltext: "This set"
 notes: '"Julien Gréau (1810–1895) was an omnivorous French collector with a predilection for antiquities. After he formed a collection, he would sell it in order to begin another. He amassed coins, bronzes, and terracottas. His greatest effort, however, was in the field of glass—he gathered about five thousand glass objects, about one thousand of which were intact. In addition, he acquired extensive holdings of Roman and Gaulish pottery. His collection was acquired by J. Pierpont Morgan and came to the Museum as part of the Morgan gift of 1917. The catalogue consists of a volume of text and five folio volumes of illustrations."'
-tags: [illustration, collections, sets, artifacts, history, glassware, pottery, archaeology, roman, eyyptology]
+tags: [illustration, collections, sets, artifacts, history, glassware, pottery, archaeology, roman, eyyptology, germany]
 image: thumbs/2025_artifacts.jpg
 hidden: false
 permalink:
