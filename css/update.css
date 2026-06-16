@@ -2307,6 +2307,38 @@ article header a {
 }
 
 
+.header_03 {
+    font-family: "t26-carbon", monospace;
+    font-weight: 800;
+    width: 100%;
+    font-size: 80px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding: 40px 0px 20px 0px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .header_03 {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .header_03 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .header_03 {
+        font-size: 30px;
+        padding: 8px 0px 8px 8px;
+    }
+}
+
+
+
 .image_caption {
 /*	font-family: "kepler-std", serif;*/
 	font-family: letter-gothic-std, monospace;
