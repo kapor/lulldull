@@ -2309,19 +2309,13 @@ article header a {
 
 .header_03 {
     font-family: "t26-carbon", monospace;
-    font-weight: 800;
+    font-weight: 400;
     width: 100%;
-    font-size: 80px;
+    font-size: 48px;
     display: flex;
     justify-content: space-between;
     text-transform: uppercase;
     padding: 40px 0px 20px 0px;
-}
-
-@media only screen and (max-width: 1200px) {
-    .header_03 {
-        font-size: 60px;
-    }
 }
 
 @media only screen and (max-width: 800px) {

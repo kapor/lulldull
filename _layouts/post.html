@@ -32,21 +32,21 @@ description: {{page.description}}
                     {% endif %}
                 </div>
 
-                <div class="post_block_artist">
-                    {% if page.author %}
-                        AUTHOR: <span class="post_entry">{{ page.author }}</span>
-                    {% else %}
-                        AUTHOR: <span class="post_entry">Unknown</span>
-                    {% endif %}
-                </div>
 
+                {% if page.artist %}
                 <div class="post_block_artist">
-                    {% if page.artist %}
-                        ARTIST: <span class="post_entry">{{ page.artist }}</span>
-                    {% else %}
-                        ARTIST: <span class="post_entry">Unknown</span>
-                    {% endif %}
+                    AUTHOR: <span class="post_entry">{{ page.author }}</span>
                 </div>
+                {% else %}
+                {% endif %}
+
+
+                {% if page.artist %}
+                <div class="post_block_artist">
+                    ARTIST: <span class="post_entry">{{ page.artist }}</span>
+                </div>
+                {% else %}
+                {% endif %}
 
                 {% if page.year %}
                 <div class="post_block_artist">
